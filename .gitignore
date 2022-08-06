@@ -3,4 +3,5 @@ __pycache__
 .ipynb_checkpoints
 checkpoints
 dataset
+weights
 VLSP_prediction
