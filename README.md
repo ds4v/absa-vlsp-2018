@@ -1,7 +1,6 @@
 # Aspect-based Sentiment Analysis for Vietnamese
 > Multi-task Solution for Aspect Category Sentiment Analysis (ACSA) on Vietnamese Datasets
-- Demo: https://www.youtube.com/watch?v=ggmAvpA4oHQ
-- Publication: Updating...
+- Demo: https://youtu.be/ggmAvpA4oHQ
 
 ## Overview
 
@@ -11,7 +10,7 @@ We solved 2 tasks in the Vietnamese Aspect-based Sentiment Analysis problem: **A
 - Multi-task with Multi-branch approach (ACSA-v2):
 ![](ACSA-v2/ACSA-v2.png)
 
-The model achieved the best results when concatenating the last 4 layers of BERT together. You can download the model weights [here](https://drive.google.com/file/d/1YKnZnoehv31n3vFhs8ZDZ00ClwU0gUPI/view?usp=sharing).
+The models achieved good results when concatenating the last 4 layers of BERT together. You can download the model weights [here](https://drive.google.com/file/d/1YKnZnoehv31n3vFhs8ZDZ00ClwU0gUPI/view?usp=sharing).
 
 
 ## Dataset
