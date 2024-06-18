@@ -4,7 +4,6 @@ import numpy as np
 import pandas as pd
 from tqdm import tqdm
 from datasets import load_dataset
-from vietnamese_processor import VietnameseTextPreprocessor
 
     
 class VLSP2018Loader:
@@ -13,7 +12,7 @@ class VLSP2018Loader:
     def load(train_csv_path, val_csv_path, test_csv_path):
         dataset_paths = {'train': train_csv_path, 'val': val_csv_path, 'test': test_csv_path}
         raw_datasets = load_dataset('csv', data_files={ k: v for k, v in dataset_paths.items() if v })
-        return raw_datasets.map(VLSP2018Loader.aspect_categories_to_onehot)
+        return raw_datasets.map(VLSP2018Loader.aspect_categories_to_onehot, num_proc=4)
     
     @staticmethod
     def aspect_categories_to_onehot(review):
@@ -33,7 +32,7 @@ class VLSP2018Loader:
         def tokenize_fn(review):
             review['Review'] = preprocessor.process_text(review['Review'])
             return tokenizer(review['Review'], max_length=max_length, padding='max_length', truncation=True)
-        return raw_datasets.map(tokenize_fn)
+        return raw_datasets.map(tokenize_fn, num_proc=4)
                 
 
 class VLSP2018Parser:
