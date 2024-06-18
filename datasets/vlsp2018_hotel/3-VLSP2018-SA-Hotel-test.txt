@@ -1,0 +1,2399 @@
+﻿#1
+Ga giường không sạch, nhân viên quên dọn phòng một ngày.
+{ROOM_AMENITIES#CLEANLINESS, negative}, {SERVICE#GENERAL, negative}
+
+#2
+Nv nhiệt tình, phòng ở sạch sẽ, tiện nghi, vị trí khá thuận tiện cho việc di chuyển đến các địa điểm ăn + chơi Phòng có gián
+{SERVICE#GENERAL, positive}, {ROOMS#CLEANLINESS, neutral}, {ROOMS#COMFORT, positive}, {LOCATION#GENERAL, positive}
+
+#3
+Đi bộ ra biển gần, tiện đi lại Phòng view biển nhưng cửa sổ view biển khá bé
+{LOCATION#GENERAL, positive}, {ROOMS#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, neutral}
+
+#4
+Tất cả mọi thứ đều sạch sẽ, giường ngủ rất thoải mái. Không có quạt điện mà chỉ có điều hòa nên có chút bất tiện.
+{HOTEL#CLEANLINESS, positive}, {ROOM_AMENITIES#COMFORT, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#5
+Giường sạch sẽ, thoải mái, đầy đủ thiết bị cần thiết, ăn cũng trang bị sẵn nếu bạn lười Phòng tắm chưa chia được ko gian khô và ướt
+{ROOM_AMENITIES#CLEANLINESS, positive}, {ROOM_AMENITIES#COMFORT, positive}, {ROOM_AMENITIES#GENERAL, positive}, {FOOD&DRINKS#STYLE&OPTIONS, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#6
+phòng ốc mới, sang trọng, giường thoải mái, sạch sẽ Chỗ để xe hơi chật chọi
+{ROOMS#DESIGN&FEATURES, positive}, {ROOMS#QUALITY, positive}, {ROOM_AMENITIES#COMFORT, positive}, {ROOM_AMENITIES#CLEANLINESS, positive}, {FACILITIES#DESIGN&FEATURES, negative}
+
+#7
+Khăn tắm cũ, dơ. Đồ dùng trong toilet là đồ sử dụng lại. Không phải đồ nguyên seal
+{ROOM_AMENITIES#DESIGN&FEATURES, negative}, {ROOM_AMENITIES#CLEANLINESS, negative}
+
+#8
+Phòng đẹp , sạch sẽ và gần biển . Nhân viên dễ thương . Phòng không có view biển như lúc đặt , Tv hay mất cáp .
+{ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}, {ROOMS#GENERAL, negative}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#9
+Rộng rãi, sạch sẽ. Có chỗ trong phòng không bắt được wifi
+{HOTEL#DESIGN&FEATURES, positive}, {HOTEL#CLEANLINESS, positive}, {FACILITIES#QUALITY, neutral}
+
+#10
+khách sạn nhỏ nhưng rất đẹp và sang trọng , nhân viên vui vẻ nhiệt tình , giá cả hợp lý cho một khách sạn gần biển .
+{HOTEL#DESIGN&FEATURES, neutral}, {HOTEL#QUALITY, positive}, {SERVICE#GENERAL, positive}, {HOTEL#PRICES, positive}, {LOCATION#GENERAL, positive}
+
+#11
+Không giống như quảng cáo và đánh giá trên booking. Đặt phòng suite nhưng vì hết nên cho lên phòng cao nhất nằm phía sau, k có cửa kính ban công như đã Book trước đó. Chúng tôi được yêu cầu không động vào giường bên cạnh vì giá đặt là phòng 1 giường. Ok không sao nhưng phòng quá nhiều muỗi. Mình mang theo bé 3 tháng phải trả phòng trong đêm vì muỗi quá nhiều không thể ngủ được. Toilet bẩn, bàn trà bẩn, lau không sạch, còn rất nhiều vết trà và cà phê cũ. Nền gạch rít do không lau. Không có ly uống nước, mặc dù đi thang máy xuống nhiều lần nhưng ks bảo không có ly. Trong khi lại để trà và cà phê trên bàn. Theo đánh giá khen trên booking đa phần nói nội thất mới mình không hề thấy mới. Rất cũ kĩ. Phòng thì rộng và đẹp, giá cũng rẻ nhưng quá tệ phong cách phục vụ. Từ khi vào ở đến lúc check out lễ tân đều đi ngủ trong phòng không ra tiếp khách. Làm mình phải kêu rất nhiều. Điện thoại bàn không gọi được cho lễ tân. Và tệ nhất là không gạc công tắt máy lạnh, mình phải xuống tận lễ tân yêu cầu. Nếu lần sau thay đổi thì mình sẽ đến lại vì giá ok.
+{HOTEL#GENERAL, negative}, {ROOMS#DESIGN&FEATURES, neutral}, {ROOMS#CLEANLINESS, negative}, {ROOMS#COMFORT, negative}, {ROOM_AMENITIES#CLEANLINESS, negative}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {ROOMS#PRICES, positive}, {SERVICE#GENERAL, negative}
+
+#12
+Khách sạn mới xây, nội thất còn rất mới. Mình book được phòng nằm ngay tầng trệt, cửa gỗ khá chắc chắn. Wifi + nước mạnh,. Lễ tân nhiệt tình, vui vẻ, hôm đầu tiên vào nhận phòng lễ tân có nói rõ nước nào tính tiền và free (cảm giác khá rõ ràng), phòng rất sạch và thơm. Ngày nào đi chơi về cũng như có cô tấm mới xuất hiện :)) . Khách sạn cách cửa hàng tiện lợi vài ba căn, nằm rất gần biển (khoảng 5p đi bộ). Khách sạn còn cho gửi đồ lại dù đã trả phòng nữa. Cảm giác rất dễ chịu. Phòng đúng là cách âm không được tốt. Cô dọn phòng cũng quên để các loại khăn và nước free cho phòng mình. Nhưng mà mấy bạn lễ tân dễ thương lắm, ra nói cô quên cái là mấy bạn lấy đưa liền. Nói chung với giá mình book được so với tiện nghi thì không còn gì để chê trách.
+{HOTEL#DESIGN&FEATURES, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, positive}, {ROOMS#DESIGN&FEATURES, neutral}, {FACILITIES#QUALITY, positive}, {SERVICE#GENERAL, neutral}, {ROOMS#CLEANLINESS, positive}, {LOCATION#GENERAL, positive}, {HOTEL#COMFORT, positive}, {HOTEL#GENERAL, positive}
+
+#13
+Khách sạn gần biển nên buổi tối chỉ cần rảnh là ra được biển chơi. Tuy hơi xa trung tâm thành phố nhưng cũng không ảnh hưởng gì nhiều vì đường phố Đà Nẵng khá rộng, thoáng, dễ đi. Gần đây còn có quá Tiện lợi 24h bán nhiều đồ Hàn, thỉnh thoảng ra đấy ăn mì, xì sụp như phim :D Bọn mình rất ấn tượng khi nhìn thấy căn phòng: Sạch sẽ, đẹp, đầy đủ tiện nghi,.. nói chung là đẹp như ảnh.
+{LOCATION#GENERAL, neutral}, {ROOMS#CLEANLINESS, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOM_AMENITIES#GENERAL, positive}, {ROOMS#GENERAL, positive}
+
+#14
+Khách sạn gần biển. Phòng khá ổn so với giá tiền, mình cho là khá đầy đủ tiện nghi và sạch sẽ (có máy sấy tóc, ấm đun sẵn trong phòng, cả wifi và nước nóng đều tốt). Cả 2 bạn Lễ tân đều rất nhiệt tình và thân thiện. Máy lạnh không được lạnh lắm
+{LOCATION#GENERAL, positive}, {ROOMS#GENERAL, positive}, {ROOMS#PRICES, positive}, {ROOM_AMENITIES#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, neutral}, {FACILITIES#QUALITY, positive}, {SERVICE#GENERAL, positive}
+
+#15
+Tuyệt vời trên tất cả. Một kỳ nghĩ thú vị với tôi. Nhân viên thân thiện nhiệt tình. Phòng ốc sạch sẽ. Gần biển chỉ 3 phút đi bộ.tôi rất hài lòng về nơi này Rất tiếc là tôi không thể ở lâu hơn nữa
+{HOTEL#GENERAL, positive}, {SERVICE#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {LOCATION#GENERAL, positive}, {HOTEL#COMFORT, positive}
+
+#16
+Mình ở phòng 301 sau đó chuyển qua 601, đều là 2 phòng phía đầu. Phòng rất mới, đẹp, thoáng và rất tiện. Nhân viên thì cực kì ưng luôn, thân thiện hết mức. Thang máy hơi bé nhưng phù hợp với khách sạn.
+{ROOMS#DESIGN&FEATURES, positive}, {ROOMS#COMFORT, positive}, {SERVICE#GENERAL, positive}, {FACILITIES#DESIGN&FEATURES, neutral}
+
+#17
+Khách sạn sạch sẽ, thoáng mát, vị trí gần biển , đi bộ khoảng 3p, cách trung tâm thành phố không xa lắm. Nhân viên thân thiện, cởi mở, hòa đồng Wifi, nước nóng lạnh đầy đủ Khách sạn An hội là một trong những khách sạn tuyệt vời mà tôi từng ghé thăm. I Like so much !!! Cảm ơn khách sạn đã cho tôi một kỳ nghĩ thật tuyệt vời
+{HOTEL#CLEANLINESS, positive}, {HOTEL#COMFORT, positive}, {LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}, {FACILITIES#QUALITY, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, positive}, {HOTEL#GENERAL, positive}
+
+#18
+Phòng khá là sạch sẽ và mới, dễ thương. Giá rẻ và khá hợp lý cho các nhóm du lịch từ 4 người. Nhân viên lễ tân hay không có mặt ở quầy nên đôi lúc cần việc thì hơi khó khăn tí.
+{ROOMS#CLEANLINESS, positive}, {ROOMS#DESIGN&FEATURES, positive}, {HOTEL#PRICES, positive}, {SERVICE#GENERAL, negative}
+
+#19
+phòng sạch sẽ, tiện nghi đầy đủ, lễ tân vui vẻ nhiệt tình, phòng thiếu ánh sáng trắng, nên hơi tối
+{ROOMS#CLEANLINESS, positive}, {ROOM_AMENITIES#GENERAL, positive}, {SERVICE#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, negative}
+
+#20
+Lễ tân vui vẻ nhiệt tình Vệ sinh phòng còn bẩn, góc cạnh bàn còn tóc. Toalet nhỏ, còn mùi.
+{SERVICE#GENERAL, positive}, {ROOMS#CLEANLINESS, negative}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {ROOM_AMENITIES#CLEANLINESS, negative}
+
+#21
+Vị trí khách ạn thuận tuện đi đến các điểm tham quan ....không gian phòng, tiện nghi và phục vụ rất tốt Không có điều gì không thích cả
+{LOCATION#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, positive}, {FACILITIES#GENERAL, positive}, {SERVICE#GENERAL, positive}, {HOTEL#COMFORT, positive}
+
+#22
+Nội thất mới, sạch sẽ Đông khách nên khi nhận phòng hơi mùi thuốc tẩy javen nên hơi ngạt thở, ở 2 hôm mới thấy đỡ mùi
+{ROOM_AMENITIES#DESIGN&FEATURES, positive}, {ROOMS#COMFORT, negative}
+
+#23
+Khách sạn trả lời thắc mắc qua mail rất nhanh và chu đáo. Giá cả hợp lý, vị trí gần biển. Cảm ơn các bạn giúp gia đình mình có một kỳ nghỉ trọn vẹn.
+{HOTEL#MISCELLANEOUS, positive}, {HOTEL#PRICES, positive}, {LOCATION#GENERAL, positive}, {HOTEL#GENERAL, positive}
+
+#24
+Có thang máy. Cho thuê xe ngay tại chỗ nghỉ. Phòng sạch sẽ. Phòng hơi nhỏ, hơi ồn vì đằng sau có nhà đang sửa. Đèn hơi tối.
+{FACILITIES#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {ROOMS#DESIGN&FEATURES, negative}, {ROOMS#COMFORT, negative}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#25
+Giường tốt, nội thất, bối trí, sơn màu trong phòng đẹp. Thiết kế không gian hơi nóng.
+{ROOM_AMENITIES#QUALITY, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, positive}, {ROOMS#DESIGN&FEATURES, positive}, {HOTEL#COMFORT, negative}
+
+#26
+Không gian rộng rãi. Công suất điều hoà còn thấp. Có muỗi trong phòng.
+{HOTEL#DESIGN&FEATURES, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {ROOMS#CLEANLINESS, negative}
+
+#27
+Phòng rộng rãi. Gần biển. Chưa lắp quạt. Điện hơi tối.
+{ROOMS#DESIGN&FEATURES, positive}, {LOCATION#GENERAL, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#28
+Phòng sạch sẽ tiện nghi. Giá cả phải chăng. Lần sau quay lại hội an sẽ tiếp tục ở đây
+{ROOMS#CLEANLINESS, positive}, {ROOMS#COMFORT, positive}, {HOTEL#PRICES, positive}, {HOTEL#GENERAL, positive}
+
+#29
+Vị trí gần biển, phòng ốc đẹp, sạch sẽ. Phòng có mùi thơm dịu mình rất thích. Nhân viên thân thiện.
+{LOCATION#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {ROOMS#COMFORT, positive}, {SERVICE#GENERAL, positive}
+
+#30
+Chiếc giường mới, êm, rất thoả mái Chỗ để xe quá nhỏ
+{ROOM_AMENITIES#DESIGN&FEATURES, positive}, {ROOM_AMENITIES#QUALITY, positive}, {ROOM_AMENITIES#COMFORT, positive}, {FACILITIES#DESIGN&FEATURES, negative}
+
+#31
+Từ khách sạn ra tới biển không quá xa. Phục vụ khách sạn rất tốt. Các quán ăn rất gần và ngon Đi tắm không nên mang theo dép vì có thể bị mất
+{LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}, {HOTEL#MISCELLANEOUS, negative}, {FACILITIES#MISCELLANEOUS, negative}
+
+#32
+Thiết kế khách san nhìn rất đẹp, thư giãn thoải mái
+{HOTEL#DESIGN&FEATURES, positive}, {HOTEL#COMFORT, positive}
+
+#33
+Giường rất êm. Ghế sofa rất đặc biệt. Vị trí gần biển Chăn và Nệm có mùi ko thoải mái lắm. Cửa khó mở và đóng
+{ROOM_AMENITIES#QUALITY, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, positive}, {LOCATION#GENERAL, positive}, {ROOM_AMENITIES#COMFORT, negative}, {ROOMS#DESIGN&FEATURES, negative}
+
+#34
+Giường rất thoải mái, sạch sẽ, cực kỳ đáng tiền. Gần siêu thị tiện lợi Khá xa sân bay
+{ROOM_AMENITIES#COMFORT, positive}, {HOTEL#CLEANLINESS, positive}, {HOTEL#PRICES, positive}, {LOCATION#GENERAL, neutral}
+
+#35
+Vị trí tốt, sạch sẽ Phòng trên cao nc nóng kém
+{LOCATION#GENERAL, positive}, {HOTEL#CLEANLINESS, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#36
+Vị trí khách sạn khá gần biển, đi bộ khoảng 5p. phòng sạch sẽ đẹp.
+{LOCATION#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {ROOMS#DESIGN&FEATURES, positive}
+
+#37
+Mọi thứ khá ổn,phòng ốc sạch sẽ book 1 phòng lại bị dồn sang 1 phòng khác. Thay đổi như chong chóng.
+{HOTEL#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {SERVICE#GENERAL, negative}
+
+#38
+Phòng rộng rãi và thoải mái. Cảnh nhìn ra bên ngoài thoáng đãng. Wifi vào tốt.
+{ROOMS#DESIGN&FEATURES, positive}, {ROOMS#COMFORT, positive}, {ROOMS#GENERAL, positive}, {FACILITIES#QUALITY, positive}
+
+#39
+Chỗ nghỉ yên tĩnh, sạch sẽ, tiện nghi, gần biển Lễ tân hơi hiền và ít nói
+{HOTEL#COMFORT, positive}, {HOTEL#CLEANLINESS, positive}, {LOCATION#GENERAL, positive}, {SERVICE#GENERAL, neutral}
+
+#40
+Tuyệt vời. Ko chê được gì luôn ý. Phòng mới cực kì sạch sẽ. Lễ tân cũng vui vẻ và thân thiện nữa Wifi hơi yếu1 chút tại mình ở tận lầu 4
+{HOTEL#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {FACILITIES#QUALITY, negative}
+
+#41
+Giá cả hợp lý, phục vụ tốt.Gần biển. Đáng đồng tiền.
+{HOTEL#PRICES, positive}, {SERVICE#GENERAL, positive}, {LOCATION#GENERAL, positive}
+
+#42
+Sạch sẽ gọn gàng Hơi có muỗi, cửa sổ đừng làm cửa trong đi ở ngoài hành lang nhìn vô trong phòng dc
+{ROOMS#CLEANLINESS, neutral}, {ROOMS#DESIGN&FEATURES, neutral}
+
+#43
+Khách sạn mới, sang trọng, nhân viên vui vẻ, nhiệt tình. Nhất định sẽ ủng hộ lần sau! Nothing!
+{HOTEL#DESIGN&FEATURES, positive}, {HOTEL#QUALITY, positive}, {SERVICE#GENERAL, positive}, {HOTEL#GENERAL, positive}
+
+#44
+Gần chợ Hàn, gần cầu rồng và cầu sông hàn, vỉ hè đi bộ thoáng mát, rộng rãi không có nhà thuốc tây, đường 1 chiều, không đặt được Uber - Grab vì cấm đậu xe quá 3 phút, không gần cửa hàng tiện lợi
+{LOCATION#GENERAL, neutral}
+
+#45
+Đến sớm nếu có phòng trống , đc nhân viên sắp cho chỗ nghỉ đến lúc check in phòng, nhân viên nhiệt tình, phòng sạch sẽ . Xứng tên khách sạn "happy day". Sẽ ghé lại ngày gần nhất.
+{SERVICE#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {HOTEL#GENERAL, positive}
+
+#46
+M đi cùng gđ 3 đêm tại đây, phòng deluxe view sông rất đẹp. M ấn tượng với lễ tân, phục vụ và chú bảo vệ, mọi ng rất thân thiện và rất hỗ trợ. Đi lại thuận tiện gần cầu rồng, chợ hàn m có đặt 1 phòng tiêu chuẩn nên k có cửa sổ, hơi bí, nên ai đi tiết kiệm cặp đôi thì cũng okie, nh nhà có trẻ con thì nên đặt phòng rộng và thoáng hơn sẽ tốt hơn
+{ROOMS#GENERAL, positive}, {SERVICE#GENERAL, positive}, {LOCATION#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, negative}, {ROOMS#COMFORT, negative}
+
+#47
+Vị trí khách sạn nhìn ra sông Hàn, nằm giữa Cầu Rồng và Cầu Sông Hàn. Có thể nói khách sạn có vị trí rất lý tưởng. Phòng đẹp, sạch sẽ, wc rộng và tiện nghi, nhân viên nhiệt tình và dễ thương. Các thiết bị trong phòng nên được kiểm tra kĩ và sửa chữa lại nếu cần. Phòng mình không mở được TV, đèn ngủ chập chờn lúc được lúc không, không rõ do dây lỏng hay như thế nào đó.
+{HOTEL#GENERAL, positive}, {LOCATION#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, positive}, {ROOM_AMENITIES#COMFORT, positive}, {SERVICE#GENERAL, positive}, {ROOM_AMENITIES#QUALITY, negative}
+
+#48
+Rất gần với các khu vực tham quan như Cầu Rồng, chợ Hàn.. Nhân viên thân thiện,dễ thương. Phòng tiêu chuẩn ko có cửa sổ nhưng hành lang có cửa sổ rất thoáng và tầm nhìn ra cầu Rồng, sông Hàn rất đẹp. Máy sấy tóc hơi yếu và khi rút key ra khỏi phòng thì ngắt điện nên tủ lạnh ko đc mát
+{LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#GENERAL, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#49
+Nhân viên khách sạn rất thân thiện. Vị trí khách sạn tốt Phòng không có ánh sáng tự nhiên vì hai bên là nhà cao tầng. Nên đặt loại phòng cao hơn để có view và ánh sáng tự nhiên
+{SERVICE#GENERAL, positive}, {LOCATION#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, negative}
+
+#50
+Các cô lễ tân và bảo vệ rất thân thiện, vị trí trung tâm tiện đi lại các điểm ăn uống và vui chơi trong thành phố. Phòng sạch sẽ, dọn dẹp thường xuyên, có sẵn xe máy cho thuê rất tiện lợi, giá phòng rẻ. Sẽ sử dụng tiếp dịch vụ khi có dịp trở lại Đà Nẵng
+{SERVICE#GENERAL, positive}, {LOCATION#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {FACILITIES#DESIGN&FEATURES, positive}, {FACILITIES#COMFORT, positive}, {ROOMS#PRICES, positive}, {HOTEL#GENERAL, positive}
+
+#51
+Địa thế khách sạn rất đẹp, view tốt, gần các chỗ vui chơi. Nhân viên rất thân thiện và nhiệt tình. Đặc biệt là bác bảo vệ cực đáng yêu Phòng hơi nhỏ tuy nhiên bài trí rất hợp lí Bữa ăn sáng ở nhà hàng khách sạn thực đơn còn nghèo nàn, chất lượng món ăn cũng chưa tốt, vẫn còn đồ tủ lạnh
+{LOCATION#GENERAL, positive}, {HOTEL#GENERAL, negative}, {SERVICE#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, neutral}, {FOOD&DRINKS#STYLE&OPTIONS, negative}, {FOOD&DRINKS#QUALITY, negative}
+
+#52
+Phòng sạch sẽ, nhỏ nhưng đầy đủ tiện nghi. Vị trí tốt, tiện cho di chuyển. Nhân viên thân thiện luôn cười rất tươi, sẵn sàng chia sẻ thông tin cần thiết. Đặc biệt cảm ơn các bạn cho 2vc checkin sớm free, vì đi tàu đã khá mệt mỏi. Hơi tiếc khi chưa trải nghiệm thăm thú nh nơi như dự định vì trời mưa. Nhưng có lẽ cũng là lý do để ĐN luôn có trong dsach điểm đến. Lần sau có dịp lại C.I Happyday. Chúc các bn sức khoẻ v luôn vui vẻ... Không hẳn là không thích nhưng góp ý nhỏ thôi. Trong phòng nên set thêm trà v cfe free( vì có trang bị bình đun nước có sẵn). T2 là treo tv thấp xuống, chuyển tranh treo sang bên đầu giường trông sẽ hợp lý hơn. T3 phòng ko có ban công(ko có view giá để tầm 300-350 hợp lý hơn).
+{ROOMS#CLEANLINESS, positive}, {ROOMS#DESIGN&FEATURES, negative}, {ROOM_AMENITIES#GENERAL, positive}, {LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}, {HOTEL#GENERAL, positive}, {FOOD&DRINKS#STYLE&OPTIONS, negative}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {ROOMS#PRICES, negative}
+
+#53
+Vị trí tuyệt vời, nhân viên thân thiện. Khách sạn đặt các tour tham quan với hướng dẫn viên nhiệt tình, am hiểu các địa danh, tiếng Anh rất tốt. Sẵn sàng giới thiệu cho bạn bè. Chú ý vệ sinh gầm giường cho sạch sẽ hơn.
+{LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}, {FACILITIES#QUALITY, positive}, {HOTEL#GENERAL, positive}, {ROOMS#CLEANLINESS, negative}
+
+#54
+Nhận phòng nhanh, bộ phận bảo vệ nhiệt tình, phòng sạch Nhân viên lễ tân làm việc không chuyên nghiệp chỉ trừ 1 bé ca sáng, không sẵn sàng tư vấn, phòng tối
+{SERVICE#GENERAL, neutral}, {ROOMS#CLEANLINESS, positive}, {ROOMS#DESIGN&FEATURES, negative}
+
+#55
+Vị trí tuyệt vời, thuận tiện, gần chợ Hàn, cầu Rồng, cầu sông Hàn. Nhân viên lịch sự, nhiệt tình và thân thiện. Ấn tượng rất tốt về sự niềm nở và chu đáo. Tiện nghi KS chưa được phong phú
+{LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}, {FACILITIES#GENERAL, negative}
+
+#56
+Sàn nhà tắm thiết kế độ dốc hơi cạn nên nước hay bị tràn ra ngoài, rất dơ. Khách sạn có cho thuê xe máy nhưng thực chất là liên kết với nơi thuê xe máy bên ngoài nhưng 2 bên lại ko thống nhất giá cả với nhau. Tới lúc khách nhận xe thì chỗ thuê xe đôi co, xin thêm tiền bo của khách thẳng thừng. Lên báo với nhân viên ks thì nhân viên này lại đổ thừa cho ông bảo vệ già là ông này tự ý lấy giá rẻ chứ k fải do ks muốn. Ko chuyên nghiệp chút nào. Nhân viên ks thì ok, nhưng lại liên kết với nơi thuê xe ăn nói chợ búa sỗ sàng xin tiền thêm của khách mà nói chuyện chạc sa sả luôn :(((
+{ROOM_AMENITIES#DESIGN&FEATURES, negative}, {ROOM_AMENITIES#CLEANLINESS, negative}, {FACILITIES#DESIGN&FEATURES, negative}, {FACILITIES#COMFORT, negative}, {SERVICE#GENERAL, negative}
+
+#57
+Chúng tôi đã có kỳ nghỉ tuyệt vời 3 ngày 2 đêm tại Happy Day. Phòng ốc mới và sạch sẽ (nghe nói các phòng này mới được xây dựng thêm và đi vào hoạt động cách đây tầm 4 tháng). Nhân viên lễ tân thân thiện, nhiệt tình chỉ dẫn chỗ ăn uống, các anh bảo vệ cũng dễ thương. Sau vẫn chọn khách sạn này nếu đi Đà Nẵng
+{HOTEL#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}
+
+#58
+Gia đình tôi trải qua kỳ nghỉ 2 đêm 3 ngày tại Đà Nẵng.Có lẽ đi vào mùa thấp điểm nên tôi thấy giá cả rất dễ chịu - khi hỏi các bạn lễ tân thì tôi được biết khách sạn không tăng giá vào mùa cao điểm -điều này rất tốt.Quá trình lưu trú của chúng tôi đều rất tốt._Phòng ốc mới - ở phía sau nên không có view sông. Gia đình tôi đi nhiều người nên các bạn lễ tân giúp chúng tôi book tour đi Bà Nà và thuê xe đi Hội An với giá hợp lý.Các bạn lễ tân cũng như các anh bảo vệ rất nhiệt tình hướng dẫn chỗ ăn uống. Cảm thấy thoải mái vì đã chọn khách sạn này
+{HOTEL#PRICES, positive}, {HOTEL#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#GENERAL, neutral}, {SERVICE#GENERAL, positive}, {HOTEL#COMFORT, positive}
+
+#59
+Vị trí của khách sạn này rất thuận tiện để đi lại,chúng tôi ở phòng Superior Double phòng ốc mới và sạch sẽ, nhân viên dọn phòng hằng ngày, từ lễ tân cho đến bảo vệ đều rất thân thiện, giá cả cũng hợp lý nên sau tôi sẽ trở lại ks này nếu đi Đà Nẵng
+{LOCATION#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {HOTEL#PRICES, positive}, {HOTEL#GENERAL, positive}
+
+#60
+Từ khách sạn nhìn thấy được cầu Rồng. Nhân viên lễ tân của khách sạn rất nhiệt tình và lịch sự. Chỉ dẫn tận tình còn giúp mình mua chả. Nếu có dịp quay lại Đà Nẵng sẽ chọn Happy Day.
+{HOTEL#GENERAL, positive}, {SERVICE#GENERAL, positive}
+
+#61
+Chúng tôi đến Đà Nẵng vào mùa thấp điểm, nhưng nghe nói khách sạn gần như kín phòng, tuy nhiên các bạn lễ tân,bảo vệ và cả buồng phòng vẫn phục vụ rất niềm nở và thân thiện, khách sạn gần trung tâm nên việc ăn uống rất thuận tiện,có thể thuê xe máy - các bạn có thể deal để có được giá tốt. Chúng tôi hài lòng về kỳ nghỉ lần này và vẫn sẽ chọn Happy Day lần tới
+{SERVICE#GENERAL, positive}, {LOCATION#GENERAL, positive}, {HOTEL#COMFORT, positive}, {HOTEL#GENERAL, positive}
+
+#62
+Nhân viên nhiệt tình, phòng ở sạch sẽ, địa điểm đẹp. Tuy đặt phòng tiêu chuẩn không có cửa sổ nhưng rộng rãi, không bị bí bách. Sẽ quay lại vào kì nghỉ tiếp theo.
+{SERVICE#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {LOCATION#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, neutral}, {HOTEL#GENERAL, positive}
+
+#63
+Vị trí đẹp, gần sông và gần các cây cầu. Phòng view sông rất đẹp.Tôi rất mến nhân viên ở đây rất thân thiện và sẵn lòng giúp đỡ. Sẽ giới thiệu bạn bè đến khách sạn này
+{LOCATION#GENERAL, positive}, {ROOMS#GENERAL, positive}, {SERVICE#GENERAL, positive}, {HOTEL#GENERAL, positive}
+
+#64
+Phòng sạch sẽ. Có thể deal được giá thuê xe máy với nhân viên, 120k/ngày. Ăn sáng rất tệ. Lúc check in tôi có hỏi nhân viên phòng tôi đặt có bao gồm ăn sáng ko? Nhân viên nói có. Đến khi tôi check out thì báo ko có bao gồm ăn sáng và tính tiền ăn sáng vào tiền phòng. Khi tôi ăn sáng, nhân viên cũng có hỏi số phòng và lấy menu cho tôi gọi món. Đáng lẽ nhân viên phải báo với tôi phòng tôi có hoặc ko có ăn sáng. Và món ăn tôi gọi là phở, thịt bò hơi dai.
+{ROOMS#CLEANLINESS, positive}, {HOTEL#MISCELLANEOUS, neutral}, {FOOD&DRINKS#QUALITY, negative}, {SERVICE#GENERAL, negative}
+
+#65
+Cảm ơn khách sạn happy day Mìn vừa có 1 kì nghỉ tuyệt vời tại khách sạn Phòng ốc sạch sẽ view ks đẹp, nhân viên dọn phòng hàng ngày và nhân viên đều rất rất nhiệt tình Cảm ơn nhiều và chắc chắn lần sau khi tới Đà Nẵng mình sẽ lại lựa chọn happy day � Chăn của mình bị rách
+{HOTEL#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {ROOM_AMENITIES#QUALITY, negative}
+
+#66
+Chuyến công tác của tôi kéo dài 3 ngày, nhưng vào ngày cuối cùng tôi đã lựa chọn được khách sạn của các bạn ngay tại trung tâm để tiện cho việc đi lại. Bữa sáng khá ngon miệng, tôi đã ngồi lại thưởng thức coffee và làm việc trên laptop đến hơn 10h trưa nhưng nhân viên vẫn vui vẻ và còn giúp tôi đi mua chả bò để về làm quà. Tôi sẽ quay lại cho chuyến công tác tới vào đầu tháng 12 này.
+{LOCATION#GENERAL, positive}, {FOOD&DRINKS#QUALITY, positive}, {SERVICE#GENERAL, positive}, {HOTEL#GENERAL, positive}
+
+#67
+Khách sạn có vị trí đẹp, thuận lợi cho việc đi lại, tham quan, vui chơi, ăn uống; dịch vụ cho thuê xe máy khá tiện lợi, xe chạy tốt. Phòng ốc gọn gàng, sạch sẽ, có mùi thơm nhẹ khá dễ chịu. Nhân viên thân thiện, nhiệt tình, tích cực chào đón và hỗ trợ khách, đặc biệt là chú bảo vệ gầy gầy cao cao. Lần tới có lẽ tôi vẫn sẽ chọn ở đây và thử trải nghiệm nhiều dịch vụ hơn. Phòng nhỏ, cửa phòng vệ sinh hơi khó đóng, khăn mặt và khăn tắm có cảm giác hơi thô ráp. Nhân viên lễ tân nam không được thân thiện cho lắm.
+{LOCATION#GENERAL, positive}, {FACILITIES#COMFORT, positive}, {FACILITIES#QUALITY, positive}, {SERVICE#GENERAL, neutral}, {HOTEL#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, negative}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#68
+Vị trí thuận lợi.Bữa sáng OK, hợp với khẩu vị gia đình tôi.Nội thất đơn giản nhưng gọn gàng,phòng vệ sinh rất sạch sẽ.Nhân viên nhiệt tình, dễ thương.
+{LOCATION#GENERAL, positive}, {FOOD&DRINKS#QUALITY, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, positive}, {ROOM_AMENITIES#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}
+
+#69
+Khách sạn nằm ngay đường Bạch Đằng khá đẹp. Thuận lợi cho việc đi lại và ăn uống.Bữa sáng theo kiểu chọn món khá ok. Nhân viên ở đây gọi taxi khá nhanh. Nhìn chung tôi khá hài lòng với giá cả và dịch vụ tại Happy Day.
+{LOCATION#GENERAL, positive}, {FOOD&DRINKS#STYLE&OPTIONS, positive}, {FOOD&DRINKS#QUALITY, positive}, {SERVICE#GENERAL, positive}, {HOTEL#PRICES, positive}, {HOTEL#GENERAL, positive}
+
+#70
+Tôi được một người bạn giới thiệu khách sạn này.Phòng ốc sạch sẽ, vị trí thuận lợi, nhân viên cũng rất nhiệt tình. Bữa sáng ok. Thích nhất buổi tối đi bộ dọc bờ sông Hàn.Sẽ trở lại với gia đình vào dịp hè năm sau Không gì cả
+{ROOMS#CLEANLINESS, positive}, {LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}, {FOOD&DRINKS#QUALITY, positive}, {HOTEL#GENERAL, positive}
+
+#71
+Vị trí khách sạn đẹp, tiên đi lại.Nhân viên rất thân thiện. Phòng nhỏ nhưng mới, sạch sẽ và tiện nghi. Bữa sáng cũng được cải thiện hơn so với lần trước rất nhiều
+{LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, neutral}, {ROOMS#CLEANLINESS, positive}, {ROOMS#COMFORT, positive}, {FOOD&DRINKS#QUALITY, positive}
+
+#72
+Bữa sáng rất ngon & phòng rất sạch đẹp. Tất cả nhân viên từ Bảo vệ, phục vụ, Lễ tân đều nhiệt tình, cởi mở & thân thiện. Đặc biệt, tôi rất quý &ấn tượng với Cháu Nguyễn T. Thúy Hằng-NV Lễ tân của KS Happy day-160 Bạch Đằng-Đà Nẵng luôn chu đáo, nhiệt tình, cởi mở & rất thân thiện. Rất tuyệt vời, xin cảm ơn. Nhất định, tôi sẽ quay lại KS Happy day.
+{FOOD&DRINKS#QUALITY, positive}, {ROOMS#CLEANLINESS, positive}, {ROOMS#DESIGN&FEATURES, positive}, {SERVICE#GENERAL, positive}, {HOTEL#GENERAL, positive}
+
+#73
+Vị trí tốt, ngay cầu rồng và cầu sông hàn , buổi tối ra đường ngắm cảnh đẹp,gần chợ hàn thuận tiện ăn uống.nhân viên thân thiện và nhiệt tình Bữa ăn sáng ko được ngon miệng,ít món,khách sạn hơi xuống cấp so với lần nghỉ trước, mền rách và không được sạch, nước nóng lúc được lúc không.
+{LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}, {FOOD&DRINKS#QUALITY, negative}, {FOOD&DRINKS#STYLE&OPTIONS, negative}, {HOTEL#QUALITY, negative}, {ROOM_AMENITIES#QUALITY, negative}, {ROOM_AMENITIES#CLEANLINESS, negative}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#74
+Nhân viên nhiệt tình, linh động sử lý phản hồi của khách. Hai lòng chất lượng chuyến nghỉ dưỡng
+{SERVICE#GENERAL, positive}, {HOTEL#COMFORT, positive}
+
+#75
+Phòng có view hướng sông đẹp, thuận tiện đi dạo sông. Sạch sẽ và thoải mái. Sẽ quay lại sau nếu có cơ hội.
+{ROOMS#GENERAL, positive}, {LOCATION#GENERAL, positive}, {HOTEL#CLEANLINESS, positive}, {HOTEL#COMFORT, positive}, {HOTEL#GENERAL, positive}
+
+#76
+Địa điểm thuận tiện , nhan viên than thiện, đầy đủ tiện nghi
+{LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}, {FACILITIES#GENERAL, positive}
+
+#77
+View sông rất đẹp Trang thiết bị quá xuống cấp. Khăn tắm bẩn, ra gối bẩn. Điểm tâm sáng hoàn toàn không đồng ý.
+{HOTEL#GENERAL, positive}, {ROOM_AMENITIES#QUALITY, negative}, {ROOM_AMENITIES#CLEANLINESS, negative}, {FOOD&DRINKS#QUALITY, negative}
+
+#78
+Giường rất thoải mái, phòng ốc tiện nghi
+{ROOM_AMENITIES#COMFORT, positive}, {ROOMS#COMFORT, positive}
+
+#79
+Nhân viên rất nhiệt tình và thân thiện, khách sạn ngay bờ sông Hàn rất tiện lợi đi lại
+{SERVICE#GENERAL, positive}, {LOCATION#GENERAL, positive}
+
+#80
+Sạch sẽ, nhiệt tình, vị trí thuận lợi Đồ ăn sáng hơi ít lựa chọn.
+{HOTEL#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {LOCATION#GENERAL, positive}, {FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#81
+Vị trí đẹp thuận tiện đi lại Phòng hơi nhỏ
+{LOCATION#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, negative}
+
+#82
+View nhìn ra sông Hàn rất đẹp. Nhân viên khách sạn rất thân thiện.
+{HOTEL#GENERAL, positive}, {SERVICE#GENERAL, positive}
+
+#83
+Nằm bên bờ sông hàn nên thuận tiện để ngắm cầu rồng, gần chợ Hàn Phòng hơi bé tuy nhiên vẫn đầy đủ tiện nghi.
+{LOCATION#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, negative}, {ROOM_AMENITIES#GENERAL, positive}
+
+#84
+Nhân viên lễ tân,đặc biệt bảo vệ cực kì thân thiện, dễ thương. Chỗ nghĩ sạch sẽ, thoáng mát, đầy đủ tiện nghi.
+{SERVICE#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {ROOMS#COMFORT, positive}, {ROOM_AMENITIES#GENERAL, positive}
+
+#85
+Vị trí khách sạn cực tốt, gần chợ hàn, ven sông, phòng deluxe view sông rất đẹp và thoải mái. WC hơi nhỏ
+{LOCATION#GENERAL, positive}, {ROOMS#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#COMFORT, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#86
+Bảo vệ không thân thiện lắm. Hỏi đường k buồn trả lời. Còn lại mọi thứ đều ok
+{SERVICE#GENERAL, negative}, {HOTEL#GENERAL, positive}
+
+#87
+Nhân viên dễ thương và nhiệt tình, hỗ trợ yêu cầu nhanh chóng Phòng tắm hơi nhỏ
+{SERVICE#GENERAL, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#88
+Gần trung tâm, thuận tiện cho đi dạo, chụp hình với các cây cầu như cầu Rồng, cầu xoay... Gần chỗ ăn uống và có nhiều lựa chọn về món ăn.
+{LOCATION#GENERAL, positive}, {HOTEL#MISCELLANEOUS, positive}
+
+#89
+Phòng sạch sẽ. Địa điểm khách sạn tốt. Nhân viên chu đáo. Buổi tối có tiếng động hơi ồn ào.
+{ROOMS#CLEANLINESS, positive}, {LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}, {HOTEL#COMFORT, negative}
+
+#90
+Vị trí đẹp. Nhân viên nhiệt tình vui vẻ thân thiện. Ti vi hình ảnh và âm thanh không rõ lắm.
+{LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}, {ROOM_AMENITIES#QUALITY, negative}
+
+#91
+Vị trí của khách sạn thuận tiện. Phòng sạch sẽ. Nhân viên dễ thương, nhiệt tình.
+{LOCATION#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}
+
+#92
+Giường ngủ êm thoải mái, phòng sạch sẽ Phòng bí ko có cửa sổ, giá hơi cao
+{ROOM_AMENITIES#QUALITY, positive}, {ROOM_AMENITIES#COMFORT, positive}, {ROOMS#CLEANLINESS, positive}, {ROOMS#COMFORT, negative}, {ROOMS#DESIGN&FEATURES, negative}, {ROOMS#PRICES, negative}
+
+#93
+Vị trí tốt. Phòng mới, nhân viên dọn phòng hằng ngày nên khá sạch sẽ. Ăn sáng ok. Sẽ quay lại Happy Day vao dịp hè
+{LOCATION#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, positive}, {SERVICE#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {FOOD&DRINKS#QUALITY, positive}, {HOTEL#GENERAL, positive}
+
+#94
+Phòng rộng, tiện nghi rất tốt Các món ăn và hoa quả cần đa dạng hơn.
+{ROOMS#DESIGN&FEATURES, positive}, {ROOM_AMENITIES#QUALITY, positive}, {FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#95
+Tôi thấy thích không gian ở đây: tĩnh lặng,lãng mạn và ngập nắng,gió biển. Chất lượng của đệm,có mùi hôi mà theo nhân viên là không xử lý được. Mình vẫn nghĩ Hanvico chưa đủ chuẩn để lắp ở khách sạn 5 sao. Kimdan,Canon,... Có lẽ thích hợp hơn. Bữa sáng hơi nghèo nàn.
+{HOTEL#COMFORT, positive}, {HOTEL#DESIGN&FEATURES, positive}, {ROOM_AMENITIES#QUALITY, negative}, {ROOM_AMENITIES#CLEANLINESS, negative}, {FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#96
+-KS sát biển -Nhân viên thân thiện. -Gần nhà hàng Hải sản. - Cửa KS có một cống nước xả thải xuống biển nên không tắm được. - Sàn gỗ bị cong vêng bong tróc, - Áp lực nước yếu.
+{LOCATION#GENERAL, neutral}, {SERVICE#GENERAL, positive}, {HOTEL#MISCELLANEOUS, neutral}, {HOTEL#DESIGN&FEATURES, negative}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#97
+Khách sạn mới, trang thiết bị và cơ sở vật chất rất đẹp và hiện đại, Sảnh lễ tân rất rộng và thoáng . Chúng tôi đặt 3 phòng với hướng nhìn ra một bên biển trông khá thoáng, không bị che chắn tầm nhìn. Dù là một khách sạn mới nhưng khách sạn vận hành khá ổn, đặc biệt là các nhân viên tại lễ tân, tác phong rất chuyên nghiệp và nhiệt tình tư vấn các thông tin tại Đà Nẵng. Cảm ơn anh Hoàng đã hỗ trợ chúng tôi trong suốt thời gian ở tại khách sạn. Tuy nhiên, vì khách sạn cũng còn mới nên còn vài vấn đề cần làm tốt hơn, chúng tôi ở 3 phòng,cùng tại lầu 10 nhưng âm thanh từ dưới mặt đường hầu như vẫn nghe được, nhà hàng khá đông khách Trung vào buổi sáng nên khá lộn xộn. Chúng tôi phải đợi khá lâu để có được món trứng rán, và phải nhờ tới anh quản lý nhà hàng đứng gần đó hỗ trợ mới có thể có được một vài món nóng. Bảng giá giặt là hơi cao, tuy nhiên điều đó có thể chấp nhận được ở khách sạn 4 sao. Hệ thống wifi rất tốt và ổn định. Điều đáng tiếc nhất xảy ra khi chúng tôi trả phòng, dù đã có thông báo về việc sẽ lấy hóa đơn lúc chúng tôi đi, nhưng dù thời gian đợi khá lâu vẫn chưa xuất được hóa đơn. Nhìn chung mọi thứ rất tốt cho một khách sạn 4 sao ven biển. Chúng tôi nhất định sẽ quay lại trong những đợt công tác tiếp theo.
+{HOTEL#DESIGN&FEATURES, positive}, {FACILITIES#DESIGN&FEATURES, positive}, {HOTEL#COMFORT, positive}, {ROOMS#GENERAL, neutral}, {ROOMS#COMFORT, positive}, {HOTEL#GENERAL, positive}, {SERVICE#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, negative}, {FOOD&DRINKS#MISCELLANEOUS, negative}, {FOOD&DRINKS#STYLE&OPTIONS, negative}, {FACILITIES#PRICES, neutral}, {FACILITIES#QUALITY, positive}, {HOTEL#MISCELLANEOUS, negative}
+
+#98
+Bữa sáng ngon. Tầm nhìn đẹp thái độ tác phong phục vụ của nv chưa tốt Mình vs chồng đã cãi nhau về khoản tiền bỏ ra khi thuê phòng tại ks mà nv thì lại ko được như giá trị của nó
+{FOOD&DRINKS#QUALITY, positive}, {HOTEL#GENERAL, positive}, {SERVICE#GENERAL, negative}, {ROOMS#PRICES, negative}
+
+#99
+ĐỊa điểm khách sạn và tầm nhìn phòng premium rất tuyệt, có xe đạp đi dạo, bữa sáng đa dạng, phòng sạch sẽ, nhà tắm hiện đại, đẹp Ban công phòng premium nóng, nực không mát như lúc đầu nghĩ. Minibar mình nghĩ nên free nhiều hơn, mấy món snack lặt vặt chẳng đáng là bao, vì mình ngại thanh toán thêm khi check out nên đã không dùng gì Xung quanh khách sạn còn ít quán ăn theo kiểu dân dã quán vỉa hè, muốn ăn ngon phải vào tận trung tâm rất xa Đêm mình nghĩ ở bãi biển có karaoke, nên rất ồn, bắt buộc phải ở trong phòng kín, không mở cửa thoáng gió.
+{LOCATION#GENERAL, positive}, {ROOMS#GENERAL, positive}, {FACILITIES#DESIGN&FEATURES, positive}, {FOOD&DRINKS#STYLE&OPTIONS, positive}, {ROOMS#CLEANLINESS, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, positive}, {ROOMS#COMFORT, negative}, {FOOD&DRINKS#PRICES, negative}, {HOTEL#MISCELLANEOUS, negative}
+
+#100
+Trang thiết bị trong phòng hiện đại, phòng trên các tầng cao view đẹp nhìn ra biển và cả thành phố. Phòng tắm rộng. Giường rộng và thoải mái. Bữa sáng nhiều món và nhìn chung là ngon. Nhân viên phục vụ tốt, được tiếp đón rất chu đáo và cẩn thận. Bể bơi lớn và view rất đẹp. Phòng ăn rộng và sáng sủa. Phòng nên có thêm gương. Đại sảnh tầng 1 nên có thêm đồng hồ.
+{ROOM_AMENITIES#DESIGN&FEATURES, neutral}, {ROOMS#GENERAL, positive}, {ROOM_AMENITIES#COMFORT, positive}, {FOOD&DRINKS#STYLE&OPTIONS, positive}, {FOOD&DRINKS#QUALITY, positive}, {SERVICE#GENERAL, positive}, {FACILITIES#DESIGN&FEATURES, neutral}
+
+#101
+Cảm ơn các bạn, đây là một trong những khách sạn chúng tôi thích nhất từ trước tới nay
+{HOTEL#COMFORT, positive}
+
+#102
+Gần biển, nhân viên niềm nở, nhiệt tình, phục vụ chu đáo, phòng nhìn ra biển rất đẹp, khách sạn mới, sạch sẽ,
+{LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}, {ROOMS#GENERAL, positive}, {HOTEL#DESIGN&FEATURES, positive}, {HOTEL#CLEANLINESS, positive}
+
+#103
+View nhìn ra biển đẹp. Bể bơi đẹp. Gần biển. Nhân viên lịch sự. Nhân viên chưa thực sự quan tâm tới khách.
+{HOTEL#GENERAL, positive}, {FACILITIES#DESIGN&FEATURES, positive}, {SERVICE#GENERAL, neutral}
+
+#104
+Bữa sáng rất ngon Khách sạn rất sạch Nhân viên bảo vệ rất nhiệt tình,tốt bụng,hay cười Lần sau quay lại vẫn sẽ ở đây :x
+{FOOD&DRINKS#QUALITY, positive}, {HOTEL#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {HOTEL#GENERAL, positive}
+
+#105
+Nhân viên lịch sự, phục vụ chu đáo; ks ở sạch sẽ Bãi biển không được sạch lắm
+{SERVICE#GENERAL, positive}, {HOTEL#CLEANLINESS, positive}, {FACILITIES#CLEANLINESS, negative}
+
+#106
+Bữa sáng ngon, khách sạn mới, view phòng premium tuyệt đẹp, nhân viên nhiệt tình thân thiện. Rất hài lòng! Bồn tắm nhỏ
+{FOOD&DRINKS#QUALITY, positive}, {HOTEL#DESIGN&FEATURES, positive}, {ROOMS#GENERAL, positive}, {SERVICE#GENERAL, positive}, {HOTEL#COMFORT, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#107
+Phòng Family rất đẹp, view biển rất tuyệt vời. Nhân viên thân thiện, nhiệt tình.
+{ROOMS#DESIGN&FEATURES, positive}, {ROOMS#GENERAL, positive}, {SERVICE#GENERAL, positive}
+
+#108
+Hostel nằm gần khu Hồ Nghinh, Mỹ Khê, cách bãi biển độ 5-6 phút đi bộ, rất thuận tiện. Phòng ở theo dạnh khách sạn con nhộng, mỗi khách có một giường riêng có rèm che nên rất riêng tư, phòng cho 14 người nhưng cảm giác rất thoải mái không phiền gì khi có nhiều người cả. Trong phòng có một toilettes có 2 lavabo và hai w.c. Nhà tắm ở tầng trệt rất rộng rãi và có lối đi thẳng từ cổng vào, thuận tiện cho khách vừa đi tắm biển về. Hostel có vẻ mới, sạch sẽ, sáng sủa, mọi trang thiết bị đều mới. Dưới tầng trệt có bếp, buổi sáng phục vụ đồ ăn sáng bao gồm trong tiền phòng (mình không ăn nên không biết chất lượng thế nào). Ngoài ra cũng có để sẵn đồ ăn vặt, ai về muộn đói quá có thể lấy ăn rồi trả tiền. Các bạn chủ thân thiện. Phòng hơi chật. Phòng kê 14 có rèm kéo nên rất riêng tư, tuy nhiên thực sự là chật. Nếu có nhiều khách trong phòng cùng một lúc sẽ không thể đi lại hay dọn đồ được. Ngoài ra, có cảm giác ở trong giường kéo rèm che thì hơi bí và hơi có mùi gỗ cũ cũ. Đồ ăn vặt để sẵn trong bếp để bán cho khách giá hơi mắc (20.000VND/ hộp mỳ, 30.000VND/ gói bánh). Thỉnh thoảng mình không biết bạn nào là chủ bạn nào là khách nên đi kiếm chủ để hỏi gì đó hơi mệt. Mình thỉnh thoảng lại được các bạn khách hỏi gì đó vì tưởng mình là chủ, giả sử mình mà không trung thực cứ cầm bừa tiền của khách là các bạn chủ thiệt rồi :)
+{LOCATION#GENERAL, positive}, {HOTEL#DESIGN&FEATURES, positive}, {ROOM_AMENITIES#COMFORT, neutral}, {ROOMS#COMFORT, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, positive}, {HOTEL#CLEANLINESS, positive}, {FOOD&DRINKS#STYLE&OPTIONS, positive}, {SERVICE#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, negative}, {FOOD&DRINKS#PRICES, negative}, {HOTEL#MISCELLANEOUS, negative}
+
+#109
+Bữa sáng ổn và phục vụ tốt. Nhân viên helpful. Chỗ ở sạch và riêng tư dù là dorm. Sảnh chờ trang trí đẹp mắt và mát. Nhà tắm và phòng vệ sinh sạch, thuận tiện. Nhân viên hơi awkward và có vẻ thiếu kinh nghiệm. Họ rất helpful nhưng lẽ ra nếu thoải mái và outgoing với khách hơn thì sẽ tốt hơn. Don't be shy guys.
+{FOOD&DRINKS#QUALITY, positive}, {FOOD&DRINKS#STYLE&OPTIONS, positive}, {SERVICE#GENERAL, neutral}, {HOTEL#CLEANLINESS, positive}, {HOTEL#COMFORT, positive}, {HOTEL#DESIGN&FEATURES, positive}, {ROOM_AMENITIES#CLEANLINESS, positive}, {ROOM_AMENITIES#COMFORT, positive}
+
+#110
+Do ở khách sạn cũng khá thoải mái nên mình quyết định quay lại cư tú thêm 1 đêm, mọi thứ ở đây khá ổn.
+{HOTEL#COMFORT, positive}, {HOTEL#GENERAL, positive}
+
+#111
+Bạn cùng phòng dễ thương cực kỳ Chỗ tắm chung có thể sạch hơn một chút thì tốt quá
+{ROOMS#MISCELLANEOUS, positive}, {ROOM_AMENITIES#CLEANLINESS, negative}
+
+#112
+Đồ ăn sáng ngon, phòng vẫn có muỗi, Cafe đậm đà thêm chút nữa thì ngon
+{FOOD&DRINKS#QUALITY, neutral}, {ROOMS#CLEANLINESS, negative}
+
+#113
+Nhân viên thân thiện, gần gũi, cho mình cảm giác thoải mái. Nhà vệ sinh không thích lắm, có mùi, sàn nhà vệ sinh không có chỗ thóat nước gây bất tiện. Mình đi mùa mưa nên đồ ăn sáng khá lạnh lẽo.
+{SERVICE#GENERAL, positive}, {HOTEL#COMFORT, positive}, {ROOM_AMENITIES#CLEANLINESS, negative}, {ROOM_AMENITIES#COMFORT, negative}, {FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#114
+Hostel ở gần biển, đi bộ tầm 5 phút là tới. Tôi đặt phòng đôi cho 1 người ở. Lúc mới vào phòng, phòng rộng rãi, sạch sẽ, gọn gàng, không gian thoáng, view đẹp, có ban công riêng tạo cảm giác rất dễ chịu. Tiện nghi trong phòng đầy đủ, nội thất đẹp, thích hợp cho sống ảo. Menu cho bữa sáng phong phú có nhiều món ăn để chọn lựa, đồ ăn ngon . Ở đây có đầy đủ dịch vụ, không phải đi đâu xa rất thuận tiện. Đặc biệt là nhân viên và chủ thân thiện, lịch sự, tạo cảm giác thoải mái. Tôi khá hài lòng với chuyến đi lần này. Sẽ quay lại và dẫn bạn bè đi cùng vào lần sau.
+{LOCATION#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {ROOMS#COMFORT, positive}, {ROOMS#GENERAL, positive}, {ROOM_AMENITIES#GENERAL, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, positive}, {FOOD&DRINKS#STYLE&OPTIONS, positive}, {FOOD&DRINKS#QUALITY, positive}, {FACILITIES#GENERAL, positive}, {FACILITIES#COMFORT, positive}, {SERVICE#GENERAL, positive}, {HOTEL#COMFORT, positive}, {HOTEL#GENERAL, positive}
+
+#115
+Nhân viên và boss đều rất nhiệt tình và thân thiện. Các dịch vụ kèm theo của hostel cũng rất tốt và rẻ so với một số hotel khác. Gần biển chỉ cần đi bộ là ra bãi biển nước trong xanh tuyệt đẹp. giường nằm không được tốt lắm, đệm chăn sổ lông nên hơi gai người không được thoải mái.
+{SERVICE#GENERAL, positive}, {FACILITIES#QUALITY, positive}, {FACILITIES#PRICES, positive}, {LOCATION#GENERAL, positive}, {ROOM_AMENITIES#QUALITY, negative}, {ROOM_AMENITIES#COMFORT, negative}
+
+#116
+phòng ở khá tiện nghi. Mình đã thuê một phòng đôi với khá đủ tiện nghi từ bếp, lò nướng, tủ lạnh ấm đun,... nói chung khá đủ cho một người thích tự lập như mình. nhân viên thoải mái, nhiệt tình. Không gian bếp chung ấm cúng. 1 điều mình thấy không thoải mái. với dịch vụ giặt đồ bên bạn. khi nhận lại đồ mình bị thiếu khá nhiều đô. :) Các bạn nên cải thiện hơn khoản này.
+{ROOMS#COMFORT, positive}, {ROOM_AMENITIES#GENERAL, positive}, {SERVICE#GENERAL, positive}, {ROOM_AMENITIES#COMFORT, positive}, {FACILITIES#QUALITY, negative}, {FACILITIES#COMFORT, negative}
+
+#117
+Bữa sáng khá ổn.. phòng nghỉ cũng thoải mái . Nhân viên vui vẻ.. nhanh nhẹn . Nhiệt tình. Giường và chăn ga gối hơi bẩn. Phòng tắm đọng nước. thoát nước kém lên bất tiện.
+{FOOD&DRINKS#QUALITY, positive}, {ROOMS#COMFORT, positive}, {SERVICE#GENERAL, positive}, {ROOM_AMENITIES#CLEANLINESS, negative}, {ROOM_AMENITIES#COMFORT, negative}
+
+#118
+Chỗ nghỉ sạch sẽ,rẻ phù hợp vs giá tiền có cơ hội kết bạn vs người nước ngoài Chỉ có 1 phòng vệ sinh
+{HOTEL#CLEANLINESS, positive}, {HOTEL#PRICES, positive}, {HOTEL#MISCELLANEOUS, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#119
+Lễ tân rất dễ thương, phòng yên tĩnh và sạch sẽ Chú chó không thân thiện lắm, mình thử mọi cách mà vẫn không cho sờ :)))
+{SERVICE#GENERAL, positive}, {ROOMS#COMFORT, positive}, {ROOMS#CLEANLINESS, positive}, {HOTEL#MISCELLANEOUS, neutral}
+
+#120
+gần biển Mỹ Khê là tốt! giá cao, nội thất ko tốt, nhà vệ sinh bất tiện, vòi nước chảy yếu
+{LOCATION#GENERAL, positive}, {HOTEL#PRICES, negative}, {ROOM_AMENITIES#QUALITY, negative}, {ROOM_AMENITIES#COMFORT, negative}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#121
+Giường thoải mái, chủ nhà thân thiện. Mùi của phòng máy lạnh do ko được thoáng.
+{ROOM_AMENITIES#COMFORT, positive}, {SERVICE#GENERAL, positive}, {ROOMS#COMFORT, negative}
+
+#122
+Bữa sáng ngon tuyệt, nhân viên rất dễ thương, trang trí đẹp...
+{FOOD&DRINKS#QUALITY, positive}, {SERVICE#GENERAL, positive}, {HOTEL#DESIGN&FEATURES, positive}
+
+#123
+Bữa sáng ngon, menu khá phong phú. Hostel gần biển, di chuyển thuận tiện. Điều thích nhất là nhân viên thân thiện, nhiệt tình.
+{FOOD&DRINKS#QUALITY, positive}, {FOOD&DRINKS#STYLE&OPTIONS, positive}, {LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}
+
+#124
+Phòng ốc bố trí đẹp , tiện nghi Ok , rất sạch sẽ , giường nằm rất êm, ăn sáng ngon miệng . Sẽ quay lại đây nếu trở lại Đà Nẵng trong những chuyến đi tới , rất đáng giá tiền
+{ROOMS#DESIGN&FEATURES, positive}, {ROOM_AMENITIES#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {ROOM_AMENITIES#QUALITY, positive}, {FOOD&DRINKS#QUALITY, positive}, {HOTEL#GENERAL, positive}, {HOTEL#PRICES, positive}
+
+#125
+Nhân viên thân thiện, phòng rộng và sạch sẽ, khu spa xông hơi kiểu hàn nhỏ nhưng tiện nghi và phục vụ chu đáo . Ăn sáng khá ngon tuy hơi ít món, quầy buffet hơi nhỏ. Nhìn chung rất đáng giá tiền so với các khách sạn cùng giá khác. Vị trí hơi xa biển và các khu ăn uống trung tâm
+{SERVICE#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {FACILITIES#COMFORT, positive}, {FACILITIES#QUALITY, positive}, {FOOD&DRINKS#QUALITY, positive}, {FOOD&DRINKS#STYLE&OPTIONS, negative}, {FACILITIES#DESIGN&FEATURES, negative}, {HOTEL#PRICES, positive}, {LOCATION#GENERAL, negative}
+
+#126
+Phòng ngủ & khu massage sạch sẽ, tiện nghi, đẹp. Bữa sáng tạm được nhưng ít món & khu vực quầy buffer quá nhỏ. Nên thêm món ăn cho bữa sáng & khu quầy buffer rộng rãi hơn nữa.
+{ROOMS#CLEANLINESS, positive}, {ROOMS#COMFORT, positive}, {ROOMS#DESIGN&FEATURES, positive}, {FACILITIES#CLEANLINESS, positive}, {FACILITIES#COMFORT, positive}, {FACILITIES#DESIGN&FEATURES, neutral}, {FOOD&DRINKS#QUALITY, neutral}, {FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#127
+Xung quanh khách sạn nhiều nhà hàng hàn quốc. Phòng rộng rãi, hiện đại, giường rộng & êm, tivi màn hình rộng với các kênh HD. Chúng tôi được tặng gói xông hơi kiểu Hàn nên đã sử dụng ngay hôm ấy, rất thích thú & dễ chịu, đặc biệt thích hợp sau 1 ngày vận động nhiều. Bữa sáng khá phong phú. Nhân viên nhã nhặn, nhiệt tình Khách sạn trong thành phố nên để ra biển cần di chuyển bằng taxi
+{HOTEL#MISCELLANEOUS, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, positive}, {ROOM_AMENITIES#QUALITY, positive}, {FACILITIES#COMFORT, positive}, {FOOD&DRINKS#STYLE&OPTIONS, positive}, {SERVICE#GENERAL, positive}, {LOCATION#GENERAL, neutral}
+
+#128
+bữa sáng ngon. đi chơi sau 1 ngày dài năm giường rất thoải mái
+{FOOD&DRINKS#QUALITY, positive}, {ROOM_AMENITIES#COMFORT, positive}
+
+#129
+Phòng cực kỳ sạch,vô cùng hiện đại và tiện nghi. Nhân viên thân thiện. Buffet sáng rất ngon. Mọi thứ trên cả mong đợi.
+{ROOMS#CLEANLINESS, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#COMFORT, positive}, {SERVICE#GENERAL, positive}, {FOOD&DRINKS#QUALITY, positive}, {HOTEL#GENERAL, positive}
+
+#130
+Phòng đẹp, sạch sẽ, nhân viên thân thiện, tiện nghi. Gối nằm ngủ hơi cao,
+{ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {HOTEL#COMFORT, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#131
+sạch sẽ, tương đối thoải mái, nhân viên bảo vệ thì rất nhiệt tình! nhân viên lễ tân chưa nhiệt tình chu đáo, cần hỏi kỹ khi bạn muốn sử dụng các dịch vụ tour du lịch.
+{HOTEL#CLEANLINESS, positive}, {HOTEL#COMFORT, positive}, {SERVICE#GENERAL, neutral}
+
+#132
+Giường rất thoải mái cho phòng gia đình,nhân viên thân thiện,có dịch vụ cho thuê xe máy giá vừa phải,rất tiện nghi. Đường đi vào khách sạn mà tự đi bằng xe máy thì hơi khó tìm😉,nếu đi bằng taxi thì dễ tìm hơn🤗
+{ROOM_AMENITIES#COMFORT, positive}, {SERVICE#GENERAL, positive}, {FACILITIES#DESIGN&FEATURES, positive}, {FACILITIES#PRICES, positive}, {FACILITIES#COMFORT, positive}, {LOCATION#GENERAL, neutral}
+
+#133
+Nhân viên, bảo vệ nhiệt tình Phòng ổn, thoải mái Mình có yêu cầu nhận phòng sớm và KS đã confirm nhưng khi tới lại báo không nhận được thông tin và không có phòng, làm mình phải kiếm khách sạn khác trong đêm
+{SERVICE#GENERAL, neutral}, {ROOMS#GENERAL, positive}, {ROOMS#COMFORT, positive}
+
+#134
+Gần biển. Giá phòng hợp lý. Lễ tân khách sạn nhiệt tình tư vấn các điểm ăn uống và vui chơi. Near beach. Cheap price. Hotel's reception consult to me about attraction and restaurant location. Nothing
+{LOCATION#GENERAL, positive}, {ROOMS#PRICES, positive}, {SERVICE#GENERAL, positive}
+
+#135
+Nhân viên lễ tân, chị chủ khách sạn và 2 chú bảo vệ rất vui vẻ, thân thiện và tốt bụng nếu có dịp tôi sẽ quay lại KS này. Thanks! phòng đôi không có cửa sổ. điều hòa hơi nóng.
+{SERVICE#GENERAL, positive}, {HOTEL#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, negative}, {ROOM_AMENITIES#COMFORT, negative}
+
+#136
+Chỗ ở thoải mái, phòng rộng sạch sẽ gần biển tất cả nhân viên đều dễ thương, thân thiện. Dọn phòng đều đặn và rất sạch sẽ, phòng tắm gương, giường to rất êm ái và thoải mái. Từ sáng khoảng 7-8h đến trưa chiều hay nghe thấy tiếng sửa chữa ko biết là do phòng đang sửa chữa hay do xưởng gỗ kế bên. Tụi mình đi miết nên chỉ khó chịu khi trưa về nghỉ ngơi mà nghe tiếng khá là khó ngủ. Khu vực còn hơi mới, gần biển nhưng hơi xa trung tâm 1 tí nhưng đi xe máy thì thoải mái.
+{HOTEL#COMFORT, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {LOCATION#GENERAL, neutral}, {SERVICE#GENERAL, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, positive}, {ROOM_AMENITIES#QUALITY, positive}, {ROOM_AMENITIES#COMFORT, positive}, {HOTEL#MISCELLANEOUS, negative}, {ROOMS#COMFORT, negative}
+
+#137
+Khách sạn sạch sẽ, không gian vừa đủ cho 2 người, vị trí gần biển. Nhân viên nhẹ nhàng, dễ mến, nhất là 2 bác bảo vệ gần gũi :P Sẽ lại book tiếp nếu có dịp, và giới thiệu người quen.
+{HOTEL#CLEANLINESS, positive}, {ROOMS#DESIGN&FEATURES, neutral}, {LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}, {HOTEL#GENERAL, positive}
+
+#138
+Phòng sạch sẽ, đang khuyến mại nên giá rẻ. Sáng sớm và tối rất ầm ĩ, vì Khách sạn và nhà bên cạnh đang xây dựng, chính vì vậy nên giá phòng đang giảm giá. Lễ tân đứng tuổi lịch sự nhiệt tình. Lễ tân trẻ tuổi ban đầu không cho khách đặt đồ gửi trong phòng gửi đồ, lý do là sợ nhầm lẫn với đồ của khách khác trong phòng, lý do hết sức vô lý, phải đến khi khách ko đồng ý để ngoài góc sảnh vì có máy ảnh lễ tân mới mở phòng gửi đồ. Vị trí xa, xung quanh ít cửa hàng dịch vụ, bù lại xe máy có thể thuê ngay tại khách sạn
+{ROOMS#CLEANLINESS, positive}, {ROOMS#PRICES, positive}, {HOTEL#COMFORT, negative}, {HOTEL#MISCELLANEOUS, negative}, {SERVICE#GENERAL, neutral}, {LOCATION#GENERAL, negative}, {FACILITIES#DESIGN&FEATURES, positive}
+
+#139
+Khách sạn khá sạch sẽ, nhân viên nhiệt tình thân thiện, gần biển Phạm Văn Đồng có thể đi bộ ra biển được, wifi tốt, giá giặt là khá rẻ. Điểm trừ là không có máy sấy tóc trong phòng.
+{HOTEL#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {LOCATION#GENERAL, positive}, {FACILITIES#QUALITY, positive}, {FACILITIES#PRICES, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#140
+Nội Thất và kết cấu phòng của toàn Khách Sạn làm tôi ưng ý nhất, Sạch sẽ, ấm cúng và sang trọng, vượt chi tiêu của tôi khi Dáng Hạ Hotel chỉ mới là khách sạn cấp 1 sao. Khách Sạn chỉ phục vụ đồ ăn thức uống vào ban ngày, nhưng đa phần nhu cầu ăn uống của khách hàng tại khách sạn chủ yếu vào ban đêm.
+{ROOM_AMENITIES#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, positive}, {HOTEL#CLEANLINESS, positive}, {HOTEL#COMFORT, positive}, {HOTEL#QUALITY, positive}, {FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#141
+phòng ốc sạch sẽ, tiện nghi tốt, thái độ nhân viên niềm nở taif khoản của mình là genious, được checkin sớm 2 tiếng nhưng có lẽ bạn trực lễ tân không biết điều này. Sau khi phản hồi với booking.com, khách sạn đã gọi điện và nhắn tin xin lỗi. Cách xử sự như vậy là khá ok, có lẽ đây chỉ lỗi vô tình do bạn trực lễ tân không biết, còn lại thì thái độ của bạn nhân viên này rất tốt.
+{ROOMS#CLEANLINESS, positive}, {ROOM_AMENITIES#QUALITY, positive}, {SERVICE#GENERAL, positive}
+
+#142
+Các bạn tiếp tân và bác bảo vệ rất dễ thương và nhiệt tình. Phòng rất sạch sẽ, an ninh. Hơi khó tìm đường, bảng hiệu khách sạn bị khuất bởi cây che.
+{SERVICE#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {ROOMS#MISCELLANEOUS, positive}, {LOCATION#GENERAL, negative}, {HOTEL#MISCELLANEOUS, negative}
+
+#143
+Nhân viên thân thiện khách sạn sạch sẽ Xe khách sạn bảo dưỡng thường xuyên khách đi an toàn
+{SERVICE#GENERAL, positive}, {HOTEL#CLEANLINESS, positive}, {FACILITIES#MISCELLANEOUS, positive}
+
+#144
+Sạch sẽ, nhân viên thân thiện, gần biển,vị trí tốt Xe máy cho thuê chất lượng không ổn định, không được yên tĩnh
+{HOTEL#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {LOCATION#GENERAL, positive}, {FACILITIES#QUALITY, negative}, {HOTEL#COMFORT, negative}
+
+#145
+Phòng sạch sẽ, nhân viên thân thiện Nên có máy sấy tóc trong phòng
+{ROOMS#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#146
+Khách sạn giá cả tính đúng. Nhân viên dễ thương. Nội thất chắc chắn. Mỗi tội k có máy sấy để sấy tóc sau tắm. Gần biển đi bộ có xíu là đến nơi
+{HOTEL#PRICES, positive}, {SERVICE#GENERAL, positive}, {ROOM_AMENITIES#QUALITY, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {LOCATION#GENERAL, positive}
+
+#147
+Bác bảo vệ rất nhiệt tình và thân thiện
+{SERVICE#GENERAL, positive}
+
+#148
+Phòng rất rộng rãi và sạch sẽ. Địa điểm khá gần các khu trung tâm. Nhân viên lễ tân lịch sự nhã nhặn. Khăn tắm hơi cũ và thô ráp.
+{ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#149
+Bác bảo vệ thân thiện. Chị nhân viên vui vẻ
+{SERVICE#GENERAL, positive}
+
+#150
+Phòng ốc, vật dụng tất cả đều tốt, nhân viên dễ thương nhiệt tình. Cô chủ tốt bụng :) Tốc độ internet quá chậm
+{ROOMS#GENERAL, positive}, {ROOM_AMENITIES#GENERAL, positive}, {SERVICE#GENERAL, positive}, {FACILITIES#QUALITY, negative}
+
+#151
+Tiện nghi, thoải mái, nhân viên rất tuyệt, góp phần tạo nên 1 chuyến đi trọn vẹn. Giá cả hợp lý
+{HOTEL#COMFORT, positive}, {SERVICE#GENERAL, positive}, {HOTEL#PRICES, positive}
+
+#152
+thái độ của chủ KS rất thân thiện, tạo điều kiện tốt cho nhóm vị trí khách sạn, mình toàn đi lạc thôi
+{SERVICE#GENERAL, positive}, {LOCATION#GENERAL, negative}
+
+#153
+Nhân viên nhiệt tình, giá phải chăng, phòng sạch sẽ, tiện nghi Xa trung tâm, di chuyển khá tốn kém
+{SERVICE#GENERAL, positive}, {HOTEL#PRICES, positive}, {ROOMS#CLEANLINESS, positive}, {ROOMS#COMFORT, positive}, {LOCATION#GENERAL, negative}
+
+#154
+Nhân viên có thể niềm nở hơn, vui vẻ hơn khi giao tiếp với khách hàng thì sẽ tốt hơn
+{SERVICE#GENERAL, negative}
+
+#155
+Gần biển, tiện nghi đầy đủ, phòng sạch sẽ thoáng mát, nhân viên nhiệt tình
+{LOCATION#GENERAL, positive}, {FACILITIES#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {ROOMS#COMFORT, positive}, {SERVICE#GENERAL, positive}
+
+#156
+Phòng sạch sẽ. Đồ đều rất mới
+{ROOMS#CLEANLINESS, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, positive}
+
+#157
+Khách sạn nhỏ nhưng phục vụ khá chu đáo, mọi dịch vụ và tiện nghi đều ổn, nv nhiệt tình thân thiện
+{HOTEL#DESIGN&FEATURES, negative}, {SERVICE#GENERAL, positive}, {HOTEL#GENERAL, positive}, {FACILITIES#GENERAL, positive}
+
+#158
+Vị trí thuận lợi Không có bữa ăn sáng. Dù đặt loại phòng nào đi nữa thì thiết nghĩ không nên có sự phân biệt về giá cả các loại phòng, không phải là phòng rẻ thì không có ăn sáng (dù ở thời điểm tôi đặt thì các phòng đắt hơn đã hết, tôi không có sự lựa chọn khác)
+{LOCATION#GENERAL, positive}, {FOOD&DRINKS#STYLE&OPTIONS, negative}, {HOTEL#MISCELLANEOUS, negative}
+
+#159
+Giường thoải mái phòng đẹp, art, sạch sẽ nhân viên tận tình chu đáo vui vẻ vị trí thuận tiện di chuyển có nhiều dịch vụ giải trí, thư giãn hay Ổ điện có vấn đề Wifi ko truy cập được
+{ROOM_AMENITIES#COMFORT, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {LOCATION#GENERAL, positive}, {FACILITIES#DESIGN&FEATURES, positive}, {ROOM_AMENITIES#QUALITY, negative}, {FACILITIES#QUALITY, negative}
+
+#160
+Nhán viên nhiệt tình, Vui vẻ, trách nhiệm, thức ăn ok thôi, không xuất sắc lắm. Thời tiết tháng 3 đẹp, tôi sẽ quay lại DN và sẽ ở khách sạn này Chăn drap, gối nệm nặng mùi chất tẩy rửa, đề nghị thay đổi vì sức khỏe
+{SERVICE#GENERAL, positive}, {FOOD&DRINKS#QUALITY, neutral}, {HOTEL#GENERAL, positive}, {ROOM_AMENITIES#MISCELLANEOUS, negative}
+
+#161
+Khách sạn bài trí dễ thương, nhân viên lễ tân rất thân thiện với khách. Phòng hơi nhỏ và cách âm không tốt. Có thể nghe tiếng nói chuyện và đóng cửa ở bên ngoài rất to. Khi tắm nước không thoát được và tràn rất nhiều ra bên ngoài cửa nhà tắm.
+{HOTEL#DESIGN&FEATURES, positive}, {SERVICE#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, negative}, {ROOMS#COMFORT, negative}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#162
+Nội thất phòng ổn, phòng sạch sẽ, phù hợp với giá tiền. Các bạn nhân viên rất nhiệt tình tư vấn cũng như giúp đỡ khách. Dịch vụ thuê xe máy cũng rất ổn, giá phải chăng.
+{ROOM_AMENITIES#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {ROOMS#PRICES, positive}, {SERVICE#GENERAL, positive}, {FACILITIES#QUALITY, positive}, {FACILITIES#PRICES, positive}
+
+#163
+Thiết kế bắt mắt, dễ thương. Nhân viên nhiệt tình và thân thiện. View từ cửa sổ của phòng sau hơi tệ ( phong 102). Nếu như sơn màu và trang trí thêm sẽ tuyệt hơn.
+{HOTEL#DESIGN&FEATURES, positive}, {SERVICE#GENERAL, positive}, {ROOMS#GENERAL, negative}, {ROOMS#DESIGN&FEATURES, negative}
+
+#164
+Không như quảng cáo, 1 lầu chỉ được 2 phòng nhìn ra sông Hàn, còn lại gần như không thấy hoặc view cực kỳ tệ (khác với ghi trên booking). Bữa ăn sáng rất chán, đồ ăn không ngon.
+{ROOMS#GENERAL, negative}, {FOOD&DRINKS#QUALITY, negative}
+
+#165
+Mình có để quên cái áo khoác tại khách sạn lúc check out, nhưng lúc đó nhân viên và mình không tìm thấy. Khi về đến HCM thì nhân vân lễ tân có gọi xin địa chỉ để gửi áo khoác vào cho mình. Khách sạn đã để lại ấn tượng khá tốt cho mình về sự chuyên nghiệp này. Mình còn được discount 10% cho lần sau. Chắc chắn sẽ quay lại Art hotel trong ngày gần nhất!
+{SERVICE#GENERAL, positive}, {HOTEL#PRICES, positive}, {HOTEL#GENERAL, positive}
+
+#166
+- Nhân viên chưa nhiệt tình - Đặt phòng Deluxe view sông mà phòng khá nhỏ , trên tường dơ , ga trải với mền dính dơ , hôm sau để giấy kiu dọn phòng thay ga mà vẫn i như cũ . - Nhân viên nam thấy khách xách hành lý không đỡ phụ . Còn tiếp tân nhìn không quan tâm khách cho lắm , thờ ơ với chưa chuyên nghiệp . - Mình gửi nhờ hành lý vì chưa có phòng checkin . Lát quay lại nhận phòng thì mình đưa phiếu giữ đồ mà lại lấy vali của khách khác đưa cho mình . Dù đã có đưa phiếu số phòng này kia rồi mà còn có sự nhầm lẫn như vậy . - Nhân viên nhìn chằm chằm vào khách không cần quan tâm khách cần giúp hay nhờ gì . - Đã vậy sàn gỗ thì lạch bạch . Dở hở lum la . Không có cảm giác an toàn nên cũng k dám đi mạnh 😔😔 - Hình ảnh chụp khá mới . Mà phòng thì nhìn dơ và cũ - Thất vọng vì số tiền bỏ ra ở khách sạn với một phòng k đáng tiền . - Sẽ không quay lại lần nào nữa .
+{SERVICE#GENERAL, negative}, {ROOMS#DESIGN&FEATURES, negative}, {ROOMS#CLEANLINESS, negative}, {ROOM_AMENITIES#CLEANLINESS, negative}, {HOTEL#DESIGN&FEATURES, negative}, {ROOMS#PRICES, negative}, {HOTEL#GENERAL, negative}
+
+#167
+Phòng đẹp thoáng, sạch sẽ. Trang trí nhìn hài hoà đẹp mắt. Nhân viên nhiệt tình chu đáo. Bữa sáng ổn. Vị trí khách sạn đẹp có thể đi lại giữa thành phố với biển đều tiện lợi. Lần sau quay lại ĐN sẽ vẫn ở đây :*
+{ROOMS#DESIGN&FEATURES, positive}, {ROOMS#COMFORT, positive}, {ROOMS#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {FOOD&DRINKS#QUALITY, positive}, {LOCATION#GENERAL, positive}, {HOTEL#GENERAL, positive}
+
+#168
+Khách sạn nhỏ nhắn xinh xắn, phòng tốt. Nhà hàng ăn sáng có không gian mở view ra sông Hàn rất đẹp, chất lượng bữa sáng khá tốt. Nhân viên dễ thương thân thiện. Vì khách sạn mới, đội ngũ receptionist cũng mới nên chưa thật sự chuyên nghiệp.
+{HOTEL#DESIGN&FEATURES, positive}, {ROOMS#GENERAL, positive}, {FACILITIES#DESIGN&FEATURES, positive}, {FACILITIES#GENERAL, positive}, {FOOD&DRINKS#QUALITY, positive}, {SERVICE#GENERAL, neutral}
+
+#169
+Phòng ngủ thoải mái, trang trí đẹp, và quan trọng là luôn sạch sẽ :d. Đồ ăn sáng được tự chọn, có rất nhiều món ngon, không gian ngồi ăn rất đẹp , nhìn ra sông hàn, có ánh nắng. Mình rất thích tông màu xanh, vàng của khách sạn, nếu được quay lại đà nẵng chắc chắn mình sẽ lại ở tại Art Hotel :D
+{ROOMS#COMFORT, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {FOOD&DRINKS#STYLE&OPTIONS, positive}, {FOOD&DRINKS#QUALITY, positive}, {FACILITIES#DESIGN&FEATURES, positive}, {FACILITIES#GENERAL, positive}, {HOTEL#DESIGN&FEATURES, positive}, {HOTEL#GENERAL, positive}
+
+#170
+Bữa sáng ngon, đầy đủ món. Phòng sạch sẽ, đẹp
+{FOOD&DRINKS#QUALITY, positive}, {FOOD&DRINKS#STYLE&OPTIONS, positive}, {ROOMS#CLEANLINESS, positive}, {ROOMS#DESIGN&FEATURES, positive}
+
+#171
+Nhân viên thân thiện, phòng mát mẻ và sạch sẽ, đồ ăn thức uống rất ngon, cách thiết kế cực nghệ thuật giống như tên gọi của nó
+{SERVICE#GENERAL, positive}, {ROOMS#COMFORT, positive}, {ROOMS#CLEANLINESS, positive}, {FOOD&DRINKS#QUALITY, positive}, {HOTEL#DESIGN&FEATURES, positive}
+
+#172
+Sạch sẽ, tiện nghi, khách sạn trang trí cực dễ thương.
+{HOTEL#CLEANLINESS, positive}, {HOTEL#COMFORT, positive}, {HOTEL#DESIGN&FEATURES, positive}
+
+#173
+Giường thoải mái, sạch sẽ, phòng trang trí dễ thương
+{ROOM_AMENITIES#COMFORT, positive}, {ROOM_AMENITIES#CLEANLINESS, positive}, {ROOMS#DESIGN&FEATURES, positive}
+
+#174
+Nội thất ok! sạch , phong cách rất tinh tế!
+{ROOM_AMENITIES#GENERAL, positive}, {HOTEL#CLEANLINESS, positive}, {HOTEL#DESIGN&FEATURES, positive}
+
+#175
+Trang thiết bị chưa tiện nghi
+{ROOM_AMENITIES#COMFORT, negative}
+
+#176
+Thiết kế đẹp, sạch sẽ, tiện nghi Bữa sáng chưa ngon và phong phú
+{HOTEL#DESIGN&FEATURES, positive}, {HOTEL#CLEANLINESS, positive}, {HOTEL#COMFORT, positive}, {FOOD&DRINKS#QUALITY, negative}, {FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#177
+Giường thoải mái. Nội thất đẹp. Nhân viên nhiệt tình
+{ROOM_AMENITIES#COMFORT, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, positive}, {SERVICE#GENERAL, positive}
+
+#178
+Sạch sẽ, trang trí đẹp, dịu dàng. Có lẽ phòng 308 là phòng chuyển đổi chức năng, không phải được thiết kế phòng nghỉ từ lúc đầu.
+{HOTEL#CLEANLINESS, positive}, {HOTEL#DESIGN&FEATURES, positive}, {ROOMS#DESIGN&FEATURES, negative}
+
+#179
+Trang trí đẹp Toilét hệ thống thoát có mùi
+{HOTEL#DESIGN&FEATURES, positive}, {ROOM_AMENITIES#CLEANLINESS, negative}
+
+#180
+Rất thích sự nhiệt tình của nhân viên. Khách sạn thoải mái, thiết kế về môi trường rất đẹp. Sẽ quay lại
+{SERVICE#GENERAL, positive}, {HOTEL#COMFORT, positive}, {HOTEL#DESIGN&FEATURES, positive}, {HOTEL#GENERAL, positive}
+
+#181
+nhaan viên cực kỳ nhiệt tình. Nếu có cơ hội quay lạ đà nẵng chắc chắn mình quay lại khách sạn này và giới thiệu cho bạn bè.
+{SERVICE#GENERAL, positive}, {HOTEL#GENERAL, positive}
+
+#182
+Vị trí thuận tiện, đẹp. Nhân viên lịch sự, ân cần. Tôi sẽ đến ks lần sau nếu có dịp. Nước nóng bị yếu
+{LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}, {HOTEL#GENERAL, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#183
+Khách sạn có nhiều góc trang trí đẹp, dễ thương. Vị trí trung tâm Chất lượng không đi kèm giá tiền. Không xứng đáng với mức 5*. Khăn tắm rách bươm (5/6 cái đều rách). Nhân viên khó chịu, check in hay check out đều rất chậm chạp, mất thời gian. Bữa sáng nghèo nàn, ít món
+{HOTEL#DESIGN&FEATURES, positive}, {LOCATION#GENERAL, positive}, {HOTEL#QUALITY, negative}, {ROOM_AMENITIES#QUALITY, negative}, {SERVICE#GENERAL, negative}, {FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#184
+- Resort được thiết kế rất đẹp, mọi chi tiết đều xinh xắn đáng iu. Tôi đặc biệt thích không gian tại sảnh đón tiếp, bể bơi tầng 1 và không gian tầng 4 - Nhân viên thân thiện và nhiệt tình - Trà chiều và dịch vụ mượn xe đạp rất thú vị - Hệ thống cách âm phòng không tốt.Tôi ở Phòng 208, tiếng piano phát duy nhất 1 bài từ 7h sáng đến 23h tối hơi đau đầu. Khi trong phòng nghe thấy tiếng ng qua hành lang hay tiếng ng dưới bể bơi tầng 1 nói chuyện rất rõ - Nhân viên gõ cửa dọn phòng lúc 14h đang nghỉ trưa cảm thấy hơi bất tiện - Khu vực ban công chưa sạch lắm
+{HOTEL#DESIGN&FEATURES, positive}, {FACILITIES#DESIGN&FEATURES, positive}, {SERVICE#GENERAL, neutral}, {FOOD&DRINKS#STYLE&OPTIONS, positive}, {FACILITIES#COMFORT, positive}, {ROOMS#DESIGN&FEATURES, negative}, {ROOMS#COMFORT, negative}, {ROOMS#CLEANLINESS, negative}
+
+#185
+Bữa sáng phong phú. Hai bể bơi ở tầng 1 và tầng 4 đem lại lựa chọn đa dạng. Các phòng rộng rãi, có ban công để view ra bên ngoài. Nhân viên thân thiện, nhiệt tình, hữu ích. Khuôn viên nhỏ chưa tương xứng với resport.
+{FOOD&DRINKS#STYLE&OPTIONS, positive}, {FACILITIES#DESIGN&FEATURES, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#GENERAL, positive}, {SERVICE#GENERAL, positive}, {HOTEL#DESIGN&FEATURES, negative}
+
+#186
+Kiến trúc quá đẹp,quá thu hút...vì mới nên mọi thứ còn rất mới mẻ, sạch sẽ...nhân viên rất thân thiện, hỗ trợ hết mình, có khu vui chơi riêng dành cho baby. Check in và check out còn hơi lâu và rườm rà.
+{HOTEL#DESIGN&FEATURES, positive}, {HOTEL#CLEANLINESS, positive}, {SERVICE#GENERAL, neutral}, {FACILITIES#DESIGN&FEATURES, positive}
+
+#187
+Phòng đẹp, khách sạn đẹp đến từng chi tiết Đồ ăn ko được ngon lắm
+{ROOMS#DESIGN&FEATURES, positive}, {HOTEL#DESIGN&FEATURES, positive}, {FOOD&DRINKS#QUALITY, negative}
+
+#188
+Nhân viên nhiệt tình chu đáo dễ thương Check in hơi lâu Phòng hơi bé
+{SERVICE#GENERAL, neutral}, {ROOMS#DESIGN&FEATURES, negative}
+
+#189
+sạch sẽ, gần bờ biển Giờ check in của khách sạn là 14pm theo mình là hơi muộn. Như đoàn mình ăn trưa xong phải chờ tương đối lâu để check in khách sạn. Sau đấy còn 1 phòng phải gần 2ruoi chiều mới đc nhận phòng. giường đôi 1m6 mà nhà mình có thêm trẻ em nên hơi chật
+{HOTEL#CLEANLINESS, positive}, {LOCATION#GENERAL, positive}, {HOTEL#MISCELLANEOUS, negative}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#190
+Rất thích bể sục của khách sạn. Phòng tôi ở là hạng phòng deluxe, có tiện ích xông hơi trong phòng tắm, rất hài lòng. Nên có thêm nhiều loại nước uống hoa quả hơn cho buổi buffet sáng
+{FACILITIES#COMFORT, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, positive}, {ROOM_AMENITIES#COMFORT, positive}, {FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#191
+Chúng tôi rất thích bể sục khí jacuzzi của khách sạn phòng nhỏ, bố trí nội thất chưa hợp lý
+{FACILITIES#COMFORT, positive}, {ROOMS#DESIGN&FEATURES, negative}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#192
+Phòng sạch sẽ, mới, giường cực êm, Nhân viên rất thân thiện, Khu vực ăn sáng quá ồn ào Đồ uống rất hạn chế ,
+{ROOMS#CLEANLINESS, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOM_AMENITIES#QUALITY, positive}, {SERVICE#GENERAL, positive}, {FACILITIES#COMFORT, negative}, {FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#193
+Nhân viên khá nhiệt tình hướng dẫn và chào đón khách, khách sạn nằm trong khu yên tĩnh, mô hình căn hộ nên giống với việc như ở ngay nhà mình. Giá cả hợp lý, có cơ hội tôi sẽ quay trở lại đây.
+{SERVICE#GENERAL, positive}, {LOCATION#GENERAL, positive}, {HOTEL#COMFORT, positive}, {HOTEL#PRICES, positive}, {HOTEL#GENERAL, positive}
+
+#194
+Phòng ở rất sạch sẽ, thoáng, thoải mái. Nhân viên siêu dễ thương khu vực xung quanh còn đang xây dựng nên khá ngôn ngang
+{ROOMS#CLEANLINESS, positive}, {ROOMS#COMFORT, positive}, {SERVICE#GENERAL, positive}, {HOTEL#MISCELLANEOUS, negative}
+
+#195
+Phòng rộng rãi, thoải mái, tiện nghi. Gia đình và nhân viên rất thân thiện.
+{ROOMS#DESIGN&FEATURES, positive}, {ROOMS#COMFORT, positive}, {SERVICE#GENERAL, positive}
+
+#196
+Nhân viên rất nhiệt tình mà dễ mến Nên trang bị thêm bàn trang điểm, gương trong phòng !
+{SERVICE#GENERAL, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#197
+Đồ ăn tạm ổn,nhưng ks 4 sao buffet phải phong phú hơn,sảnh còn chưa vệ sinh đúng chuẩn 4 sao sau 2 chậu lan còn rác sót lại khi nhân viên quét dọn vừa rời đi... door man va staff ở cửa ra vào cười nói huyên thuyên,bỏ chổ đang đứng chạy ra ngoài hút thuốc... Nói chung là tốt nhưng chưa hoàn hão cho tiêu chuẩn 4 sao
+{FOOD&DRINKS#QUALITY, neutral}, {FOOD&DRINKS#STYLE&OPTIONS, negative}, {HOTEL#CLEANLINESS, negative}, {SERVICE#GENERAL, negative}, {HOTEL#GENERAL, positive}, {HOTEL#QUALITY, neutral}
+
+#198
+Tôi cảm thấy đây là lần đầu tiên tôi thật sự hài lòng khi lựa chọn ks Minh Toàn trên Booking.com .( tôi đã đặt tại booking rất nhiều trong thời gian vừa qua ) Hài lòng từ phong cách phục vụ chu đáo của nv Bảo vệ , Lễ tân ,nv Nhà hàng , quầy bar , nv xách hành lý ... Tất cả đều rất okie . Tôi sẽ chọn Ks Minh Toàn Galaxy trong chuyến ctac sắp tới vào ngày 22/7/2016 tiếp theo tại Đà Nẵng . Tks , các bạn !
+{HOTEL#COMFORT, positive}, {SERVICE#GENERAL, positive}, {HOTEL#GENERAL, positive}
+
+#199
+Buổi sáng ngon, nhân viên viên nhà hàng phục vụ chu đáo. Phòng ốc sạch sẽ, tiện nghi Nhân viên Lễ Tân chưa thật sự xứng tầm với khách sạn 4 sao. Còn gây khó khăn cho khách, gọi điện thoại và trả lời điện thoại 1 cách cứng nhắt, không linh hoạt trong xử lý tình huống. Giao tiếp còn tẻ nhạt.
+{FOOD&DRINKS#QUALITY, positive}, {FOOD&DRINKS#STYLE&OPTIONS, positive}, {ROOMS#CLEANLINESS, positive}, {ROOMS#COMFORT, positive}, {SERVICE#GENERAL, negative}
+
+#200
+Bữa sáng ngon, nhưng ít đổi món mỗi ngày. Phòng ở OK, sạch sẽ, nhân viên thân thiện!
+{FOOD&DRINKS#QUALITY, positive}, {FOOD&DRINKS#STYLE&OPTIONS, negative}, {ROOMS#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}
+
+#201
+Trung bình Chăn quá nhiều nilong. Cảm giác không thoải mái
+{HOTEL#GENERAL, neutral}, {ROOM_AMENITIES#QUALITY, negative}, {HOTEL#COMFORT, negative}
+
+#202
+bữa sáng khá ngon, phòng tiện nghi, thích nhất là dịch vụ gội đầu và massage
+{FOOD&DRINKS#QUALITY, positive}, {ROOMS#COMFORT, positive}, {FACILITIES#COMFORT, positive}
+
+#203
+Phòng nghỉ chất lượng rất tốt, sạch đẹp; Bữa sáng phong phú, ngon.
+{ROOMS#QUALITY, positive}, {ROOMS#CLEANLINESS, positive}, {ROOMS#DESIGN&FEATURES, positive}, {FOOD&DRINKS#STYLE&OPTIONS, positive}, {FOOD&DRINKS#QUALITY, positive}
+
+#204
+Phòng ốc sạch sẽ, thoải mái, bữa sáng đầy đủ. Chuẩn với tiêu chí 4*. Nhân viên thân thiện
+{ROOMS#CLEANLINESS, positive}, {ROOMS#COMFORT, positive}, {FOOD&DRINKS#STYLE&OPTIONS, positive}, {HOTEL#QUALITY, positive}, {SERVICE#GENERAL, positive}
+
+#205
+Giường rất thoải mái Vị trí hơi xa Trung tâm
+{ROOM_AMENITIES#COMFORT, positive}, {LOCATION#GENERAL, negative}
+
+#206
+Bữa sáng ngon , phòng đẹp . Lễ tân không chuyên nghiệp , sử dụng 2 ngôn ngữ với khách
+{FOOD&DRINKS#QUALITY, positive}, {ROOMS#DESIGN&FEATURES, positive}, {SERVICE#GENERAL, negative}
+
+#207
+Phòng đẹp và mới. View đẹp. dịch vụ tốt chuyên nghiệp, nhân viên nhiệt tình thân thiện. Các nhân viên kinh doanh không ngại support cho phù hợp với nhu cầu của khách hàng mặc dù mình đã thay đổi lịch ngày giờ đến 2 lần.
+{ROOMS#DESIGN&FEATURES, positive}, {HOTEL#GENERAL, positive}, {SERVICE#GENERAL, positive}
+
+#208
+Thái độ phục vụ của nhân viên! Nhiều phòng có cửa thông sang phòng bên cạnh. Điều này là rất tệ khi kỳ nghỉ là lúc cần không gian riêng tư, thoải mái... Quả thực cảm thấy rất không thoải mái vì điều này
+{SERVICE#GENERAL, neutral}, {ROOMS#DESIGN&FEATURES, negative}, {ROOMS#COMFORT, negative}
+
+#209
+Rất thích bữa sáng ở đây rất ngon . Vị trí tốt thuận tiện đi lại. Nhân viên nhiệt tình thân thiện. Khu vực hồ bơi có view rất đẹp với thời tiết khá mát mẻ. Mình rất thích cảm giác ngồi trên sân thượng vào buổi chiều mát mẻ với một bình trà ấm áp. Năm sau chắc chắn sẽ quay lại
+{FOOD&DRINKS#QUALITY, positive}, {LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}, {FACILITIES#GENERAL, positive}, {HOTEL#COMFORT, positive}, {HOTEL#GENERAL, positive}
+
+#210
+Gần bãi biển và xung quanh có nhiều quán ăn, dịch vụ. Khách sạn mới, sạch sẽ, nhân viên thân thiện, nhiệt tình. Mạng internet hay bị trục trặc, bữa sáng không được phong phú cho lắm.
+{LOCATION#GENERAL, positive}, {HOTEL#MISCELLANEOUS, positive}, {HOTEL#DESIGN&FEATURES, positive}, {HOTEL#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {FACILITIES#QUALITY, negative}, {FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#211
+Bữa sáng bình thường ,hơi ít món ăn nhà tắm tuy đã có kính che nhưng nước vẫn chảy ra ngoài làm chơn ướt sàn nhà khu vực lavabo,dầu ngội và sữa tăm nên chuyển vào bên trong buồng tắm và có giá để riêng, khăn tắm cũng nên thiết kế để trên cao phía trong buồng tắm
+{FOOD&DRINKS#QUALITY, neutral}, {FOOD&DRINKS#STYLE&OPTIONS, negative}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#212
+Nhân viên vui vẻ,buffet ngon rất nhiều món,phòng sạch sẽ,thoải mái,đặc biệt có view nhìn ra tp ngắm cảnh vào buổi sáng hoặc buổi tối rất đẹp để chụp hình sống ảo ^^
+{SERVICE#GENERAL, positive}, {FOOD&DRINKS#QUALITY, positive}, {FOOD&DRINKS#STYLE&OPTIONS, positive}, {ROOMS#CLEANLINESS, positive}, {ROOMS#COMFORT, positive}, {ROOMS#GENERAL, positive}
+
+#213
+Khách sạn mới nên mọi thiết bị và tiện nghi đều mới với thiết kế hiện đại. Phòng rộng, sạch sẽ có view tương đối đẹp nhìn ra bãi biển Mỹ Khê. Khách sạn không nằm ở trung tâm thành phố nhưng khá tiện đường đi chùa Linh Ứng, Hội An, Bà Nà... Cách âm chưa tốt nên nghe rõ tiếng động ngoài hành lang. Đồ ăn sáng chưa phong phú.
+{HOTEL#DESIGN&FEATURES, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, positive}, {FACILITIES#DESIGN&FEATURES, positive}, {ROOMS#DESIGN&FEATURES, neutral}, {ROOMS#CLEANLINESS, positive}, {ROOMS#GENERAL, positive}, {LOCATION#GENERAL, neutral}, {FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#214
+Khách sạn mới xây. Phòng rất đẹp và tiện nghi. View biển đẹp. Nhân viên nhiệt tình, lịch sự chu đáo. Ăn sáng ngon. Đáng giá tiền! Sẽ lưu trú vào kỳ nghỉ tới.
+{HOTEL#DESIGN&FEATURES, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#COMFORT, positive}, {HOTEL#GENERAL, positive}, {SERVICE#GENERAL, positive}, {FOOD&DRINKS#QUALITY, positive}, {HOTEL#PRICES, positive}
+
+#215
+Nhân viên thân thiện, hỗ trợ nhiệt tình, chuyên nghiệp. Khách sạn mới, vị trí đẹp, gần biển.
+{SERVICE#GENERAL, positive}, {HOTEL#DESIGN&FEATURES, positive}, {LOCATION#GENERAL, positive}
+
+#216
+Cuộn giấy vệ sinh hơi bé (đặc biết đối với phòng gia đình 4 người), và chỉ có 1 cuộn. Gọi lễ tân xin thêm nhưng phải chờ hơi lâu.
+{ROOM_AMENITIES#DESIGN&FEATURES, negative}, {SERVICE#GENERAL, negative}
+
+#217
+Giường và gối rất êm, nằm rất thích. Phòng sạch sẽ, nhân viên thân thiện, dễ thương. Ăn sáng ít món, không có trái cây tiếp đón
+{ROOM_AMENITIES#QUALITY, positive}, {ROOM_AMENITIES#COMFORT, positive}, {ROOMS#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#218
+Khách sạn mới rất đẹp, phòng rộng, view biển, thành phố tuyệt vời, nhân viên và quản lý thân thiện, nhiệt tình. Tất cả đều tốt.
+{HOTEL#DESIGN&FEATURES, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#GENERAL, positive}, {SERVICE#GENERAL, positive}, {HOTEL#GENERAL, positive}
+
+#219
+Khách sạn còn mới. Nhân viên thân thiện và nhiệt tình Nhà tắm thiết kế chưa hợp lí
+{HOTEL#DESIGN&FEATURES, positive}, {SERVICE#GENERAL, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#220
+Bữa sáng phong phú, phòng mới, sạch sẽ
+{FOOD&DRINKS#STYLE&OPTIONS, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}
+
+#221
+nhân viên thân thiện ,vui vẻ ,phòng sạch sẽ, ăn sáng ngon ... giá thấp một chút thì hợp lý hơn
+{SERVICE#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {FOOD&DRINKS#QUALITY, positive}, {HOTEL#PRICES, negative}
+
+#222
+Nhân viên phục vụ rất nhiệt tình và vui vẻ. Mạng internet thi thoảng hơi chậm và chập chờn
+{SERVICE#GENERAL, positive}, {FACILITIES#QUALITY, negative}
+
+#223
+Khách sạn có view đẹp,vị trí thuận tiện khi đi chơi trong trung tâm thành phố,gần biển,gần sân bay.nhân viên rất nhiệt tình,thân thiện.lần tới nhất định mình sẽ tiếp tục nghỉ tại đây. Bữa sáng hơi ít món và đồ ăn hơi nguội.phòng ăn hơi bí.
+{HOTEL#GENERAL, positive}, {LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}, {FOOD&DRINKS#STYLE&OPTIONS, negative}, {FACILITIES#COMFORT, negative}
+
+#224
+Phòng đẹp và sạch sẽ, nhân viên phục vụ rất nhiệt tình, hồ bơi và minibar trên sân thượng rất đẹp nhưng sau 22h không được ngắm cảnh nữa, hơi tiếc. Đánh giá chung: rất tốt, sẽ quay lại vào những lần sau :)
+{ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {FACILITIES#DESIGN&FEATURES, positive}, {FACILITIES#MISCELLANEOUS, negative}, {HOTEL#GENERAL, positive}
+
+#225
+Bữa sáng ít món ko phong phú, khách đã báo trước giờ đến n khi khách đến ks khoá cửa phải gọi mới mở. Tivi trong phòng ko xem đc do đường truyền kém. Khách báo yêu cầu lễ tân báo thức nhưng ko gọi đến khi khách hỏi thì chỉ nói em quên.
+{FOOD&DRINKS#STYLE&OPTIONS, negative}, {SERVICE#GENERAL, negative}, {ROOM_AMENITIES#QUALITY, negative}
+
+#226
+Giường thoải mái, nhân viên thân thiện. Trần nhà bị thấm từ hồ bơi nằm ở bên trên nên không gian trong phòng nhìn bên trên không được đẹp. Nhân viên hỏi về việc thanh toán tiền trước khi đến ở khách sạn trong khi trên trang booking.com thì lại để thông tin là sẽ thanh toán khi đến ở.
+{ROOM_AMENITIES#COMFORT, positive}, {SERVICE#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, negative}, {HOTEL#MISCELLANEOUS, negative}
+
+#227
+Tôi thích bể bơi ở khách sạn này, bọn trẻ nhà tôi đã rất enjoy, phòng ngủ hơi nhỏ, bữa sáng không được phong phú, quan trọng là đầu bếp nấu không ngon. Nhưng cơ bản là gia đình tôi đã hài lòng khi lưu trú tại đây.
+{FACILITIES#COMFORT, positive}, {ROOMS#DESIGN&FEATURES, negative}, {FOOD&DRINKS#STYLE&OPTIONS, negative}, {FOOD&DRINKS#QUALITY, negative}, {HOTEL#COMFORT, positive}
+
+#228
+khách sạn đẹp, tiện nghi, nhân viên thân thiện xung quanh ks có nhiều hàng quán bể bơi đẹp, có phao cho trẻ em khách sạn hơi xa bờ biển, đi bộ ra biển hơi mệt chỗ thoát nước ở nhà tắm chậm, khi tắm bị ngập bàn chân
+{HOTEL#DESIGN&FEATURES, positive}, {HOTEL#COMFORT, positive}, {SERVICE#GENERAL, positive}, {HOTEL#MISCELLANEOUS, positive}, {FACILITIES#DESIGN&FEATURES, positive}, {LOCATION#GENERAL, neutral}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {ROOM_AMENITIES#COMFORT, negative}
+
+#229
+Sạch sẽ, tiện nghi, giường thoải mái! Bữa sáng không phong phú, nhân viên bếp phục vụ không nhiệt tình, cần cười nhiều hơn khi đứng trước mặt khách hàng!
+{HOTEL#CLEANLINESS, positive}, {HOTEL#COMFORT, positive}, {ROOM_AMENITIES#COMFORT, positive}, {FOOD&DRINKS#STYLE&OPTIONS, negative}, {SERVICE#GENERAL, negative}
+
+#230
+Buffet sáng ok , nhân viên nhiệt tình . Hồ bơi khá lý tưởng ,nhưng đi vào mùa lạnh nên không thể tận hưởng được. View hồ bơi khá thoáng có thể thấy được cầu rồng và nhiều cảnh khác. Phòng thiết kế hơi bị gò pó, vòi sen phòng tắm bị rỉ nước phía vòi sen trên trần nên khá bất tiện khi tắm. Nhân viên sảnh ok nhưng vui vẻ hơn thì ok hơn.
+{FOOD&DRINKS#QUALITY, positive}, {SERVICE#GENERAL, neutral}, {FACILITIES#QUALITY, positive}, {FACILITIES#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, negative}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {ROOM_AMENITIES#COMFORT, negative}
+
+#231
+Nhân viên rất nhiệt tình, dễ thương🙂 Trong phòng ngủ, trên giường có bụi, mền và gối có mùi .... , phòng cách âm hơi tệ, rất ồn
+{SERVICE#GENERAL, positive}, {ROOMS#CLEANLINESS, negative}, {ROOM_AMENITIES#CLEANLINESS, negative}, {ROOMS#DESIGN&FEATURES, negative}, {ROOMS#COMFORT, negative}
+
+#232
+Phòng sạch sẽ , nhân viên dễ thương nhiệt tình , giường cực to , view đẹp góc nào cũng có thể sống ảo tại khách sạn , gần biển gần sân bay
+{ROOMS#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, positive}, {HOTEL#GENERAL, positive}, {LOCATION#GENERAL, positive}
+
+#233
+Nhân viên thân thiện ,nhiệt tình Trong tủ quần áo vẫn thấy xuất hiện gián
+{SERVICE#GENERAL, positive}, {ROOM_AMENITIES#CLEANLINESS, negative}
+
+#234
+Giường + bể bơi tuyệt vời Phí thuê xe mắc quá.
+{ROOM_AMENITIES#QUALITY, positive}, {FACILITIES#QUALITY, positive}, {FACILITIES#PRICES, negative}
+
+#235
+Nhân viên thân thiện, nhiệt tình Nhà tắm nhỏ, tiện nghi chưa ngăn nắp, phòng ốc bí.
+{SERVICE#GENERAL, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {ROOMS#COMFORT, negative}
+
+#236
+Bữa sáng rất ngon, đủ chất, nhiều món để lựa chọn. Nhân viên lễ tân, phục vụ nhiệt tình chu đáo. Phòng rất đẹp, sạch sẽ.
+{FOOD&DRINKS#QUALITY, positive}, {FOOD&DRINKS#STYLE&OPTIONS, positive}, {SERVICE#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}
+
+#237
+Hồ bơi rộng rãi. Bữa sáng đa dạng.Mọ thứ đều tốt.
+{FACILITIES#DESIGN&FEATURES, positive}, {FOOD&DRINKS#STYLE&OPTIONS, positive}, {HOTEL#GENERAL, positive}
+
+#238
+Bữa sáng khá ngon Mạng wifi quá chậm
+{FOOD&DRINKS#QUALITY, positive}, {FACILITIES#QUALITY, negative}
+
+#239
+Nhân viên nhiệt tình Phòng bé hơn so với 25m Bể bơi nhỏ + ko sạch. Phòng trẻ em bé quá mức
+{SERVICE#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, negative}, {FACILITIES#DESIGN&FEATURES, negative}, {FACILITIES#CLEANLINESS, negative}
+
+#240
+Tiện nghi khách sạn tốt ồn ào vào buổi trưa
+{FACILITIES#GENERAL, positive}, {HOTEL#COMFORT, negative}
+
+#241
+Nhân viên dễ thương, thân thiện Phòng tắm thoát nước chậm
+{SERVICE#GENERAL, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#242
+Bữa sáng rất hợp khẩu vị.Nhân viên thân thiện.Phòng sạch sẽ & hợp giá tiền
+{FOOD&DRINKS#QUALITY, positive}, {SERVICE#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {ROOMS#PRICES, positive}
+
+#243
+Bữa sáng rất ngon, thay đổi món từng ngày. Hồ bơi có tầm nhìn rất tuyệt tuy nhiên hơi nhỏ nên chỉ phù hợp với trẻ em. Phòng sạch sẽ, thoải mái.
+{FOOD&DRINKS#QUALITY, positive}, {FOOD&DRINKS#STYLE&OPTIONS, positive}, {FACILITIES#GENERAL, positive}, {FACILITIES#DESIGN&FEATURES, negative}, {ROOMS#CLEANLINESS, positive}, {ROOMS#COMFORT, positive}
+
+#244
+Phòng rộng rãi, thoải mái, mới. Sàn có trải thảm nên không bị lạnh chân khi đi lại trong phòng Bathroom sạch sẽ, mới, không có mùi. Nhân viên phục vụ lịch sự, ân cần. Khóa hơi khó mở. Phải quẹt thẻ ít nhất 3 lần thì chốt mới bung. Tủ lạnh mỗi lần restart thì có tiếng ồn rất lớn, phải chỉnh lại về 0 thì mới có thể ngủ được. Bữa sáng rất rất ít món so với những khách sạn ngang giá khác.
+{ROOMS#DESIGN&FEATURES, neutral}, {ROOMS#COMFORT, neutral}, {ROOM_AMENITIES#CLEANLINESS, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, positive}, {SERVICE#GENERAL, positive}, {ROOM_AMENITIES#COMFORT, negative}, {FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#245
+Phòng rộng thoải mái, thoáng mát. Nội thất sang trọng và tiện nghi. Nhân viên thân thiên và nhiệt tình. Phòng tắm và phòng vệ sinh hơi bất tiện vì cửa phòng lắp không được hợp lý. Sàn phòng trải thảm nhưng lại không hút bụi nên nhìn vào thấy hơi bẩn.
+{ROOMS#DESIGN&FEATURES, positive}, {ROOMS#COMFORT, positive}, {ROOM_AMENITIES#QUALITY, positive}, {ROOM_AMENITIES#COMFORT, neutral}, {SERVICE#GENERAL, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {ROOMS#CLEANLINESS, negative}
+
+#246
+Nhân viên hết sức tốt bụng và nhiệt tình. Khách sạn cho thuê phương tiện di chuyển rất tốt. Chỗ ở gần sân bay và có các cửa hàng tạp hoá gần đó thuận tiện cho việc mua thêm đồ dùng cho đi phượt. Buồng tắm bằng kính thiết kế có vẻ hơi nhỏ không thuận tay. Khách sạn cho khách sử dụng chăn bông hơi hơi nóng cho thời tiết hè và thu khô nóng
+{SERVICE#GENERAL, positive}, {FACILITIES#QUALITY, positive}, {LOCATION#GENERAL, positive}, {HOTEL#MISCELLANEOUS, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {ROOM_AMENITIES#COMFORT, negative}
+
+#247
+giường thoải mái, sạch. phần tính thêm phụ thu nên rõ ràng từ đầu. do mình chỉ đặt 01 ngày, ngày sau : lúc đầu nói mình được ở lại tiếp ( nên không book chỗ khác). sau đó lại nói có khách nên mình ko ở lại tiếp được, nhưng vẫn tính phụ thu (mình ở quá 2 tiếng đến 2h chiều- phụ thu 30% ). thành ra mình vừa tốn tiền phụ thu, vừa tốn tiền book khách sạn khác. Nếu trả lời từ đầu, mình ko mất tiền phụ thu, vì sẽ book ks khác.
+{ROOM_AMENITIES#COMFORT, positive}, {ROOM_AMENITIES#CLEANLINESS, positive}, {HOTEL#MISCELLANEOUS, negative}, {SERVICE#GENERAL, negative}
+
+#248
+Mình rất hài lòng về mọi thứ ở đây. Nhân viên thân thiện, phòng đẹp, sạch sẽ, ko gian yên tĩnh, vị trí thuận tiện đi lại. Rất đáng để chọn lựa khi đến Đà Nẵng! Nhất định sẽ quay lại lần 2
+{HOTEL#COMFORT, positive}, {SERVICE#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {LOCATION#GENERAL, positive}, {HOTEL#GENERAL, positive}
+
+#249
+1. Địa điểm : Khách sạn rất gần sân bay, nên việc di chuyển đến sân bay rất thuận tiện. Từ khách sạn đi ra Trung tâm thành phố cũng khá gần và dễ dàng ! 2. Phòng : Phòng rất yên tĩnh, về khoản này mình rất hài lòng. Phòng vừa, không quá rộng nhưng khá sạch sẽ. Có 1 vấn đề nhỏ là giường trong phòng hơi nhỏ so với hạng phòng Double mình book. 3. Nhân viên : Nhân viên rất rất thân thiện, nhiệt tình và cởi mở. Từ bộ phận Buồng phòng, Nhà hàng, đến Lễ tân. Xong nên cải thiện khả năng giao tiếp bằng Tiếng Anh để có thể làm chất lượng dịch vụ tốt hơn :)
+{LOCATION#GENERAL, positive}, {ROOMS#COMFORT, positive}, {ROOMS#DESIGN&FEATURES, neutral}, {ROOMS#CLEANLINESS, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {SERVICE#GENERAL, neutral}
+
+#250
+Giường thoải mái, phòng siêu rộng, sạch đẹp. Mình book phòng double nhưng khách sạn không sắp xếp được do khách cũ ở thêm nên bị chuyển sang phòng twin 2 giường. Tuy nhiên phòng rất rộng và đẹp nên không vấn đề lắm.
+{ROOM_AMENITIES#COMFORT, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {HOTEL#MISCELLANEOUS, neutral}
+
+#251
+Khách sạn hình như mới khai trương nên còn rất mới, phòng ốc rất thoáng, sạch sẽ và thoải mái. Tuy nhiên bữa sáng buffet rất sơ sài 9h mới kết thúc ăn sáng nhưng 8 rưỡi khách xuống đã không còn gì có thể ăn được nữa rồi nên chúng tôi đành đi ăn sáng ở ngoài. Buffet sáng sơ sài và kết thúc sớm trước giờ ghi trên phiếu
+{HOTEL#DESIGN&FEATURES, positive}, {ROOMS#COMFORT, positive}, {ROOMS#CLEANLINESS, positive}, {FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#252
+book phòng trên booking thấy có ghi free bữa sáng , nhưng ở qua 2 đêm vẫn k có bữa nào, cũng k ai hỏi là đã dùng bữa hay thông báo mấy h có đồ ăn sáng luôn
+{FOOD&DRINKS#STYLE&OPTIONS, negative}, {SERVICE#GENERAL, negative}
+
+#253
+Khách sạn mới xây nên phòng ốc còn rất mới, sạch sẽ. Nhân viên nhiệt tình. Địa điểm thuận tiện, rất gần sân bay, xung quanh có nhiều nơi ăn uống. Bữa trưa gia đình đặt ở nhà hàng rất ngon và rẻ.
+{HOTEL#DESIGN&FEATURES, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {LOCATION#GENERAL, positive}, {HOTEL#MISCELLANEOUS, positive}, {FOOD&DRINKS#QUALITY, positive}, {FOOD&DRINKS#PRICES, positive}
+
+#254
+Địa điểm thuận lợi, nhân viên nhiệt tình, khách sạn sạch sẽ, thoáng mát. Nói chung mình rất hài lòng. Nhất định sẽ quay lại vào lần sau. Mọi cái đều rất tốt, nếu khách sạn có thêm nhiều món ăn sáng hơn nữa thì sẽ tuyệt hơn đấy.
+{LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}, {HOTEL#CLEANLINESS, positive}, {HOTEL#COMFORT, positive}, {HOTEL#GENERAL, positive}, {FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#255
+Bữa sáng phù hợp. Ks sạch sẽ, yên tĩnh
+{FOOD&DRINKS#QUALITY, positive}, {HOTEL#CLEANLINESS, positive}, {HOTEL#COMFORT, positive}
+
+#256
+Bữa sáng còn sơ sài. Phòng nhỏ
+{FOOD&DRINKS#STYLE&OPTIONS, negative}, {ROOMS#DESIGN&FEATURES, negative}
+
+#257
+Thiết kế phòng đẹp, ban công thoáng. Rất thích Thời giàn phục vụ buổi sáng nên dài hơn
+{ROOMS#DESIGN&FEATURES, positive}, {HOTEL#COMFORT, positive}, {FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#258
+Nhân viên phục vụ tốt và rất nhiệt tình, phòng sạch sẽ gọn gàng. Nói chung rất ok Bữa sáng không hợp khẩu vị mình. Ăn rất chán huhu
+{SERVICE#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {ROOMS#DESIGN&FEATURES, positive}, {HOTEL#GENERAL, positive}, {FOOD&DRINKS#QUALITY, negative}
+
+#259
+Giường rất thoải mái Ăn sáng không ngon , ít món đồ ăn nguội
+{ROOM_AMENITIES#COMFORT, positive}, {FOOD&DRINKS#QUALITY, negative}, {FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#260
+Bữa sáng ngon Khách sạn mới, sạch sẽ
+{FOOD&DRINKS#QUALITY, positive}, {HOTEL#DESIGN&FEATURES, positive}, {HOTEL#CLEANLINESS, positive}
+
+#261
+Vị trí thuận lợi, phòng đẹp, đầy đủ tiện nghi. Nhân viên nhiệt tình.
+{LOCATION#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOM_AMENITIES#GENERAL, positive}, {SERVICE#GENERAL, positive}
+
+#262
+Bữa sáng ngon. Phòng rộng rãi, giường sạch sẽ. Điều hoà chậm làm mát và k mát lắm, phải dùng thêm quạt
+{FOOD&DRINKS#QUALITY, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOM_AMENITIES#CLEANLINESS, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#263
+Bữa sáng rất ngon, phòng sạch sẽ, chỗ nghỉ khá yên tĩnh! :-) Máy lạnh và tivi thật sự không được tốt
+{FOOD&DRINKS#QUALITY, positive}, {ROOMS#CLEANLINESS, positive}, {HOTEL#COMFORT, positive}, {ROOM_AMENITIES#QUALITY, negative}
+
+#264
+Bữa sáng ngon, giương ngủ tốt, sạch sẽ tuy nhiên phòng vệ sinh chật hẹp
+{FOOD&DRINKS#QUALITY, positive}, {ROOM_AMENITIES#QUALITY, positive}, {ROOM_AMENITIES#COMFORT, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#265
+Rất mới, phòng đẹp, nhân viên thân thiện Máy lạnh k mát, thức ăn sáng nguội, thang máy ngoài trời và k có máy lạnh.
+{HOTEL#DESIGN&FEATURES, positive}, {ROOMS#DESIGN&FEATURES, positive}, {SERVICE#GENERAL, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {FOOD&DRINKS#STYLE&OPTIONS, negative}, {FACILITIES#DESIGN&FEATURES, negative}
+
+#266
+Giường thoải mái, khu nghỉ yên tĩnh Hơi xa trung tâm, xa siêu thị, nhà hàng và chỗ vui chơi giải trí, khó tìm chỗ ăn trưa và ăn tối.
+{ROOM_AMENITIES#COMFORT, positive}, {HOTEL#COMFORT, positive}, {LOCATION#GENERAL, negative}
+
+#267
+phòng sạch sẽ, đặt qua booking mình thấy giá so với chất lượng là khá ok buffet sáng ko có gì tượng.
+{ROOMS#CLEANLINESS, positive}, {HOTEL#PRICES, positive}, {FOOD&DRINKS#QUALITY, neutral}
+
+#268
+Mấy chị lễ tân rất dễ thương 😌phục vụ tận tình cho khách hàng Wifi yếu 😓 Hầu như k xài đc khi ở trong phòng
+{SERVICE#GENERAL, positive}, {FACILITIES#QUALITY, negative}
+
+#269
+Sạch, gần sân bay. Em tiếp tân rất tử tế Mình đặt giường king size nhưng ksan chỉ có giường 1,4, mình không hài lòng.
+{HOTEL#CLEANLINESS, positive}, {LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {HOTEL#COMFORT, negative}
+
+#270
+Sạch sẽ, nhân viên nhẹ nhàng, bữa sáng ngon miệng Xa các điểm vui chơi
+{HOTEL#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {FOOD&DRINKS#QUALITY, positive}, {LOCATION#GENERAL, negative}
+
+#271
+Sạch sẽ, thân thiện, đầy đủ tiện nghi Khsan nằm khuất bên trong nên gọi taxi phải chờ lâu
+{HOTEL#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {FACILITIES#GENERAL, positive}, {LOCATION#GENERAL, negative}
+
+#272
+Sạch sẽ, nhân viên thân thiện Xa trung tâm
+{HOTEL#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {LOCATION#GENERAL, negative}
+
+#273
+Yên tĩnh Tôi đặt phòng đơn 1 giường nhưng cung cấp cho một mình tôi 2 chiếc giường đơn. Điều hòa không mát cho lắm.
+{HOTEL#COMFORT, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#274
+Đồ ăn ngon, phòng sang trọng sạch sẽ
+{FOOD&DRINKS#QUALITY, positive}, {ROOMS#QUALITY, positive}, {ROOMS#CLEANLINESS, positive}
+
+#275
+Phòng ốc sạch sẽ, rộng rãi, thoáng mát (phòng superior giường đôi) Dịch vụ cho thuê xe máy không tốt (xe số yếu, lên đỉnh Bàn cờ số 1 chạy muốn ko nổi, gương chiếu hậu không quan sát được phía sau). Không nói rõ cho khách nước suối cái nào tính tiền, cái nào miễn phí.
+{ROOMS#CLEANLINESS, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#COMFORT, positive}, {FACILITIES#QUALITY, negative}, {HOTEL#MISCELLANEOUS, negative}
+
+#276
+Phòng rất đẹp, sạch sẽ, tiện nghi, gần bãi biển, giường nệm êm ái. Nhân viên vui vẻ, nhiệt tình. Khách sạn giá tốt. Thích hợp cho các bạn trẻ đến du lịch, nghỉ mát. Tất cả đều tốt trừ cái cửa phòng 301 hơi khó mở, mất thời gian xíu thôi.
+{ROOMS#DESIGN&FEATURES, neutral}, {ROOMS#CLEANLINESS, positive}, {ROOMS#COMFORT, positive}, {LOCATION#GENERAL, positive}, {ROOM_AMENITIES#QUALITY, positive}, {SERVICE#GENERAL, positive}, {HOTEL#PRICES, positive}, {HOTEL#GENERAL, positive}
+
+#277
+giường thoải mái, nv lễ tân nhiệt tình, vui vẻ, từ ks ra quán Bà Thôi 2 và đặc sản Trần đi xe máy rất gần không có nhân viên dọn phòng hằng ngày, cửa trong phòng chốt không ăn, ko có thang máy lên tầng 6, có bếp nhưng không có chén đũa và đồ dùng. KS cần cải thiện để phục vụ khách dc tốt hơn
+{ROOM_AMENITIES#COMFORT, positive}, {SERVICE#GENERAL, neutral}, {LOCATION#GENERAL, positive}, {ROOMS#CLEANLINESS, negative}, {ROOMS#DESIGN&FEATURES, negative}, {FACILITIES#DESIGN&FEATURES, negative}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#278
+Phòng sạch sẽ, đầy đủ tiện nghi. Quá hợp lý với mức giá phòng. Gần biển, thuận tiện đi tới các địa điểm. Nhân viên khách sạn nhiệt tình, dễ mến. Wifi hơi yếu, cần khuyếch tán wifi và cách âm chưa được tốt lắm. Tuy nhiên điều đó không quá ảnh hưởng, nếu được khắc phục sẽ hoàn hảo hơn !
+{ROOMS#CLEANLINESS, positive}, {ROOM_AMENITIES#GENERAL, positive}, {ROOMS#PRICES, positive}, {LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}, {FACILITIES#QUALITY, negative}, {ROOMS#DESIGN&FEATURES, negative}, {HOTEL#GENERAL, positive}
+
+#279
+Coca rẻ, đúng giá khách sạn, Lễ tân đón tiếp trong trạng thái buồn ngủ, không cho phép khách checkout muộn, nhân viên fake khách để khen khách sạn trên fb, chăn hay bị tung ra, điều hòa yếu, nhiều ruồi
+{FOOD&DRINKS#PRICES, positive}, {SERVICE#GENERAL, negative}, {HOTEL#MISCELLANEOUS, negative}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {HOTEL#CLEANLINESS, negative}
+
+#280
+Nhân viên thân thiện, nhiệt tình. Phòng sạch. Vị trí thuận tiện Wifi ở phòng hầu như không thể vào được, cửa phòng không thể khóa trái khi khách ở trong phòng.
+{SERVICE#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {LOCATION#GENERAL, positive}, {FACILITIES#QUALITY, negative}, {ROOMS#DESIGN&FEATURES, negative}
+
+#281
+Khăn tắm sặc mùi clo, mì tôm trong phòng đã hết hạn, khi chúng tôi nhận ra thì đã ăn 2 hộp đó; và chúng tôi vẫn phải trả tiền cho 2 hộp mì đã hết hạn đấy Wifi quá tệ, chỉ có thể truy cập với tốc độ con rùa khi cửa phòng đã mở toang hoác!
+{ROOM_AMENITIES#COMFORT, negative}, {FOOD&DRINKS#QUALITY, negative}, {FOOD&DRINKS#STYLE&OPTIONS, negative}, {FACILITIES#QUALITY, negative}
+
+#282
+Mọi thứ đều tốt. Các bạn rất thân thiện, dễ thương. Cười vô cùng đáng yêu nữa chứ. Mình nhận phòng sớm mà trả phòng siêu trễ mà bạn cũng đồng ý và vẫn cười rất tươi. Chắc chắn sẽ quay lại. Không có gì để chê cả
+{HOTEL#GENERAL, positive}, {SERVICE#GENERAL, positive}
+
+#283
+mình đi tháng 12 thời tiết xấu nhưng bù lại nhân viên ở ks nhiệt tình phòng sạch se va xung quanh yên tĩnh.tuy trong đường nhỏ nhưng khá thoáng và gần cả cầu rồng và biển mỹ khê.không có gì để chê cả.với mức giá nv khá phù hợp .nhất định sẽ qlai
+{SERVICE#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {HOTEL#COMFORT, positive}, {LOCATION#GENERAL, positive}, {HOTEL#PRICES, positive}, {HOTEL#GENERAL, positive}
+
+#284
+Phòng đôi cho 2 vợ chồng khá thoải mái, sạch sẽ và có cửa sổ rộng nên thoáng hơn 2 phòng đơn. Ksan nhỏ, có 5 tầng, mỗi tầng 3 phòng, có thang máy, vị trí ks khá dễ tìm và gần các điểm ăn uống và vui chơi. Rất tiện nếu ăn hải sản khu bờ biển, gần khu tắm bùn Galina và Asia park. Với giá thuê phòng như vậy thì ok Trong nhà tắm phòng đơn bị nghẹt bồn cầu và lavabo bị hỏng nút chặn nước. Mình báo nv ks và đã được khắc phục nhanh chóng. TUy nhiên có 1 khăn mặt mới thay cho phòng đôi chưa dùng đã bẩn, vết đen trên khăn khiến mình ko dám dùng. Ksan cần kiểm tra đồ mới thay trước khi đem thay
+{ROOMS#COMFORT, positive}, {ROOMS#CLEANLINESS, positive}, {ROOMS#DESIGN&FEATURES, positive}, {HOTEL#DESIGN&FEATURES, neutral}, {FACILITIES#DESIGN&FEATURES, positive}, {LOCATION#GENERAL, positive}, {ROOMS#PRICES, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {ROOM_AMENITIES#QUALITY, negative}, {SERVICE#GENERAL, positive}, {ROOM_AMENITIES#CLEANLINESS, negative}
+
+#285
+Nội thất phòng khá đẹp và còn khá mới.Giường gối êm ái dễ chịu.Nhân viên thân thiện,còn cho mượn đàn guitar Lúc đầu nhận phòng có chút nhầm lẫn nhưng sau hỏi lại thì nhân viên đã đổi sang đúng loại phòng book.Nhân viên nên check phòng kĩ chút tuy nhiên không ảnh hưởng gì mấy
+{ROOM_AMENITIES#DESIGN&FEATURES, positive}, {ROOM_AMENITIES#QUALITY, positive}, {ROOM_AMENITIES#COMFORT, positive}, {SERVICE#GENERAL, positive}, {ROOMS#MISCELLANEOUS, neutral}
+
+#286
+Mọi thứ ở đây đều tuyệt vời. Gần biển, gần trung tâm, đi đâu và làm gì cũng tiện lợi. Phòng đẹp, rộng, sạch sẽ, mọi thứ đều còn mới. Nhân viên thân thiện, nhiệt tình, chu đáo, dọn dẹp phòng hàng ngày 👍 Nếu quay trở lại Đà Nẵng thì đây vẫn sẽ là sự lựa chọn của mình.
+{HOTEL#GENERAL, positive}, {LOCATION#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, positive}, {SERVICE#GENERAL, positive}
+
+#287
+Gia đình chọn phòng có 2 giường (có thể ở 3 người lớn + 1 trẻ em dưới 5 tuổi), có cửa sổ và bếp từ nấu nướng rất tiện dụng. Giá cả Homie là lựa chọn phù hợp khi ở ngắn ngày. Thời điểm gia đình đi đang có công trình xây dựng bên cạnh nên ồn ào.
+{ROOMS#DESIGN&FEATURES, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, positive}, {ROOMS#COMFORT, positive}, {HOTEL#PRICES, positive}, {HOTEL#MISCELLANEOUS, negative}
+
+#288
+Phòng lớn, đẹp Kế bên trường mẫu giáo nên hơi ồn
+{ROOMS#DESIGN&FEATURES, positive}, {HOTEL#MISCELLANEOUS, negative}
+
+#289
+Giường êm, phòng sạch sẽ Điều hoà ko thể chỉnh được nhiệt độ
+{ROOM_AMENITIES#QUALITY, positive}, {ROOMS#CLEANLINESS, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#290
+Nhân viên thân thiện, phòng rộng và sạch . Giá cả quá rẻ so với chất lượng
+{SERVICE#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {HOTEL#PRICES, positive}
+
+#291
+Phòng rộng rãi và sạch sẽ, vị trí đi lại thuận tiện, nhân viên nhiệt tình vui vẻ Chỗ để xe không có mái che nên khi để xe máy rất nắng
+{ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}, {FACILITIES#DESIGN&FEATURES, negative}
+
+#292
+Vị trí đi lại thuận tiện. Vừa gần biển vừa không xa trung tâm
+{LOCATION#GENERAL, positive}
+
+#293
+Sạch sẽ, tiện nghi Không thông thoáng, phòng ngột ngạt, thiếu không khí.
+{HOTEL#CLEANLINESS, positive}, {HOTEL#COMFORT, positive}, {ROOMS#COMFORT, negative}
+
+#294
+Giường nệm rất thoải mái, vị trí tiện di chuyển. Nên cách âm tốt hơn một chút.
+{ROOM_AMENITIES#COMFORT, positive}, {LOCATION#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, negative}
+
+#295
+bữa sáng quá tệ, ăn phải mì hết hạn nhưng vẫn tính tiền bữa sáng quá tệ, ăn phải mì hết hạn nhưng vẫn tính tiền
+{FOOD&DRINKS#QUALITY, negative}, {FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#296
+Nhân viên thân thiện, thái độ nhiệt tình. Cần chỉnh sửa lại những thiết bị đã lỗi hay hỏng như rèm cửa, vòi hoa sen...
+{SERVICE#GENERAL, positive}, {ROOM_AMENITIES#QUALITY, negative}
+
+#297
+Khách sạn tốt, nhân viên thân thiện, phòng ở sạch sẽ, sẽ quay trở lại
+{HOTEL#GENERAL, positive}, {SERVICE#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}
+
+#298
+Phòng sạch sẽ. Nhân viên thân thiện, tạo cảm giác thoải mái. Cung cấp bổ sung các vật dụng trong phòng tắm hàng ngày.
+{ROOMS#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {HOTEL#COMFORT, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, positive}
+
+#299
+Phòng sạch sẽ, tiện nghi Có cho thuê xe máy
+{ROOMS#CLEANLINESS, positive}, {ROOMS#COMFORT, positive}, {FACILITIES#DESIGN&FEATURES, positive}
+
+#300
+Phòng sạch sẽ đáng giá tiền Xung quanh nhiều công trình đang xây dựng
+{ROOMS#CLEANLINESS, positive}, {ROOMS#PRICES, positive}, {HOTEL#MISCELLANEOUS, negative}
+
+#301
+Nhân viên nhẹ nhàng, thân thiện. Phòng nghỉ sạch sẽ.
+{SERVICE#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}
+
+#302
+Phòng rộng rãi thoáng mát Mới xây nên rất sạch sẽ Không có chỗ để xe Điều hòa công suất còn yếu so với phòng lớn
+{ROOMS#DESIGN&FEATURES, positive}, {ROOMS#COMFORT, positive}, {HOTEL#DESIGN&FEATURES, positive}, {HOTEL#CLEANLINESS, positive}, {FACILITIES#DESIGN&FEATURES, negative}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#303
+Phòng sạch sẽ, thoải mái. Nhân viên vui vẻ thái độ phục vục nhiệt tình, thân thiện.
+{ROOMS#CLEANLINESS, positive}, {ROOMS#COMFORT, positive}, {SERVICE#GENERAL, positive}
+
+#304
+Giá rẻ, yên tĩnh, đầy đủ tiện nghi, dọn phòng thay đồ thường xuyên Nhiều kiến con quá, vừa đặt đồ ăn lên bàn một lát đã thấy bu đầy rồi TOT
+{HOTEL#PRICES, positive}, {HOTEL#COMFORT, positive}, {FACILITIES#GENERAL, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, positive}, {HOTEL#CLEANLINESS, negative}
+
+#305
+Phòng tiện nghi vừa đủ,sạch sẽ, giá cả siêu hợp lý,nhận viên Vui vẻ, lịch sự
+{ROOM_AMENITIES#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {HOTEL#PRICES, positive}, {SERVICE#GENERAL, positive}
+
+#306
+Giá rẻ, tiện nghi okie, phòng sạch sẽ. Chỉ có điều là phòng mình bị rò nước hình như nước từ tủ lạnh chảy ra, nên hơi bẩn mỗi lần đi ra ngoài lâu về.
+{HOTEL#PRICES, positive}, {FACILITIES#GENERAL, positive}, {ROOMS#CLEANLINESS, neutral}, {ROOM_AMENITIES#QUALITY, negative}
+
+#307
+Thoải mái, tiện nghi. Nên thay đồ mới trong phòng mỗi ngày khi khách đã ra ngoài.
+{HOTEL#COMFORT, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#308
+Các bạn nhân viên rất thân thiện. Phòng sạch sẽ, lau chùi tương đối cẩn thận Điều hòa phòng 502 hơi yếu.
+{SERVICE#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#309
+Phòng sạch sẽ, nhân viên rất nhiệt tình Không có máy tính để khách có thể truy cập mạng
+{ROOMS#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#310
+Giường ngủ rất thoải mái, nhân viên thân thiện, tốt bụng. Nước từ vòi hoa sen chảy ra còn yếu, bất tiện khi sử dụng
+{ROOM_AMENITIES#COMFORT, neutral}, {SERVICE#GENERAL, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#311
+Phòng mới. Địa điểm thuận lợi, nhân viên thân thiện. Phòng tầng 6 k có thang máy lên thẳng, nước yếu.
+{ROOMS#DESIGN&FEATURES, positive}, {LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}, {FACILITIES#DESIGN&FEATURES, negative}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#312
+Thái độ nhân viên nhân viên thân thiện và nhiệt tình
+{SERVICE#GENERAL, positive}
+
+#313
+Sạch và thoáng mát. Nhân viên thân thiện nhiệt tình.
+{HOTEL#CLEANLINESS, positive}, {HOTEL#COMFORT, positive}, {SERVICE#GENERAL, positive}
+
+#314
+Bất tiện khi đi thang bộ từ lầu 5 lên lầu 6. Toilet không tốt khi hệ thống nước cấp quá yếu , cửa toilet không đóng được
+{FACILITIES#COMFORT, negative}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {ROOM_AMENITIES#QUALITY, negative}
+
+#315
+Lễ tân ở khách sạn này rất nhiệt tình và đáng yêu. Nhất là Mr. Lân nên có máy sấy trong phòng
+{SERVICE#GENERAL, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#316
+Phòng rộng vừa phải, sáng sủa, sạch. Nhân viên thân thiện. Cách âm không tốt, lúc tối khuya vẫn nghe tiếng ồn từ các phòng trên lầu.
+{ROOMS#DESIGN&FEATURES, neutral}, {ROOMS#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {ROOMS#COMFORT, negative}
+
+#317
+Khách sạn mới, sạch sẽ thoáng mát :D Nhân viên thân thiện. Đi vào Trung tâm gần.
+{HOTEL#DESIGN&FEATURES, positive}, {HOTEL#CLEANLINESS, positive}, {HOTEL#COMFORT, positive}, {SERVICE#GENERAL, positive}, {LOCATION#GENERAL, positive}
+
+#318
+Những nụ cười ấm áp của mọi người tại Minh House. Sự yên tĩnh tuyệt vời trong không gian kiến trúc đẹp, được chăm chút tỉ mỉ. Bữa ăn sáng dễ chịu, không gian ngồi chung đáng yêu.
+{SERVICE#GENERAL, positive}, {HOTEL#COMFORT, positive}, {HOTEL#DESIGN&FEATURES, positive}, {FOOD&DRINKS#QUALITY, positive}, {FACILITIES#DESIGN&FEATURES, positive}
+
+#319
+Nhân viên nhẹ nhàng, không gian đẹp, phòng vô cùng sạch sẽ, đáng yêu Phòng tắm nên có mắc treo đồ và kệ để sữa tắm..
+{SERVICE#GENERAL, positive}, {HOTEL#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#320
+Bữa sáng ngon, view đẹp, tiện nghi, nhân viên nhiệt tình thoải mái. Có cơ hội quay lại mình sẽ chọn Minhhouse
+{FOOD&DRINKS#QUALITY, positive}, {HOTEL#GENERAL, positive}, {HOTEL#COMFORT, positive}, {SERVICE#GENERAL, positive}
+
+#321
+Phục vụ dễ thương, nhiệt tình và niềm nở. Phòng đầy đủ tiện nghi và thoải mái. Chuyến bay của mình là buổi tối, sáng trả phòng, ký gửi hành ký miễn phí, chiều tối về lại khách sạn được cho sử dụng phòng vệ sinh thoải mái để tắm rửa sạch sẽ trước khi lên máy bay về Sài Gòn. Tuyệt vời!!! ::)))
+{SERVICE#GENERAL, positive}, {ROOM_AMENITIES#GENERAL, positive}, {ROOMS#COMFORT, positive}, {HOTEL#COMFORT, positive}, {HOTEL#GENERAL, positive}
+
+#322
+Không có gì đặc biệt Nấu bữa sáng bằng Phở gói rất khó ăn. Wifi không tốt mặc dù đã đổi phòng
+{HOTEL#GENERAL, neutral}, {FOOD&DRINKS#QUALITY, negative}, {FACILITIES#QUALITY, negative}
+
+#323
+mọi thứ đều ok, nhân viên và các chú bảo vệ rất rất nhiệt tình, phòng ốc sạch sẽ địa điểm thuận tiện đi lại đến các điểm du lịch ! bà chủ nhà nghỉ có vẻ hơi khó tính.
+{HOTEL#GENERAL, positive}, {SERVICE#GENERAL, neutral}, {ROOMS#CLEANLINESS, positive}, {LOCATION#GENERAL, positive}
+
+#324
+Ksan mới, dễ tìm, gần biển, đi bộ chỉ mất vài phút. Nhân viên nhiệt tình. Bữa sáng bình thường, dao cắt bánh mì ko sạch, cắt miếng bánh mì đen thui. Dra giường ko sạch, phòng có vài chú muỗi, vòi sen trong phòng tắm bị chảy nước làm gia đình tôi phải yêu cầu đổi phòng. Dù sao nhân viên ksan cũng nhiệt tình và nhanh chóng đổi phòng khác cho tôi.
+{HOTEL#DESIGN&FEATURES, positive}, {LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}, {FOOD&DRINKS#QUALITY, neutral}, {FOOD&DRINKS#STYLE&OPTIONS, negative}, {ROOM_AMENITIES#CLEANLINESS, negative}, {ROOMS#CLEANLINESS, negative}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#325
+Nhân viên vô cùng thân thiện và vui tính , khách sạn mới phong rộng rãi sạch sẽ , khách sạn gần biển . Biển Đà Nẵng sạch và rât đẹp , con người thân thiện .
+{SERVICE#GENERAL, positive}, {HOTEL#DESIGN&FEATURES, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {LOCATION#GENERAL, positive}, {HOTEL#MISCELLANEOUS, positive}
+
+#326
+Tiếp tân dễ thương, phục vụ nhiệt tình chu đáo, chỗ nghỉ vừa đủ thoái mát Mới nhận phòng hơi có mùi và tủ lạnh không hoạt động
+{SERVICE#GENERAL, positive}, {HOTEL#COMFORT, positive}, {ROOMS#CLEANLINESS, negative}, {ROOM_AMENITIES#QUALITY, negative}
+
+#327
+Khách sạn mới , gần biển , nhân viên thân thiện nhiệt tình , buffet nhiều món ngon , phòng rộng rãi sạch sẽ . Có điều kiện chúng tôi sẽ quay lại .
+{HOTEL#DESIGN&FEATURES, positive}, {LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}, {FOOD&DRINKS#STYLE&OPTIONS, positive}, {FOOD&DRINKS#QUALITY, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {HOTEL#GENERAL, positive}
+
+#328
+Khách sạn mới rất đẹp và tiện nghi , nhân viên thân thiện nhiệt tình , bạn đi bộ ra biển mất khoảng 3 phút .
+{HOTEL#DESIGN&FEATURES, positive}, {HOTEL#COMFORT, positive}, {SERVICE#GENERAL, positive}, {LOCATION#GENERAL, positive}
+
+#329
+Phòng ngủ hợp lý vói giá tiền,chất lượng không khí trong phòng chưa tốt,đặc biệt khi mới bước vào mùi hôi vì thông gió chưa tốt, cần có biện pháp khắc phục, nếu là khách sạn 4 sao thì chưa đạt
+{ROOMS#PRICES, positive}, {ROOMS#CLEANLINESS, negative}, {ROOMS#DESIGN&FEATURES, negative}, {HOTEL#QUALITY, negative}
+
+#330
+Tuyệt, Lúc đầu được đưa vào phòng 2 giường, Alo xuống vì thích phòng 1 giường hơn, nhưng được UP free lên phòng Suit luôn ( chắc vì hết phòng 1 ) Rất hài lòng, và chắc chắn sẽ quay lại
+{SERVICE#GENERAL, positive}, {ROOMS#GENERAL, positive}, {HOTEL#COMFORT, positive}, {HOTEL#GENERAL, positive}
+
+#331
+Quá tệ Vị trí không gần biển nên không thuận lợi cho việc tắm biển. Nhân viên phục vụ quá tệ. Khách sạn lừa dối khách để bán chương trình xem pháo hoa. Khách sạn bán phiếu ăn tối xem pháo hoa cho khách lưu trú tại khách sạn nhưng lại lừa khách mua. Nhà hàng ở tầng 12 nói chỉ phục vụ bữa tối cho chương trình này nhưng thực chất k có ai mua. Khi mua phiếu thì chị chủ nhà hàng nói có thể gọi món ăn tối trực tiếp tại nhà hàng nhưng đến tối thì từ chối k phục vụ. Khách đặt bàn vị trí gần cửa sổ thì nói k dược vì để chổ xem pháo hoa nhưng đến tối lại kê bàn cho bạn bè chủ khách sạn ngồi ăn tối tại vị trí đó. Nói là đã có nhiều nguoi đặt chỗ nhưng thực chất chỉ có gia đình và bạn chủ ks Nói xuất hoá đơn cho khách nhưng k xuất. Khách gọi điện nhắc nhiều lần nhưng vẫn k gửi. Tóm lại tất cả đều tệ. Không nên ở khách sạn này dù cho giá có rẻ.!
+{HOTEL#GENERAL, negative}, {LOCATION#GENERAL, negative}, {SERVICE#GENERAL, negative}, {HOTEL#MISCELLANEOUS, negative}
+
+#332
+phòng ổn, sạch sẽ, nhân viên nhiệt tình, thân thiện, hỏi mượn quạt dc đáp ứng luôn. K ăn ở ks bữa nào nên k có ý kiến. Sang năm sẽ đặt tiếp ở đây :) ko có j để phàn nàn
+{ROOMS#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {HOTEL#GENERAL, positive}
+
+#333
+khách sạn mới , nhân viên thân thiện , ăn sáng phong phú , nhiều món đặc sản của vùng miền , khá gần biển và sông , nằm trên tuyến đường chính từ trung tâm thành phố sang biển nên rất sôi đông và nhiều nhà hàng . chúng tôi hài lòng .
+{HOTEL#DESIGN&FEATURES, positive}, {SERVICE#GENERAL, positive}, {FOOD&DRINKS#STYLE&OPTIONS, positive}, {LOCATION#GENERAL, positive}, {HOTEL#COMFORT, positive}
+
+#334
+Bữa sáng chưa thực sự ổn lắm. Nhà mình 2 ngày 7.30 lên ăn sáng, đồ ăn đã hết. Cửa sổ các phòng nên có tấm lan can chắn. Vì gia đình đi chơi bao giở cũng có trẻ em, khách sạn để phòng như thế có tỷ lệ rủi ro rất cao.
+{FOOD&DRINKS#STYLE&OPTIONS, negative}, {ROOMS#DESIGN&FEATURES, negative}, {ROOMS#MISCELLANEOUS, negative}
+
+#335
+Sạch sẽ, nhân viên phục vụ tốt Tôi đều hài lòng
+{HOTEL#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {HOTEL#COMFORT, positive}
+
+#336
+Khách sạn phòng đẹp và sạch sẽ. Nhân viên thân thiện chu đáo Mọi thứ đều hài lòng
+{ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {HOTEL#COMFORT, positive}
+
+#337
+Bữa ăn sáng ngon và đa dạng. Phòng đẹp và sạch sẽ. Tôi sẽ trở lại.
+{FOOD&DRINKS#QUALITY, positive}, {FOOD&DRINKS#STYLE&OPTIONS, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {HOTEL#GENERAL, positive}
+
+#338
+Bữa ăn sáng không ngon như các khách sạn 4**** khác
+{FOOD&DRINKS#QUALITY, negative}
+
+#339
+khách sạn mới , cách biển và sông cũng gần , nhân viên vui vẻ nhiệt tình , ăn sáng phong phú nhiều món ngon .
+{HOTEL#DESIGN&FEATURES, positive}, {LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}, {FOOD&DRINKS#STYLE&OPTIONS, positive}, {FOOD&DRINKS#QUALITY, positive}
+
+#340
+Mình đã trả nghiệm 1 đêm ở đây tuy ngắn nhưng cảm thấy rất hài lòng, nhân viên lúc nào cũng tươi cười và giúp đỡ nếu bạn cần, vị trí cũng gần biển rất hài lòng, có dịp mình sẽ quay lại. 😘
+{HOTEL#COMFORT, positive}, {SERVICE#GENERAL, positive}, {LOCATION#GENERAL, positive}, {HOTEL#GENERAL, positive}
+
+#341
+Touch là chạm, chạm đến trái tim ^^ Anh chị chủ siêu dễ thương, thân thiện. Phòng sạch sẽ, trang trí so kute với tone xanh trắng dịu mát, có rất nhiều góc sống ảo và board game so thú vị ^^ Có dịp ghé Đà Nẵng sẽ qua anh chị Trường Trang của Touch
+{SERVICE#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {HOTEL#DESIGN&FEATURES, positive}, {FACILITIES#COMFORT, positive}, {HOTEL#GENERAL, positive}
+
+#342
+anh chị chủ nhà rất thân thiện, phòng ngủ tiện nghi đầy đủ mọi thứ, có phòng bếp nấu ăn rất thoải mái như ở nhà, nhà trang trí cũng rất là đẹp và thoải mái, nhà gần biển nên tiện đi ngắm mặt trời mọc, hơn thế nữa cạnh nhà có nhiều món ăn ngon nên không phải đi đâu xa tìm nữa. Tôi cực kì thích nơi này và hơn nữa anh chị rất nhiệt tình đón tiếp khách chu đáo, có thời gian tôi sẽ quay lại nhiều lần nữa
+{SERVICE#GENERAL, positive}, {ROOM_AMENITIES#GENERAL, positive}, {ROOM_AMENITIES#COMFORT, positive}, {HOTEL#DESIGN&FEATURES, positive}, {HOTEL#COMFORT, positive}, {LOCATION#GENERAL, positive}, {HOTEL#MISCELLANEOUS, positive}, {HOTEL#GENERAL, positive}
+
+#343
+Host cực kì cute. Sẵn lòng giúp đỡ và thăm hỏi team tụi mình. Sẽ giới thiệu cho bạn bè ghé thăm
+{SERVICE#GENERAL, positive}, {HOTEL#GENERAL, positive}
+
+#344
+Host super thân thiện. Cả ngôi nhà lẫn phòng ngủ đều xinh xắn đáng yêu. Lần tới đến ĐN mình sẽ lại tới Touch <3
+{SERVICE#GENERAL, positive}, {HOTEL#DESIGN&FEATURES, positive}, {ROOMS#DESIGN&FEATURES, positive}, {HOTEL#GENERAL, positive}
+
+#345
+Ông bà chủ quá thân thiện ! Nên cảnh giác vì có thể bị nghiện mà chả muốn về!^^
+{SERVICE#GENERAL, positive}, {HOTEL#GENERAL, positive}
+
+#346
+Mình ở 11 ngày tại đâu, mỗi sáng trước khi đi ra ngoài mình đều gửi chìa khoá cho lễ tân và dặn dọn phòng giúp mình, nhưng họ hình như chỉ thay mỗi khăn tắm, bạn mình than phiền mỗi ngày rằng họ không clean sàn nhà và bathroom. -Khách sạn này chỉ gần mỗi biển, cách khá xa khu trung tâm và các địa điểm nổi tiếng khác. -Nếu bạn không muốn trả thêm tiền thì đừng làm bẩn ga trải giường hay khăn tắm , mình vừa bị ép bồi thường 15$ vì làm bẩn 3 cái ga giường và họ cũng không cho mình xem vết bẩn, họ chỉ nói mình làm bẩn 3 cái ga khi mình thanh toán, và 3 cái ga đó họ đã vứt đi rồi. -Hệ thống nước có vấn đề,có 1 phòng thì máy nước nóng không hoạt động, có ngày thì họ nói là mưa bão nên hỏng hệ thống nước khiến mình không tắm được trong 2 ngày. -Ở phòng của mình, không thể điều chỉnh được nhiệt độ điều hoà .
+{SERVICE#GENERAL, negative}, {ROOMS#CLEANLINESS, negative}, {LOCATION#GENERAL, neutral}, {ROOM_AMENITIES#PRICES, negative}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {ROOM_AMENITIES#COMFORT, negative}
+
+#347
+Phòng ốc gọn gàng và rất thoải mái. Do check in sớm nên được giới thiệu một phòng nhỏ hơn nhưng rất tiện nghi. DHwon những gì mong đợi với giá tiền ấy. Nhân viên nữ lịch sự dễ thương :) Nếu quay lại ĐN thì ks này sẽ là lựa chọn đầu tuên với du lịch cặp đôi gđ cần chỗ nghỉ vừa túi tiền nhưng vẫn tiện nghi thoải mái ^^
+{ROOMS#DESIGN&FEATURES, positive}, {ROOMS#COMFORT, positive}, {SERVICE#GENERAL, positive}, {HOTEL#GENERAL, positive}, {HOTEL#PRICES, positive}, {HOTEL#COMFORT, positive}
+
+#348
+Giường nệm lò xo, nhưng nệm xẹp đi còn lò xo nên nằm cấn lưng và mỗi lần trở mình lại có âm thanh ồn ào, máy nước nóng và ti vi không sử dụng được, khi đặt phòng giá khác khi trả phòng lại lên giá bảo do tỉ giá đô lên.
+{ROOM_AMENITIES#QUALITY, negative}, {ROOM_AMENITIES#COMFORT, negative}, {ROOMS#PRICES, negative}, {HOTEL#MISCELLANEOUS, negative}
+
+#349
+Vị trí đẹp,ăn uống tiện lợi, gần tạp hóa và siêu thị mini,gần bãi biển. Chưa có thang máy
+{LOCATION#GENERAL, positive}, {HOTEL#MISCELLANEOUS, positive}, {FACILITIES#DESIGN&FEATURES, negative}
+
+#350
+Tiện nghi, sạch sẽ, thái độ phục vụ tốt Nothing
+{HOTEL#COMFORT, positive}, {HOTEL#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}
+
+#351
+Nhân viên thân thiện và chất lượng phòng phù hợp giá tiền
+{SERVICE#GENERAL, positive}, {ROOMS#QUALITY, positive}, {ROOMS#PRICES, positive}
+
+#352
+Chị lễ tân thân thiện. phòng ốc sạch sẽ đầy đủ tiện nghi. Gần bãi tắm phạm văn đồng sạch đẹp.
+{SERVICE#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {ROOM_AMENITIES#GENERAL, positive}, {LOCATION#GENERAL, positive}
+
+#353
+Nhân viên nhiệt tình, đầy đủ tiện nghi Nên có cầu thang máy đỡ mỏi chân
+{SERVICE#GENERAL, positive}, {FACILITIES#GENERAL, positive}, {FACILITIES#DESIGN&FEATURES, negative}
+
+#354
+Thoải mái thân thiện Ko có thang máy. Đi lại bất tiện
+{HOTEL#COMFORT, positive}, {SERVICE#GENERAL, positive}, {FACILITIES#DESIGN&FEATURES, negative}, {FACILITIES#COMFORT, negative}
+
+#355
+Giường đêm thoải mái rất êm. Phòng cơ bản rất sạch sẽ và thái độ nhân viên tốt Phòng nên thường xuyên khử mùi :)
+{ROOM_AMENITIES#COMFORT, positive}, {ROOM_AMENITIES#QUALITY, positive}, {ROOMS#CLEANLINESS, neutral}, {SERVICE#GENERAL, positive}
+
+#356
+Nhân viên thân thiện, vị trí rất thuận lợi, gần biển và trung tâm thành phố, khá yên tĩnh
+{SERVICE#GENERAL, positive}, {LOCATION#GENERAL, positive}, {HOTEL#COMFORT, positive}
+
+#357
+Bàn chải quá cứng, không thể sử dụng được. Vẫn có muỗi tuy nhiên giá thành rẻ, phù hợp cho các bạn trẻ với mức kinh tế vừa phải, không quá quan trọng tiện nghi khách sạn. Cần chú ý vệ sinh, côn trùng, bàn chải kem đánh răng cần nâng cấp hơn. Ti vi không có kênh giải trí.
+{ROOM_AMENITIES#QUALITY, negative}, {HOTEL#CLEANLINESS, negative}, {HOTEL#PRICES, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#358
+Nhân viên thân thiên,nhịêt tình. Có bạn lễ tân tên Ly rất hay cười,chu đáo với khách hàng, còn đưa mình đi mua thuốc lúc cần. Nhân viên phục vụ còn 1 thiếu sót là khi mang đồ ăn cho khach,ngón tay chạm vào đồ ăn ( cơm,canh)
+{SERVICE#GENERAL, positive}, {FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#359
+Tiện nghi đầy đủ thoải mái, nhân viên nhiệt tình và rất thân thiện. Tuy không phải khách sạn tốt nhất nhưng thái độ phục vụ làm mình rất ấn tượng và để lại dấu ấn tốt ở đây. Nhược điểm hơi ít phòng và tầng, hơn nữa khách sạn nằm trong con đường mới xây nên di chuyển hay gọi xe hầu như đều phải ra trục đường chính. View không đẹp lắm
+{FACILITIES#GENERAL, positive}, {HOTEL#COMFORT, positive}, {SERVICE#GENERAL, positive}, {HOTEL#DESIGN&FEATURES, negative}, {HOTEL#MISCELLANEOUS, negative}, {HOTEL#GENERAL, negative}
+
+#360
+Tôi và người yêu trải qua một đêm ở khách sạn nhân ngày sinh nhật của tôi hôm ngày 03 tháng 12 vừa rồi. Nói chung mọi thứ tuyệt vs mức giá đó.
+{HOTEL#GENERAL, positive}, {HOTEL#PRICES, positive}
+
+#361
+Không gian thoáng, Lễ tân thân thiện nhiệt tình. Tình trạng vệ sinh luôn sạch sẽ, phù hợp cho chuyến nghỉ ngơi của gia đình.
+{HOTEL#DESIGN&FEATURES, positive}, {SERVICE#GENERAL, positive}, {HOTEL#CLEANLINESS, positive}, {HOTEL#GENERAL, positive}
+
+#362
+Nhân viên nhiệt tình, thân thiện Vị trí gần biển. Phòng nghỉ thoải mái, yên tĩnh. Dọn phòng hàng ngày còn sơ sài và chưa được sạch sẽ lắm. Đồ ăn sáng ngon nhưng không phong phú lắm.
+{SERVICE#GENERAL, neutral}, {LOCATION#GENERAL, positive}, {ROOMS#COMFORT, positive}, {ROOMS#CLEANLINESS, negative}, {FOOD&DRINKS#QUALITY, positive}, {FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#363
+Phòng nghỉ chật chội,khác với những j chúng tôi thấy qua booking,cảm giác như bị lừa,nhà vệ sinh bốc mùi k thể khắc phục,nhân viên k hề quan tâm đến. K bao h quay lại
+{ROOMS#DESIGN&FEATURES, negative}, {ROOM_AMENITIES#CLEANLINESS, negative}, {SERVICE#GENERAL, negative}, {HOTEL#GENERAL, negative}
+
+#364
+Giường khá thoải mái, có cửa số nhìn ra biển! Nhưng tương lai chắc sẽ ko còn cơ hội nhìn đc vi sẽ có các công trình xây dưng che mất tầm nhìn! Nhân viên phục vụ nhiệt tình, phòng sạch sẽ và đầy đủ thiết bị, mức giá như vậy là tốt vs những người có mức thu nhập bình thường! Gặp chút vấn đề vs chú bảo vệ trong việc thuê xe máy, trong khu có nhiều nhà đang xây dựng nên đường ko đc sạch sẽ!
+{ROOM_AMENITIES#COMFORT, positive}, {ROOMS#GENERAL, positive}, {SERVICE#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {ROOM_AMENITIES#GENERAL, positive}, {HOTEL#PRICES, positive}, {FACILITIES#MISCELLANEOUS, negative}, {HOTEL#MISCELLANEOUS, negative}
+
+#365
+Nội thất phòng đầy đủ và được chuẩn bị tốt. Có dọn phòng hàng ngày. Nhân viên dọn dẹp và lễ tân nhiệt tình. Vị trí gần biển. Phòng hơi nhỏ. Khách sạn có tầm nhìn ra không được đẹp lắm. Tiền thuê xe do khách san liên hệ hơi mắc và không có nhiều xe để chọn. Nước chảy yếu ở vòi sen. Buổi sáng hơi ít món.
+{ROOM_AMENITIES#GENERAL, positive}, {ROOM_AMENITIES#QUALITY, positive}, {ROOMS#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {LOCATION#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, negative}, {HOTEL#GENERAL, negative}, {FACILITIES#PRICES, negative}, {FACILITIES#DESIGN&FEATURES, negative}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#366
+Gần biển Nhà vệ sinh thoát nước kém, phòng có muỗi, cách âm kém, để mỳ ăn liền cho khách nhưng trong phòng không có bình đun siêu tốc
+{LOCATION#GENERAL, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {ROOMS#CLEANLINESS, negative}, {ROOMS#DESIGN&FEATURES, negative}
+
+#367
+Khách sạn sạch sẽ Nhân viên vui vẻ nhiệt tình. Buổi sáng ăn được, hơi ít món nên thêm và thay đổi món ăn hàng ngày. Phòng hơi nhỏ
+{HOTEL#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {FOOD&DRINKS#QUALITY, positive}, {FOOD&DRINKS#STYLE&OPTIONS, negative}, {ROOMS#DESIGN&FEATURES, negative}
+
+#368
+Phòng mới, trang bị tiện nghi và sạch sẽ. Không có gì không thích
+{ROOMS#DESIGN&FEATURES, positive}, {ROOM_AMENITIES#COMFORT, positive}, {ROOM_AMENITIES#CLEANLINESS, positive}, {HOTEL#GENERAL, positive}
+
+#369
+Nhân viên phục vụ nhiệt tình. Phòng sạch sẽ được dọn mỗi ngày. Mini bar tại phòng có menu đầy đủ với giá cả cực kỳ hợp lý.😙 Mình thích ngắm cảnh tại phòng mà cửa sổ phòng mình có view ko đẹp 😂. Cơ mà như thế cũng là phù hợp với giá phòng nên ko vấn đề.
+{SERVICE#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {FOOD&DRINKS#STYLE&OPTIONS, positive}, {FOOD&DRINKS#PRICES, positive}, {ROOMS#GENERAL, neutral}, {ROOMS#PRICES, positive}
+
+#370
+Chị chủ và các chị nhân viên nhiệt tình, thân thiện. Phòng gọn gàng, dọn dẹp sạch sẽ. Gần bãi biển, đi bộ hết 2 phút 59 giây. Nói chung là mọi thứ ok. - Nothing.
+{SERVICE#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {LOCATION#GENERAL, positive}, {HOTEL#GENERAL, positive}
+
+#371
+Nhân viên dễ tính. Tư vấn nhiệt tình. Phòng sạch sẽ. Đi bộ ra biển mất khoảng 7p Ko có thang máy Hơi xa khu trung tâm( đi bộ ra đường Nguyễn Văn Thoại mất khoảng 10p Phòng bị khách sạn bên cạnh xây cao che mất tầm nhìn ra biển
+{SERVICE#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {LOCATION#GENERAL, neutral}, {FACILITIES#DESIGN&FEATURES, negative}, {ROOMS#GENERAL, negative}
+
+#372
+Phòng đẹp, sạch và thoáng Cách phục vụ cuả nhân viên khách sạn chu đáo, ân cần dù mình đến nhận phòng khá trễ gần 1h sáng Khách sạn có bãi xe bên hông rộng rất thuận tiện cho khách.
+{ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {ROOMS#COMFORT, positive}, {SERVICE#GENERAL, positive}, {FACILITIES#DESIGN&FEATURES, positive}, {FACILITIES#COMFORT, positive}
+
+#373
+giường êm, máy nước nóng tốt, nhân viên thân thiện ra giường không sạch, wifi yếu
+{ROOM_AMENITIES#QUALITY, positive}, {SERVICE#GENERAL, positive}, {ROOM_AMENITIES#CLEANLINESS, negative}, {FACILITIES#QUALITY, negative}
+
+#374
+Phòng sạch sẽ, yên tĩnh, phù hợp giá tiền Nệm bị lún
+{ROOMS#CLEANLINESS, positive}, {ROOMS#COMFORT, positive}, {ROOMS#PRICES, positive}, {ROOM_AMENITIES#QUALITY, negative}
+
+#375
+Chị chủ dễ thương và nhiệt tình lắm! Hệ thống nước chưa được tốt lắm
+{SERVICE#GENERAL, positive}, {ROOM_AMENITIES#QUALITY, negative}
+
+#376
+Gần các điểm du lịch. Ăn uống xung quanh rẻ. Nhân viên dễ thương. Wifi hơi yếu
+{LOCATION#GENERAL, positive}, {HOTEL#MISCELLANEOUS, positive}, {SERVICE#GENERAL, positive}, {FACILITIES#QUALITY, positive}
+
+#377
+Nhân viên cực cực kỳ thân thiện, nhiệt tình, chu đáo Do không cách âm nên đôi khi nghe tiếng ồn trẻ em. Ngày cuối cùng có muỗi trong phòng.
+{SERVICE#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, negative}, {ROOMS#CLEANLINESS, negative}
+
+#378
+Mọi thứ ổn, truyền hình cáp không có tín hiệu và internet rất yếu chập chờn. Tổng thể ổn, phù hợp với giá tiền phòng.
+{HOTEL#GENERAL, positive}, {ROOM_AMENITIES#QUALITY, negative}, {FACILITIES#QUALITY, negative}, {ROOMS#PRICES, positive}
+
+#379
+Phòng sạch sẽ, nhân viên thân thiện. Không có chỗ phơi quần áo
+{ROOMS#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {HOTEL#MISCELLANEOUS, negative}
+
+#380
+Khách sạn sạch sẽ, vị trí thuận lợi, giá hợp lý. Giao phòng không đúng như mình yêu cầu, thái độ nhân viên khó chịu
+{HOTEL#CLEANLINESS, positive}, {LOCATION#GENERAL, positive}, {HOTEL#PRICES, positive}, {ROOMS#GENERAL, negative}, {SERVICE#GENERAL, negative}
+
+#381
+Nhân viên tận tình..gần biển..giá cả phai chăng..nói chung lả rất hài lòng
+{SERVICE#GENERAL, positive}, {LOCATION#GENERAL, positive}, {HOTEL#PRICES, positive}, {HOTEL#COMFORT, positive}
+
+#382
+Nhân viên phục vụ tốt, chu đáo. Giá cả OK.
+{SERVICE#GENERAL, positive}, {HOTEL#PRICES, positive}
+
+#383
+Mình đến sân bay đã gần 12h đêm nhưng bên khách sạn rất nhiệt tình. Nói chung là mình rất hài lòng
+{SERVICE#GENERAL, positive}, {HOTEL#COMFORT, positive}
+
+#384
+Giường thoải mái Nhân viên thân thiện Gần biển Xa trung tâm Không có ổ điện để cắm máy sấy trong phòng tắm
+{ROOM_AMENITIES#COMFORT, positive}, {SERVICE#GENERAL, positive}, {LOCATION#GENERAL, neutral}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#385
+Mọi người nhiệt tình và vui vẻ, phù hợp với giá tiền Phòng có kiến và hơi nhỏ
+{SERVICE#GENERAL, positive}, {HOTEL#PRICES, positive}, {ROOMS#CLEANLINESS, negative}, {ROOMS#DESIGN&FEATURES, negative}
+
+#386
+Thái độ phục vụ của nhân viên rất nhiệt tình và chu đáo. Khách sản có nhiều tầng nên lắp thang máy
+{SERVICE#GENERAL, positive}, {FACILITIES#DESIGN&FEATURES, negative}
+
+#387
+Nhân viên nhiệt tình thân thiện Đầy đủ tiện nghi, thuê xe giá tốt và địa điểm đẹp
+{SERVICE#GENERAL, positive}, {FACILITIES#GENERAL, positive}, {FACILITIES#PRICES, positive}, {LOCATION#GENERAL, positive}
+
+#388
+Gần biển Phòng ở tầng trệt nên hơi ồn. Phòng tối và vệ sinh chưa sạch
+{LOCATION#GENERAL, positive}, {ROOMS#COMFORT, negative}, {ROOMS#DESIGN&FEATURES, negative}, {ROOMS#CLEANLINESS, negative}
+
+#389
+Bữa sáng ngon rẻ và hợp vệ sinh Nước tắm tầng 4 hơi yếu
+{FOOD&DRINKS#QUALITY, positive}, {FOOD&DRINKS#PRICES, positive}, {FOOD&DRINKS#MISCELLANEOUS, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#390
+Nhân viên cởi mở thân thiết, chất lượng phục vụ chu đáo. Đi bộ ra gần biển nhưng hơi xa bãi tắm
+{SERVICE#GENERAL, positive}, {HOTEL#QUALITY, positive}, {LOCATION#GENERAL, neutral}
+
+#391
+Phòng mới, sạch sẽ. Cô chủ thân thiện. Đồ ăn trong khách sạn rẻ
+{ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {FOOD&DRINKS#PRICES, positive}
+
+#392
+Ks mới rất đẹp, sạch sẽ, lại gần biển, wifi máy lạnh căng đét :)) chủ lẫn nhân viên đều nhiệt tình dễ thương ,quá ổn trong tầm giá !
+{ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {LOCATION#GENERAL, positive}, {FACILITIES#QUALITY, positive}, {ROOM_AMENITIES#QUALITY, positive}, {SERVICE#GENERAL, positive}, {HOTEL#GENERAL, positive}, {HOTEL#PRICES, positive}
+
+#393
+Dịch vụ rất tuyệt vời, nhân viên nhiệt tình, thức ăn sáng rất ngon và hợp khẩu vị, mình sẽ ghé lại đây những kế tiếp. Mọi thứ rất ok với mức giá như vậy.
+{HOTEL#GENERAL, positive}, {SERVICE#GENERAL, positive}, {FOOD&DRINKS#QUALITY, positive}, {HOTEL#PRICES, positive}
+
+#394
+Giá cả phải chăng và được bao gồm cả phần ăn sáng tuy đơn giản nhưng được thay đổi mỗi ngày. Nhân viên thì cực kỳ nhiệt tình khiến tôi rất thoải mái. Đặc biệt Vove có môt quầy bar rất dễ thương, thích hợp để hưởng thức cafe và ngắm cảnh vào buổi sáng.
+{HOTEL#PRICES, positive}, {FOOD&DRINKS#STYLE&OPTIONS, positive}, {SERVICE#GENERAL, positive}, {HOTEL#COMFORT, positive}, {FACILITIES#DESIGN&FEATURES, positive}, {FACILITIES#COMFORT, positive}
+
+#395
+Đi cũng tương đối, ở cũng nhiều hotel rồi. Nay thử 1 lần hostel cho biết vì nghe mấy người bạn mới ghé Đà Nẵng giới thiệu. Phòng sạch, màu dễ thương. Đi trúng hôm không đông khách nên ở bao thoải mái. Nhân viên nhiệt tình tư vấn chỗ đi chơi,nhất là cô bé quản lý khá là chăm khách. Bên cạnh có cái bar Đơn vị tui gì đó, bụi bụi chất chất được phết. Giống như sinh ra là dành cho nhau vậy. Túm lại đúng tinh thần hostel, ngon, rẻ, hơi bổ. he he.
+{ROOMS#CLEANLINESS, positive}, {ROOMS#DESIGN&FEATURES, positive}, {HOTEL#COMFORT, positive}, {SERVICE#GENERAL, positive}, {HOTEL#MISCELLANEOUS, positive}, {HOTEL#GENERAL, positive}, {HOTEL#PRICES, positive}
+
+#396
+Mình hi vọng khi dọn phòng nên đổ rác luôn. Không nên để qua ngày. Mình ở 3 ngày thì có thể, nếu ở nhiều hơn thì không ổn lắm. Tốt nhất là ngày nào đổ ngày đó.hj
+{ROOMS#CLEANLINESS, negative}, {SERVICE#GENERAL, negative}
+
+#397
+Bữa sáng ngon miệng, nhân viên dễ thương, lịch sự Không phàn nàn gì
+{FOOD&DRINKS#QUALITY, positive}, {SERVICE#GENERAL, positive}, {HOTEL#GENERAL, positive}
+
+#398
+Không gian yên tĩnh,mát mẻ. Có phòng máy lạnh và wifi miễn phí Nhân viên hiếu khách, nhiệt tình. Tôi cảm thấy thoải mái khi ở tại Vove hostel.
+{HOTEL#COMFORT, positive}, {ROOMS#QUALITY, positive}, {FACILITIES#PRICES, positive}, {SERVICE#GENERAL, positive}
+
+#399
+Địa điểm yên tĩnh, không gian xung quanh khá ổn. Đồ ăn sáng phong phú, gần bãi biển, di chuyển thuận tiện và các bạn nhân viên nhã nhặn dễ mến. Là một lựa chọn đáng tiền so với mức giá tương đương. Tôi sẽ trở lại nếu có dịp đến Đà Nẵng.
+{HOTEL#COMFORT, positive}, {FOOD&DRINKS#STYLE&OPTIONS, positive}, {LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}, {HOTEL#PRICES, positive}, {HOTEL#GENERAL, positive}
+
+#400
+Nhân viên rất thân thiện và nhiệt tình giúp đỡ khách,rất hài lòng với nhân viên ở đây; phòng sạch sẽ, món ăn ngon, nếu có dịp quay lại Đà Nẵng sẽ tiếp tục ủng hộ Sabina Phòng Standard hơi nhỏ, không có không gian cho gđ ngồi với nhau, nhà mình 6 ng chỉ có thể ngồi chung trên giường
+{SERVICE#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {FOOD&DRINKS#QUALITY, positive}, {HOTEL#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, negative}
+
+#401
+Bữa sáng ngon, view đẹp toàn thành phố và biển. Địa điểm gần công viên biển đông, thuận tiên vui chơi. Nội thất hiện đại, sạch sẽ, đầy đủ đồ dùng cần thiết. Phòng hơi chật. Bố trí ổ cắm điện không hợp lý và rất ít ổ cắm, gây bất tiện. Rèm không có cản sáng nên sáng bị dậy sớm.
+{FOOD&DRINKS#QUALITY, positive}, {HOTEL#GENERAL, positive}, {LOCATION#GENERAL, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, neutral}, {ROOM_AMENITIES#CLEANLINESS, positive}, {ROOM_AMENITIES#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, negative}, {ROOM_AMENITIES#COMFORT, negative}, {ROOMS#COMFORT, negative}
+
+#402
+bữa sáng thay đổi rất ngon nhiều món, nước uống cũng có, cafe , sữa. khách sạn rất gần biển. ra cửa đi tầm vài bước chân là thấy biển luôn rồi. khá sạch sẽ. tuy nhiên phòng diện tích khiêm tốn. có lẽ do mình ở phòng bình thường. còn phòng to sẽ rộng và view đẹp hơn. nhân viên phục vụ khá tốt nhiệt tình. Mình thuê thêm nửa ngày bình thường sẽ trả phòng trước 18h nhưng vì mình bay muộn nên khách sạn cũng tạo điều kiện cho mình trả phòng muộn hơn 1h là 19h và không tính phí. Mọi thứ tiện lợi đặt tour bà nà, cù lao chàm...thuê xe máy..ở ks luôn. Chúc khách sạn làm ăn thuận lợi.
+{FOOD&DRINKS#STYLE&OPTIONS, positive}, {FOOD&DRINKS#QUALITY, positive}, {LOCATION#GENERAL, positive}, {HOTEL#CLEANLINESS, positive}, {ROOMS#DESIGN&FEATURES, neutral}, {SERVICE#GENERAL, positive}, {ROOMS#PRICES, positive}, {FACILITIES#COMFORT, positive}, {HOTEL#GENERAL, positive}
+
+#403
+Địa điểm thuận tiện để ra biển Nhân viên nhiệt tình, đôi lúc hơi chậm Phục vụ phòng sạch sẽ Bữa sáng ổn Tuy nhiên phòng không có ban công nên hơi bí một chút, điều hòa để vị trí chưa thuận tiện lắm
+{LOCATION#GENERAL, positive}, {SERVICE#GENERAL, neutral}, {ROOMS#CLEANLINESS, positive}, {FOOD&DRINKS#QUALITY, positive}, {ROOMS#DESIGN&FEATURES, negative}, {ROOMS#COMFORT, negative}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#404
+Phòng được vệ sinh sạch sẽ hàng ngày, xung quanh nhiều quán ăn, gần biển Phòng 4 người nhưng sau khi vệ sinh có hôm cho 4 khăn, hôm 2 khăn (mất công gọi lễ tân nhắc đem thêm) và mỗi ngày chỉ 2 chai nước free dù 4 người
+{ROOMS#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {HOTEL#MISCELLANEOUS, positive}, {LOCATION#GENERAL, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#405
+Mội thứ tốt Nhân viên hòa đồng. Tốt. Tuy nhiên có điều cần lưu ý là nhân viên lễ tân nói xấu khách khác trước mặt khách. Các bạn bàn giao chìa khóa ko cẩn thận làm mất chìa khóa . thức ăn bày các kiểu trên quầy. Nhân viên các bộ phận khác mặc đồ thường vào quầy ngồi và nhìn khách bằng những ánh mắt rất là như trên trời rớt xuống.
+{HOTEL#GENERAL, positive}, {SERVICE#GENERAL, neutral}
+
+#406
+Bữa sáng tốt, thái độ phục vụ của nhân viên khá thân thiện Phòng ồn, cách âm không tốt. Rèm mỏng khiến phòng buổi sáng sớm đã rất sáng không thích hợp cho trẻ nhỏ. Wiffi kém
+{FOOD&DRINKS#QUALITY, positive}, {SERVICE#GENERAL, positive}, {ROOMS#COMFORT, negative}, {ROOMS#DESIGN&FEATURES, negative}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {FACILITIES#QUALITY, negative}
+
+#407
+Chỗ nghỉ rất sạch sẽ, nhân viên vui vẻ thân thiện! Rất gần biển chỉ cần đi thẳng khoảng 500m là tới, gần các quán ăn rất tiện Tủ đồ còn mới nên có mùi sơn gỗ
+{HOTEL#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {LOCATION#GENERAL, positive}, {ROOM_AMENITIES#MISCELLANEOUS, negative}
+
+#408
+Nhân viên cẩn thận, gọi điện và khá chu đáo trước khi đến khách sạn. Mình thuê khách sạn cho bố mẹ đi du lịch và được phản ánh lại là được nhân viên xếp cho trên tầng 9, phòng rất ồn và bé. Nhìn không rộng rãi như trên ảnh cũng không có hướng phòng nhìn ra cửa sổ. Ngoài ra, giá trên Booking đắt hơn giá thuê trực tiếp ở ngoài.
+{SERVICE#GENERAL, positive}, {ROOMS#COMFORT, negative}, {ROOMS#DESIGN&FEATURES, negative}, {ROOMS#GENERAL, negative}, {HOTEL#MISCELLANEOUS, negative}
+
+#409
+- Ăn sáng buffet - Nhân viên rất niềm nở, phục vụ rất tốt, 1 dạ 2 vâng - Phòng rất sạch sẽ - View phòng deluxe 2 giường đôi rất ổn, vừa nhìn ra biển vừa nhìn ra thành phố, ra sông hàn. - Giá phòng quá ổn so với chất lượng phục vụ tốt - Mình sẽ quay lại vào những mùa sau - Món buffet đa dạng hơn chút thì sẽ tuyệt hơn - Nếu có thêm bar trên sân thượng tận dụng view đẹp vậy thì sẽ tuyệt hảo hơn
+{FOOD&DRINKS#STYLE&OPTIONS, neutral}, {SERVICE#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {ROOMS#GENERAL, positive}, {ROOMS#PRICES, positive}, {HOTEL#QUALITY, positive}, {HOTEL#GENERAL, positive}, {FACILITIES#DESIGN&FEATURES, negative}
+
+#410
+Phục vụ rất chu đáo, bữa sáng buffe ngon. Ấn tượng nhất là con người Đà Nẵng, tốt bụng và thân thiện. Có dịp sẽ trở lại... Phòng cách âm tiếng ồn hơi kém.
+{SERVICE#GENERAL, positive}, {FOOD&DRINKS#QUALITY, positive}, {HOTEL#MISCELLANEOUS, positive}, {HOTEL#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, negative}
+
+#411
+nhân viên nhiệt tình , vui vẻ , phòng óc khách sạn ok , đồ ăn sáng đa dạng , nói chung nếu có dịp sau tôi sẽ quay lại thuê khách sạn này ko có gì phải phàn nàn
+{SERVICE#GENERAL, positive}, {ROOMS#GENERAL, positive}, {FOOD&DRINKS#STYLE&OPTIONS, positive}, {HOTEL#GENERAL, positive}
+
+#412
+Chỗ ở gần biển đi lại thuận tiện, nhân viên phục vụ rất nhiên tình và đặc biệt là bữa sáng ăn rất là ngon :)
+{LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}, {FOOD&DRINKS#QUALITY, positive}
+
+#413
+Nhân viên thân thiện, phòng sạch sẽ, thoải mái, cũng gần biển Bữa ăn sáng ngon, nhưng cần đa dạng món ăn hơn nữa
+{SERVICE#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {ROOMS#COMFORT, positive}, {LOCATION#GENERAL, positive}, {FOOD&DRINKS#QUALITY, positive}, {FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#414
+Phòng standar hơi nhỏ và bí vì không có cửa sổ nhìn ra ngoài, KS bé và không như mong đợi của mình. Khòng không có cửa sổ.
+{ROOMS#DESIGN&FEATURES, negative}, {ROOMS#COMFORT, negative}, {HOTEL#DESIGN&FEATURES, negative}
+
+#415
+Ăn sáng bình thường ,phòng ngủ gọn gàng,phòng vệ sinh tốt
+{FOOD&DRINKS#QUALITY, neutral}, {ROOMS#DESIGN&FEATURES, positive}, {ROOM_AMENITIES#QUALITY, positive}
+
+#416
+Nhân viên phục vụ chu đáo, nhiệt tình. Địa điểm & phòng ở Ok, phù hợp với chi phí.
+{SERVICE#GENERAL, positive}, {LOCATION#GENERAL, positive}, {ROOMS#GENERAL, positive}, {HOTEL#PRICES, positive}
+
+#417
+Phục vụ nhiệt tình. CHị quản lí mập mập dễ thương thiết kế tủ quần áo bất tiện và ổ cắm điện bất tiện
+{SERVICE#GENERAL, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {ROOM_AMENITIES#COMFORT, negative}
+
+#418
+Bữa sáng đa dạng, phòng sạch sẽ, nhân viên thân thiện
+{FOOD&DRINKS#STYLE&OPTIONS, positive}, {ROOMS#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}
+
+#419
+Nhân viên thân thiện, vị trí ok Trong phòng ổ cắm ít, cách âm chưa tốt
+{SERVICE#GENERAL, positive}, {LOCATION#GENERAL, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {ROOMS#DESIGN&FEATURES, negative}
+
+#420
+Nhân viên vô cùng thân thiện, luôn nở nụ cười. Phòng ở sạch sẽ, thoải mái. Nhất định sẽ quay lại
+{SERVICE#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {ROOMS#COMFORT, positive}, {HOTEL#GENERAL, positive}
+
+#421
+Giưởng và phòng tắm Vị trí phòng. Phòng tôi ở nằm ngay dưới khu bếp của khách sạn nên vào sáng sớm có nhiều tiếng ồn làm tôi không thể ngủ được
+{ROOM_AMENITIES#DESIGN&FEATURES, positive}, {ROOMS#DESIGN&FEATURES, negative}, {ROOMS#COMFORT, negative}
+
+#422
+Giá cả hợp lý. Nhân viên thân thiện Phòng hơi bí, cửa sổ nhỏ v nằm trên cao
+{HOTEL#PRICES, positive}, {SERVICE#GENERAL, positive}, {ROOMS#COMFORT, negative}, {ROOMS#DESIGN&FEATURES, negative}
+
+#423
+Phòng sạch sẽ, tiện nghi đây đủ Điều hòa hơi nóng, ít ổ cắm điện
+{ROOMS#CLEANLINESS, positive}, {ROOM_AMENITIES#GENERAL, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#424
+Phòng sạch đẹp, wifi nhanh Đường trước ks hơi hẹp do nhiều ô tô đỗ và qua lại
+{ROOMS#CLEANLINESS, positive}, {ROOMS#DESIGN&FEATURES, positive}, {FACILITIES#QUALITY, positive}, {HOTEL#MISCELLANEOUS, negative}
+
+#425
+Sạch sẽ. Tiện nghi đầy đủ. Nhân viên vui vẻ hòa đồng thân thiện
+{HOTEL#CLEANLINESS, positive}, {FACILITIES#GENERAL, positive}, {SERVICE#GENERAL, positive}
+
+#426
+Nhân viên nhiệt tình So với giá tiền bỏ ra thì có thể có được một phòng có cửa sổ
+{SERVICE#GENERAL, positive}, {ROOMS#PRICES, negative}, {ROOMS#DESIGN&FEATURES, negative}
+
+#427
+Địa điểm thuận lợi. Nhân viên phục vụ tốt. Thiết kế nhà vệ sinh chưa thuận tiện. Bữa sáng nên kéo dài lâu hơn.
+{LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {ROOM_AMENITIES#COMFORT, negative}, {FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#428
+Vị trí gần biển, thuận tiện. NV lịch sự thân thiện. Chỉ cần cải thiện cách âm phòng nữa là hoàn thiên Cách âm phòng vs phòng tắm và khu vực ngoài chưa hoàn hảo lắm
+{LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, negative}
+
+#429
+Khách sạn nằm ngay gần biển rất lý tưởng cho du lịch biển. Phòng ốc rất tiện nghi,sang trọng.Nhân viên rất vui vẻ và thân thiện.Tôi có một kỳ nghỉ rất thoải mái tại khách sạn Hùng Anh.
+{LOCATION#GENERAL, positive}, {ROOMS#COMFORT, positive}, {ROOMS#QUALITY, positive}, {SERVICE#GENERAL, positive}, {HOTEL#GENERAL, positive}
+
+#430
+nhân viên bảo ko biết dịch vụ booking là gì nên mình phải bỏ tiền ra đặt bảng giá niêm yết của khách sạn với giá cao hơn nhân viên báo giá lung tung,lúc đầu mình đạt qua booking giá là 1.000.000 nhưng khi vào khách sạn thì nhân viên lễ tân tên Mẫn bảo ko biết dịch vụ booking là gì và bảo giá phòng cho 2 người là 1.400.000 VNĐ,mình lại hỏi đến booking.vn thì lúc sau nhân viên bảo được giảm giá còn 1.200.000 VNĐ
+{SERVICE#GENERAL, negative}, {HOTEL#PRICES, negative}
+
+#431
+Bữa sáng ngon, nhiều món. Phòng đẹp, rộng rãi thoải mái. Nhân viên nhiệt tình.
+{FOOD&DRINKS#QUALITY, positive}, {FOOD&DRINKS#STYLE&OPTIONS, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#COMFORT, positive}, {SERVICE#GENERAL, positive}
+
+#432
+Khách sạn đối diện với bãi biển, xe máy cho thuê mới sạch sẽ, buổi tối có thể dạo chơi ngoài bãi biển rất đẹp.
+{LOCATION#GENERAL, positive}, {FACILITIES#QUALITY, positive}, {FACILITIES#DESIGN&FEATURES, positive}
+
+#433
+Địa điểm thuận tiện, gần biển, giá phòng hợp lý, phòng mới, sạch sẽ
+{LOCATION#GENERAL, positive}, {ROOMS#PRICES, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}
+
+#434
+Bữa sáng ngon nhiều món. Khách sạn gần biển Rất tiện lợi.
+{FOOD&DRINKS#QUALITY, positive}, {FOOD&DRINKS#STYLE&OPTIONS, positive}, {LOCATION#GENERAL, positive}
+
+#435
+Bữa sáng hơi ít món, nhưng ngon, giường rộng thoải mái... Ngày cuối nhân viên dọn phòng không trang bị sữa tắm dầu gội!
+{FOOD&DRINKS#STYLE&OPTIONS, negative}, {FOOD&DRINKS#QUALITY, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, neutral}, {ROOM_AMENITIES#COMFORT, positive}
+
+#436
+Bữa sáng ngon nhưng khá ít lựa chọn, khách sạn đẹp, phòng gọn gàng, dọn phòng mỗi ngày, nhân viên thân thiện
+{FOOD&DRINKS#QUALITY, positive}, {FOOD&DRINKS#STYLE&OPTIONS, negative}, {HOTEL#DESIGN&FEATURES, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}
+
+#437
+Phong cách phục vụ và sự thân thiện. chi phí dịch vụ và ăn uống khá cao.
+{SERVICE#GENERAL, positive}, {FACILITIES#PRICES, negative}, {FOOD&DRINKS#PRICES, negative}
+
+#438
+View nhìn ra biển rất đẹp Phòng tắm rất lãng mạn Giường rộng và thoải mái Bữa ăn sáng không ngon nhưng có thể do sự khác biệt vùng miền
+{HOTEL#GENERAL, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, positive}, {ROOM_AMENITIES#COMFORT, positive}, {FOOD&DRINKS#QUALITY, neutral}
+
+#439
+Thích cách phục vụ của một cô nhân viên lễ tân Lễ tân ks nóng , thang máy chậm , lối đi nho, phòng hôi ko thoải mái , phục vụ ăn sáng quá chậm một số nhân viên lễ tân chưa có kinh nghiệm làm việc .... nói chung la dịch vụ chưa tốt ko biết cách quản lý .
+{SERVICE#GENERAL, neutral}, {HOTEL#COMFORT, negative}, {FACILITIES#QUALITY, negative}, {HOTEL#DESIGN&FEATURES, negative}, {ROOMS#CLEANLINESS, negative}, {ROOMS#COMFORT, negative}, {FOOD&DRINKS#STYLE&OPTIONS, negative}, {HOTEL#GENERAL, negative}
+
+#440
+Phòng nghỉ sạch sẽ. Cháo ăn sáng khá ngon. Đồ ăn sáng là mì xào không ngon. Đèn chiếu gương phòng tắm bé và tối. Cửa sổ phòng nghỉ nhìn thẳng ra nhà làm quan tài.
+{ROOMS#CLEANLINESS, positive}, {FOOD&DRINKS#QUALITY, neutral}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {ROOMS#GENERAL, negative}
+
+#441
+Tôi được nâng cấp phòng và không tính thêm phí. Phòng bài trí đẹp và có view nhìn ra tòa nhà hành chính qua cửa sổ lớn rất đẹp. Phòng sạch sẽ và nhân viên hết sức nhiệt tình. Có sky bar nhìn toàn cảnh thành phố rất thú vị. Đồ ăn sáng theo hình thức gọi món nên thức ăn không phong phú, nấu chưa ngon lắm.
+{ROOMS#QUALITY, positive}, {ROOMS#PRICES, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {FACILITIES#DESIGN&FEATURES, positive}, {FOOD&DRINKS#STYLE&OPTIONS, negative}, {FOOD&DRINKS#QUALITY, negative}
+
+#442
+Có view đẹp trên tầng thượng để thoải mái ngắm cảnh thành phố và khá gần cầu Rồng. Xe cho thuê chưa thực sự tốt lắm. Nhưng nhân viên ks đã đổi xe hôm sau.
+{HOTEL#GENERAL, positive}, {LOCATION#GENERAL, positive}, {FACILITIES#QUALITY, negative}, {SERVICE#GENERAL, positive}
+
+#443
+Nhân viên rất thân thiện và nhiệt tình. Khi mình hỏi những chỗ ăn ngon thì chị tiếp tân đưa hẳn một list với các món như bánh xèo, mì quảng, bún mắm, chả cá, hải sản... Ngoài ra giường gối, máy lạnh và các vật dụng khác đều tốt. Đặc biệt là khách sạn có view đẹp và địa thế khá tốt thuận lợi cho việc đi lại. Máy nước nóng lúc nóng lúc lạnh. Không ổn định. Chẳng biết đường nào mà lần.
+{SERVICE#GENERAL, positive}, {ROOM_AMENITIES#QUALITY, positive}, {HOTEL#GENERAL, positive}, {LOCATION#GENERAL, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#444
+Khách sạn rất tốt, sẽ chiều lòng được ngay cả những người khó tính. Phục vụ ăn sáng tốt, salad ngon <3
+{HOTEL#GENERAL, positive}, {SERVICE#GENERAL, positive}, {FOOD&DRINKS#QUALITY, positive}
+
+#445
+Thiết bị quá tệ, nhân viên kém lịch sự Phòng nghỉ dơ bẩn
+{ROOM_AMENITIES#QUALITY, negative}, {SERVICE#GENERAL, negative}, {ROOMS#CLEANLINESS, negative}
+
+#446
+Vị trí tầm nhìn rất tuyệt Ăn sáng ko đa dạng
+{LOCATION#GENERAL, positive}, {HOTEL#GENERAL, positive}, {FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#447
+Vị trí, view, các bạn lễ tân Cách các bạn phục vụ ăn sáng cần cải thiện, chú ý hơn về thái độ phục vụ! Một điểm trừ nhỏ.
+{LOCATION#GENERAL, positive}, {HOTEL#GENERAL, positive}, {SERVICE#GENERAL, neutral}, {FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#448
+Phòng rộng, sạch sẽ, view đẹp. Nhân viên thân thiện, giá cả phù hợp! Chắc chắn sẽ quay lại cho lần tới!
+{ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {ROOMS#GENERAL, positive}, {SERVICE#GENERAL, positive}, {HOTEL#PRICES, positive}, {HOTEL#GENERAL, positive}
+
+#449
+Vị trí đẹp. Cửa sổ lớn nhìn view ra sông tuyệt vời. WC nước xả hơi yếu
+{LOCATION#GENERAL, positive}, {ROOMS#GENERAL, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#450
+Nhân viên phục vụ nhiệt tình, phòng khá đẹp, thoải mái, dễ chịu. Kì nghỉ rất tuyệt. Bữa sáng còn khá đơn giản.
+{SERVICE#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#COMFORT, positive}, {HOTEL#GENERAL, positive}, {FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#451
+Phòng rộng Khách sạn này chỉ 2 sao thôi, chứ không phải 3 sao như trên mạng
+{ROOMS#DESIGN&FEATURES, positive}, {HOTEL#QUALITY, negative}
+
+#452
+Bữa sáng không nhiều món lắm nhưng cũng khá ổn. Nhân viên nhiệt tình, phòng ốc sạch sẽ, gần sông Hàn.
+{FOOD&DRINKS#STYLE&OPTIONS, negative}, {FOOD&DRINKS#QUALITY, positive}, {SERVICE#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {LOCATION#GENERAL, positive}
+
+#453
+Nhân viên nhiệt tình,hướng dẫn khách tận tình các địa điểm vui chơi. Phòng sạch, tuy nhiên loại hình 3 sao nên có bồn tắm
+{SERVICE#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#454
+View tầng thượng đẹp, phòng sạch sẽ, tiện nghi, cao cấp. Nhân viên vui vẻ. Không gian ăn sáng hơi nhỏ, phục vụ chậm, nên book món trước.
+{HOTEL#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {ROOMS#COMFORT, positive}, {ROOMS#QUALITY, positive}, {SERVICE#GENERAL, positive}, {FACILITIES#DESIGN&FEATURES, negative}, {FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#455
+Điểm tâm nghèo nàn, phục vụ thiếu chuyên nghiệp.., theo kiểu gia đình.
+{FOOD&DRINKS#STYLE&OPTIONS, negative}, {SERVICE#GENERAL, negative}
+
+#456
+Bữa sáng nên bổ sung thêm món ăn cho phong phú hơn
+{FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#457
+Bữa sáng ngon, nhân viên nhiệt tình. View tốt. Xe máy cho thuê hơi cũ
+{FOOD&DRINKS#QUALITY, positive}, {SERVICE#GENERAL, positive}, {HOTEL#GENERAL, positive}, {FACILITIES#QUALITY, negative}
+
+#458
+View từ phòng nhìn ra biển rất đẹp. Phòng suite có nhiều cửa sổ, không gian trong phòng thoáng và sáng. Thiết kế nội thất hợp lý, tiện lợi. Khăn tắm và khăn mặt không trắng. Bữa sáng không phong phú. Món ăn ít về lượng.
+{ROOMS#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#COMFORT, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, positive}, {ROOM_AMENITIES#COMFORT, positive}, {ROOM_AMENITIES#CLEANLINESS, negative}, {FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#459
+Mình ở phòng Deluxe view sea, view rất ok. Khách sạn sạch sẽ, chăn ga thơm tho, có điều cách bãi biển trung tâm hơi xa, bãi trước mặt không được sạch lắm. Buffet sáng ngon và đa dạng, nhạc jazz buổi tối rất hay, design khách sạn hợp lý, vừa mắt. Điểm trừ là giường hơi yếu, hoạt động mạnh tí là đã rung rồi :)))
+{ROOMS#GENERAL, positive}, {HOTEL#CLEANLINESS, positive}, {ROOM_AMENITIES#CLEANLINESS, positive}, {LOCATION#GENERAL, negative}, {FACILITIES#CLEANLINESS, negative}, {FOOD&DRINKS#QUALITY, positive}, {FOOD&DRINKS#STYLE&OPTIONS, positive}, {HOTEL#MISCELLANEOUS, positive}, {HOTEL#DESIGN&FEATURES, positive}, {ROOM_AMENITIES#QUALITY, negative}
+
+#460
+Thái độ nhân viên khá tốt Lúc nhận phòng trong phòng còn khá nhiều mùi hơi khó chịu và còn cả côn trùng trong phòng dù thời gian nhận phòng là vào buổi tối
+{SERVICE#GENERAL, positive}, {ROOMS#CLEANLINESS, negative}
+
+#461
+Khách sạn nằm trước biển, có view tuyệt đẹp. Nhân viên thân thiện, nhiệt tình. Phòng nhỏ nhưng đẹp, phù hợp túi tiền. Biển trước khách sạn vắng người nhưng có rác bao mì tôm, bọc ni lon, hộp sữa... mĩnh nghĩ do những thuyền đánh cá gần đó thả xuống biển
+{LOCATION#GENERAL, positive}, {HOTEL#GENERAL, positive}, {SERVICE#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, neutral}, {ROOMS#PRICES, positive}, {HOTEL#MISCELLANEOUS, negative}
+
+#462
+Bữa sáng đa dạng. Buổi tối có biểu diễn âm nhạc,khá hay. Nội thất đã xuống cấp,không còn mới và sạch sẽ. Khách sạn đối diện biển nhưng xa bãi tắm trung tâm. Bãi tắm đối diện ks có biển cấm tắm
+{FOOD&DRINKS#STYLE&OPTIONS, positive}, {FACILITIES#DESIGN&FEATURES, positive}, {FACILITIES#QUALITY, positive}, {ROOM_AMENITIES#QUALITY, negative}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {ROOM_AMENITIES#CLEANLINESS, negative}, {LOCATION#GENERAL, neutral}, {HOTEL#MISCELLANEOUS, negative}
+
+#463
+Bữa sáng rất ngon và có nhiều món, nhân viên rất thân thiện và nhiệt tình, view từ ban công nhìn ra biển siêu đẹp, có nhạc từ đài phát thanh và quán cafe buổi sáng và chiều tối. Gia đình mình đã có một kỳ nghỉ rất tuyệt vời. Một điểm trừ đó là wifi khách sạn rất yếu.
+{FOOD&DRINKS#QUALITY, positive}, {FOOD&DRINKS#STYLE&OPTIONS, positive}, {SERVICE#GENERAL, positive}, {ROOMS#GENERAL, positive}, {FACILITIES#MISCELLANEOUS, positive}, {HOTEL#GENERAL, positive}, {FACILITIES#QUALITY, negative}
+
+#464
+Nhân viên thân thiện, dễ thương và tạo cảm giác rất thoải mái. Bên dưới ngay khách sạn là quán cà phê nên rất tiện. Đồng thời, hằng đêm từ 8h có hát live nên khá thú vị. Bữa sáng không quá nhiều món nhưng cảm thấy đủ. Ngay biển nên gió biển rất mát. Phòng tiện nghi và sạch sẽ. Gần khách sạn không có địa điểm gì đặc biệt mà chủ yếu chỉ có các nhà hàng hải sản và có biển. Phòng có hơi nhỏ nhưng cảm thấy ổn.
+{SERVICE#GENERAL, positive}, {HOTEL#COMFORT, positive}, {HOTEL#MISCELLANEOUS, positive}, {FOOD&DRINKS#STYLE&OPTIONS, neutral}, {LOCATION#GENERAL, positive}, {ROOMS#COMFORT, positive}, {ROOMS#CLEANLINESS, positive}, {ROOMS#DESIGN&FEATURES, neutral}
+
+#465
+Nhân viên phục, lễ tân vui vẻ dễ mến. Việc chuẩn bị chỗ tắm nước ngọt với khăn sạch sẵn sàng là 1 ý hay. bữa sáng chưa ngon lắm - thức ăn hay lặp lại khá đơn điệu - đặc biệt là các món nước như Phở, Mì Quảng và bún chả là rất tệ :(
+{SERVICE#GENERAL, positive}, {FACILITIES#DESIGN&FEATURES, positive}, {FOOD&DRINKS#QUALITY, negative}, {FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#466
+Ngay đối diện biển, nhiều dịch vụ cộng thêm như phao bơi, vòi nước ngoài trời, khăn lau, ca nhạc hàng đêm, nhân viên thân thiện hoà nhã Nha hàng cần nhanh hơn, tươi hơn.
+{LOCATION#GENERAL, positive}, {FACILITIES#DESIGN&FEATURES, positive}, {SERVICE#GENERAL, positive}, {FOOD&DRINKS#QUALITY, neutral}, {FOOD&DRINKS#STYLE&OPTIONS, neutral}
+
+#467
+Phòng sạch, có thể ngắm biển về đêm và bình minh. Nhân viên thân thiện, nhiệt tình.
+{ROOMS#CLEANLINESS, positive}, {ROOMS#GENERAL, positive}, {SERVICE#GENERAL, positive}
+
+#468
+Bữa sáng khá ổn !! nhưng phòng không có đèn sáng :(
+{FOOD&DRINKS#QUALITY, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#469
+Hướng phòng nhìn ra biển rất đẹp, vệ sinh sạch sẽ và kịp thời, lễ tân niềm nở và chu đáo Bữa sáng đơn điệu và sơ sài
+{ROOMS#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#470
+ban công ngồi ngắm biển rất thích, giường êm, wc sạch và rộng. phòng ngủ nhỏ so với mong đợi, khăn tắm có vẻ cũ
+{ROOMS#GENERAL, positive}, {ROOM_AMENITIES#QUALITY, positive}, {ROOM_AMENITIES#CLEANLINESS, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, neutral}, {ROOMS#DESIGN&FEATURES, negative}
+
+#471
+Món ăn ngon,nhất là pizza.nhạc hay,không khí vui vẻ.
+{FOOD&DRINKS#QUALITY, positive}, {FACILITIES#MISCELLANEOUS, positive}, {HOTEL#COMFORT, positive}
+
+#472
+Nhân viên thái độ tốt, tiện nghi bình thường, giá cao
+{SERVICE#GENERAL, positive}, {FACILITIES#GENERAL, neutral}, {HOTEL#PRICES, negative}
+
+#473
+Bữa sáng ok, bánh ngọt ngon dù không đa dạng. Tối thứ tư có nhạc sống thú vị Hệ thống nước nóng lạnh chưa tốt Nhân viên chưa thật chuyên nghiệp.
+{FOOD&DRINKS#QUALITY, positive}, {FOOD&DRINKS#STYLE&OPTIONS, neutral}, {FACILITIES#QUALITY, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {SERVICE#GENERAL, negative}
+
+#474
+Món ăn bữa sáng ko phong phú, mỗi ngày chỉ có 2 món thay đổi.
+{FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#475
+Dọn phòng chưa sạch, khu nhà tắm ko cọ tường và kính. Cửa ra ban công rỉ sét, khó mở và đóng
+{ROOMS#CLEANLINESS, negative}, {SERVICE#GENERAL, negative}, {ROOMS#QUALITY, negative}
+
+#476
+Vị trí tốt. Bãi biển đẹp. Nhân viên thân thiện, vui vẻ.
+{LOCATION#GENERAL, positive}, {FACILITIES#DESIGN&FEATURES, positive}, {SERVICE#GENERAL, positive}
+
+#477
+Gần biển, nhân viên thuận thiện, bữa sáng ít món nhưng ngon. Phù hợp vơi giá tiền Phòng hơi nhỏ
+{LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}, {FOOD&DRINKS#STYLE&OPTIONS, negative}, {FOOD&DRINKS#QUALITY, positive}, {HOTEL#PRICES, positive}, {ROOMS#DESIGN&FEATURES, negative}
+
+#478
+Bưa sáng chất lượng Vị trí đi ra bãi tắm, trước mặt có bãi nhưng căng biển cấm tắm vì ko có cứu hộ
+{FOOD&DRINKS#QUALITY, positive}, {LOCATION#GENERAL, positive}, {HOTEL#MISCELLANEOUS, negative}
+
+#479
+View đẹp, nhân viên nhiệt tình thân thiện.
+{HOTEL#GENERAL, positive}, {SERVICE#GENERAL, positive}
+
+#480
+Thích view của khách sạn và nhân viên thân thiện, nhiệt tình Wifi hơi yếu
+{HOTEL#GENERAL, positive}, {SERVICE#GENERAL, positive}, {FACILITIES#QUALITY, negative}
+
+#481
+View đẹp,sạch sẽ,nhân viên thân thiện nhiệt tình! Bữa sáng nên cải thiện nhiều món hơn,đa dạng hơn
+{HOTEL#GENERAL, positive}, {HOTEL#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#482
+Bữa sáng ngon. View đẹp, cạnh nhiều nhà hàng hải sản. Sẽ tới Jazz nếu quay lại Đà Nẵng. Muốn phòng tranh bị thêm bồn tắm.
+{FOOD&DRINKS#QUALITY, positive}, {HOTEL#GENERAL, positive}, {LOCATION#GENERAL, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#483
+View đẹp Hành lang không sạch sẽ, mùi ẩm mốc
+{HOTEL#GENERAL, positive}, {HOTEL#CLEANLINESS, negative}
+
+#484
+Nhân viên nhiệt tình, chu đáo, thân thiện. Phòng bố trí đẹp, không gian đẹp. Ban nhạc tuyệt vời.
+{SERVICE#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, positive}, {HOTEL#DESIGN&FEATURES, positive}, {FACILITIES#QUALITY, positive}
+
+#485
+Nhân viên phục vụ ân cần, lịch sự. Không gian thoáng đãn, view rất đẹp
+{SERVICE#GENERAL, positive}, {HOTEL#DESIGN&FEATURES, positive}, {HOTEL#GENERAL, positive}
+
+#486
+Phòng có 2 vị trí cửa sổ ngắm về phía Đà Nẵng, thang máy chạy ổn, gần khách sạn đi bộ có một số quán ăn ngon Đi đợt bão, giữa đêm bị cúp điện nên hơi buồn.
+{ROOMS#GENERAL, positive}, {FACILITIES#DESIGN&FEATURES, positive}, {HOTEL#MISCELLANEOUS, neutral}
+
+#487
+Hai nhân viên lễ tân, có một nhân viên rất nhiệt tình, còn một nhân viên chưa tốt. Hai nhân viên lễ tân, có một nhân viên rất nhiệt tình, còn một nhân viên chưa tốt. Vòi nước nóng lắp ngược, nhưng lại thiếu cảnh báo.
+{SERVICE#GENERAL, neutral}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {ROOM_AMENITIES#MISCELLANEOUS, negative}
+
+#488
+Giường rộng thoải mái. Phòng đầy đủ tiện nghi. Gần biển và cầu sông Hàn. Phòng không rộng lắm nhưng toilet rộng, sạch, vừa đủ cho sinh hoạt. Có thang máy. Ga giường và gối nên cải thiện.
+{ROOM_AMENITIES#DESIGN&FEATURES, positive}, {ROOM_AMENITIES#COMFORT, positive}, {ROOM_AMENITIES#GENERAL, positive}, {LOCATION#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, neutral}, {ROOM_AMENITIES#CLEANLINESS, positive}, {FACILITIES#DESIGN&FEATURES, positive}, {ROOM_AMENITIES#QUALITY, negative}
+
+#489
+Nhân viên thân thiện, nhiệt tình. Giá phòng hợp lý. Tiện đi ra biển và vào trung tâm. Nhà vệ sinh gây mùi khó chịu. Cửa nhà vệ sinh không kín, có kẽ hở.
+{SERVICE#GENERAL, positive}, {ROOMS#PRICES, positive}, {LOCATION#GENERAL, positive}, {ROOM_AMENITIES#CLEANLINESS, negative}, {ROOMS#DESIGN&FEATURES, negative}
+
+#490
+Gần biển và cũng gần trung tâm luôn. Mình thuê xe máy ở khách sạn để đi chơi 2 ngày. Nhân viên nhiệt tình. Phòng nhỏ nhưng sạch, đủ tiện nghi (cơ bản). Lần sau đến Đà Nẵng sẽ thuê tiếp ở đây.
+{LOCATION#GENERAL, positive}, {FACILITIES#DESIGN&FEATURES, positive}, {SERVICE#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, negative}, {ROOMS#CLEANLINESS, positive}, {ROOM_AMENITIES#GENERAL, positive}, {HOTEL#GENERAL, positive}
+
+#491
+Không gian thoải mái, quá rẻ so với giá Bọc mền cũ quá rồi, thay đi thôi
+{HOTEL#DESIGN&FEATURES, positive}, {HOTEL#PRICES, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#492
+Sạch sẽ, thoải mái và tiện nghi Khăn mặt vải thô cứng quá.
+{HOTEL#CLEANLINESS, positive}, {HOTEL#COMFORT, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#493
+Yên tỉnh, sạch sẽ, giá hợp lý
+{HOTEL#COMFORT, positive}, {HOTEL#CLEANLINESS, positive}, {HOTEL#PRICES, positive}
+
+#494
+Cửa các phòng đều kêu lớn, làm ồn các phòng bên cạnh
+{ROOMS#DESIGN&FEATURES, negative}, {ROOMS#COMFORT, negative}
+
+#495
+Nhân viên thân thiện. Khách sạn khá gần trung tâm. Phòng rất nhỏ, không có view. Drap giường có vài vết ố vàng đỏ.
+{SERVICE#GENERAL, positive}, {LOCATION#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, negative}, {ROOMS#GENERAL, negative}, {ROOM_AMENITIES#CLEANLINESS, negative}
+
+#496
+Địa điểm tuyệt vời, gần bãi biển và sông Hàn. Nhân viên nhiệt tình, dễ mến. Chăn ga còn một số vết ố vàng
+{LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}, {ROOM_AMENITIES#CLEANLINESS, negative}
+
+#497
+Giường thoải mái, thái độ nhân viên thân thiện, gần biển, phòng rộng.
+{ROOM_AMENITIES#COMFORT, positive}, {SERVICE#GENERAL, positive}, {LOCATION#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, positive}
+
+#498
+Sạch sẽ. Nhiệt tình. Giá rẻ Phòng hơi nhỏ. Nhưng cặp đôi thì phù hợp
+{HOTEL#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {HOTEL#PRICES, positive}, {ROOMS#DESIGN&FEATURES, neutral}
+
+#499
+Phòng nhỏ nhưng sạch sẽ, tiện nghi đầy đủ, giường ngủ thoải mái. Rất đáng tiền. Phòng cách âm chưa tốt, dễ bị ồn khi có khách ra vào thang máy.
+{ROOMS#DESIGN&FEATURES, negative}, {ROOMS#CLEANLINESS, positive}, {ROOM_AMENITIES#GENERAL, positive}, {ROOM_AMENITIES#COMFORT, positive}, {HOTEL#PRICES, positive}, {ROOMS#COMFORT, negative}
+
+#500
+giá xứng đáng cho địa điểm như vậy. nv nhiệt tình. tiện đường đi ra biển và vào tp đồ đạc hơi xuống cấp
+{HOTEL#PRICES, positive}, {SERVICE#GENERAL, positive}, {LOCATION#GENERAL, positive}, {ROOM_AMENITIES#QUALITY, negative}
+
+#501
+Phòng rất sạch sẽ và đầy đủ tiện nghi. Nằm gần biển và cũng chỉ cách trung tâm 5p, nói chung rất là tốt,
+{ROOMS#CLEANLINESS, positive}, {ROOM_AMENITIES#GENERAL, positive}, {LOCATION#GENERAL, positive}, {HOTEL#GENERAL, positive}
+
+#502
+Nơi đây thật tuyệt với, một không gian gần gũi với thiên nhiên, phòng rộng rãi, nội thất trong phòng rất tốt, từng tiểu tiết nhỏ đều được khách sạn chăm chút kĩ, giá cả lại quá hợp lý. Mình sẽ đến đây nhiều lần nữa!
+{HOTEL#GENERAL, positive}, {HOTEL#DESIGN&FEATURES, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOM_AMENITIES#QUALITY, positive}, {HOTEL#PRICES, positive}
+
+#503
+Nhân viên tuyệt vời. Hotel đẹp. Bữa sáng và nhà hàng ngon tươi ! Vị trí
+{SERVICE#GENERAL, positive}, {HOTEL#DESIGN&FEATURES, positive}, {FOOD&DRINKS#QUALITY, positive}
+
+#504
+View phòng rất dễ thương. Phòng ấm cúng Nhân viên nên thân thiện hơn
+{ROOMS#GENERAL, positive}, {ROOMS#COMFORT, positive}, {SERVICE#GENERAL, negative}
+
+#505
+Bữa sáng phục vụ quá muộn, 7h muốn ăn để check out kịp chuyến bay mà chưa phục vụ
+{FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#506
+Phỏng nghỉ tiện nghi thoải mái, rộng rãi, mới và sạch sẽ Đồ ăn sáng ngon nhưng lượng hơi ít ăn chưa đủ no (mì quảng, bún bò, bánh sừng bò)
+{ROOMS#COMFORT, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {FOOD&DRINKS#QUALITY, positive}, {FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#507
+Ăn buffet sáng mà gọi như ngoài quán, ăn uống có giới hạn, ko dc gọi thêm, thật sự rất thất vọng, gọi thêm thì dc nv trả lời, suất ăn của a đã đủ, chưa thấy ks nào nt này
+{FOOD&DRINKS#STYLE&OPTIONS, negative}, {SERVICE#GENERAL, negative}, {HOTEL#COMFORT, negative}
+
+#508
+Là một khách sạn đáng để đến , thật tuyệt, là nơi nạp lại năng lượng sau những chuyến thăm quan, bữa sáng ngon , nhân viên thân thiện dễ mến, chắc chắn sẽ quay lại khi đi du lịch Đà Nẵng
+{HOTEL#GENERAL, positive}, {FOOD&DRINKS#QUALITY, positive}, {SERVICE#GENERAL, positive}
+
+#509
+Gần chợ Cồn, dễ dàng di chuyển đến sông Hàn Bữa sáng đơn điệu, đồ dùng trong phòng tắm không đầy đủ, chất lượng truyền hình kém, tiện nghi trong phòng không hiện đại
+{LOCATION#GENERAL, positive}, {FOOD&DRINKS#STYLE&OPTIONS, negative}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {ROOM_AMENITIES#QUALITY, negative}
+
+#510
+Nhân viên lễ tân ko chuyên nghiệp, thái độ phục vụ kém. Mình đi cùng gia đình, yêu cầu 2 phòng liền nhau từ lúc gửi booking, trước 2 ngày tới đã gọi điện kiểm tra, lễ tân báo OK về việc này. Ngày đến check in báo ko xếp đc 2 phòng liền nhau do phòng hỏng, nhưng thực tế là có khách khác đang ở, gia đình 2 phòng, xếp 1 phòng tầng 3, 1 phòng ở tầng 5. Em gái mình ở phòng tầng 3 có 1 mình, đang thay đồ có người nam mở cửa phòng đi vào, nói do lễ tân báo đã check out nên đi mở cửa đi kiểm tra phòng ?????? Nhân viên lễ tân cũng ko 1 lần nào nói xin lỗi gđ mình về việc này. Báo cần dọn phòng nhưng ko hề dọn. ... rồi còn rất nhiều cái khó chịu khác. Ở ks mà cảm giác ko hề an toàn, như kiểu lúc nào cũng có ng xông vào phòng đc vậy. Cảm giác còn tệ hơn là nhà nghỉ rẻ tiền nữa
+{SERVICE#GENERAL, negative}, {ROOMS#CLEANLINESS, negative}, {ROOMS#COMFORT, negative}, {HOTEL#MISCELLANEOUS, negative}, {HOTEL#COMFORT, negative}
+
+#511
+Nhân viên khá thân thiện và nhiệt tình ( đặc biệt là Fo nam và nhà hàng) Địa điểm ngay trung tâm, tiện đi lại Bữa sáng ngon, nếu ăn buffet thì tuyệt vời hơn Dọn phòng hàng ngày sạch sẽ Có dịch vụ cho thuê xe máy 120k/ngày, xe chạy tốt, bảo vệ nhiệt tình. Có 1 điều duy nhất ko hài lòng là nhân viên FO (nữ) ngang nhiên vừa gặm bánh mì vừa nhai vừa nói chuyện w khách. Cảm thấy thực sự sock đối w dịch vụ of 1 khách sạn 3*
+{SERVICE#GENERAL, neutral}, {LOCATION#GENERAL, positive}, {FOOD&DRINKS#QUALITY, positive}, {FOOD&DRINKS#STYLE&OPTIONS, neutral}, {ROOMS#CLEANLINESS, positive}, {FACILITIES#DESIGN&FEATURES, positive}, {FACILITIES#PRICES, neutral}, {FACILITIES#QUALITY, positive}, {HOTEL#QUALITY, negative}
+
+#512
+Bữa sáng có nhiều sự lựa chọn, Nhân viên nhiệt tình hỗ trợ Khách trong thời gian lưu trú. Giường thoải mái, tuy nhiên cần thường xuyên vệ sinh quạt trong phòng hơn. Khách sạn nằm ngay ngã tư, xe từ 4 chỗ trở lên khó đỗ lâu hoặc khi cần quay đầu.
+{FOOD&DRINKS#STYLE&OPTIONS, positive}, {SERVICE#GENERAL, positive}, {ROOM_AMENITIES#COMFORT, positive}, {ROOM_AMENITIES#CLEANLINESS, negative}, {HOTEL#MISCELLANEOUS, negative}
+
+#513
+Ăn sáng tuyệt vời. Phù hop mọi khẩu vi. Gần chợ Cồn, khu ăn uống đường Bạch Đằng. Thuê xe máy tốt, giá rẻ. Tiện lợi khi di chuyển đến các điểm vui chơi khác. Nhà vệ sinh thỉnh thoảng có mùi cóng bốc lên,
+{FOOD&DRINKS#QUALITY, positive}, {LOCATION#GENERAL, positive}, {FACILITIES#QUALITY, positive}, {FACILITIES#PRICES, positive}, {ROOM_AMENITIES#CLEANLINESS, negative}
+
+#514
+Ksan có dvu cho thuê xe máy, trung tâm tp nên vc đi lại cực kì thuận tiện . Nvien ksan nhiệt tình. Ksan có ăn sáng nhưng nếu có buffet thì cực ổn. Trong phòng nghỉ thỉnh thoảng có tiếng ục nước từ bồn vsinh trong wc
+{FACILITIES#DESIGN&FEATURES, positive}, {LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}, {FOOD&DRINKS#STYLE&OPTIONS, neutral}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#515
+Nhân viên nhiệt tình, lịch sự, giá cả ok. Phòng sạch đẹp, nước uống và đồ ăn vặt trong phòng khá rẻ. Vị trí ngay trung tâm nên tiện lợi về nhiều mặt, khách sạn nằm trên đường Lê Duẩn tha hồ mua sắm. - Ăn sáng không có buffe nên hơi khó lựa chọn. - Tôi đổi ngày ở từ 3 đêm xuống còn 2 đêm và khách sạn vẫn tính phí 30% của đêm thứ 3 dù trên booking.com nói rằng khách hàng cancel hay đổi ngày trước 4 ngày thì không tính phí.
+{SERVICE#GENERAL, positive}, {HOTEL#PRICES, positive}, {ROOMS#CLEANLINESS, positive}, {ROOMS#DESIGN&FEATURES, positive}, {FOOD&DRINKS#PRICES, positive}, {LOCATION#GENERAL, positive}, {FOOD&DRINKS#STYLE&OPTIONS, negative}, {HOTEL#MISCELLANEOUS, negative}
+
+#516
+Bữa sáng ngon. Nhân viên nhiệt tình Có mùi hôi ẩm trong khách sạn
+{FOOD&DRINKS#QUALITY, positive}, {SERVICE#GENERAL, positive}, {HOTEL#CLEANLINESS, negative}
+
+#517
+Ăn sáng ngon, nhân viên thân thiện
+{FOOD&DRINKS#QUALITY, positive}, {SERVICE#GENERAL, positive}
+
+#518
+bữa sáng ngon, nhân viên phục vụ thân thiện nhân viên lễ tân hơi hời hợt
+{FOOD&DRINKS#QUALITY, positive}, {SERVICE#GENERAL, neutral}
+
+#519
+- Lễ tân nhiệt tình - Hơi bí nhưng ở trong trung tâm thì có thể chấp nhận được - Dọn phòng thường xuyên
+{SERVICE#GENERAL, positive}, {HOTEL#COMFORT, neutral}, {LOCATION#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}
+
+#520
+Phòng mới và sạch sẽ vi tri phu hop cho khach muốn ở khu vưc trung tâm. Giá chỉ tốt ở mức giá dưới 30 usd. Phòng tắm không sử dụng kính ngăn chắn nước nên rất bất tiện sau mỗi lần tăm. Đèn trần toilet bố trí không đủ sáng và không đúng vị trí cần thiết chiếu sáng. Ánh sáng gương soi mặt tối không đủ sáng.
+{ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {LOCATION#GENERAL, positive}, {HOTEL#PRICES, neutral}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {ROOM_AMENITIES#COMFORT, negative}
+
+#521
+- Nhân viên nhiệt tình - Chi phí hợp lý, khách sạn gần chợ Cồn, siêu thị, trung tâm thương mại, cầu sông Hàn,... (có thể đi bộ) - Gia đình có em nhỏ, có thể nhờ khách sạn mua cháo, họ sẽ mang lên tận phòng. Yên tâm ngon như ở nhà
+{SERVICE#GENERAL, positive}, {HOTEL#PRICES, positive}, {LOCATION#GENERAL, positive}
+
+#522
+Nhân viên tận tình,thân thiện.Có hỗ trợ giữ hành lý sau khi trả phòng. Phòng cách âm rất kém,nghe rõ tiếng ồn bên ngoài hành lang.
+{SERVICE#GENERAL, positive}, {HOTEL#MISCELLANEOUS, positive}, {ROOMS#DESIGN&FEATURES, negative}
+
+#523
+Nội thất tương đối tốt, phòng lịch sự, sạch sẽ. Nhân viên thân thiện.
+{ROOM_AMENITIES#QUALITY, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}
+
+#524
+Tốt hơn mong đợi của tôi đối với một ks 3 sao, đặt phòng qua booking.com rất tiện lợi, nhanh chóng và an toàn
+{HOTEL#QUALITY, positive}, {HOTEL#MISCELLANEOUS, positive}
+
+#525
+Gần biển. Nv tốt Đệm nằm đau lưng. Gối quá cao. Phòng tắm hơi hẹp
+{LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}, {ROOM_AMENITIES#COMFORT, negative}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#526
+Phòng đẹp, sạch sẽ, nhân viên nhiệt tình, giá cả hợp lý Bữa ăn sáng chưa ngon lắm
+{ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {HOTEL#PRICES, positive}, {FOOD&DRINKS#QUALITY, negative}
+
+#527
+Phòng tắm sạch sẽ, phòng thiết kế đẹp Sữa tắm và dầu gội chưa được tốt
+{ROOM_AMENITIES#CLEANLINESS, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOM_AMENITIES#QUALITY, negative}
+
+#528
+Nhân viên nhiệt tình, thân thiện. Ăn sáng nghèo nàn, nấu ngọt nhiều, đôi khi hơi ồn do xung quanh đang xây dựng, tương đối xa biển.
+{SERVICE#GENERAL, positive}, {FOOD&DRINKS#STYLE&OPTIONS, negative}, {FOOD&DRINKS#QUALITY, negative}, {HOTEL#COMFORT, negative}, {HOTEL#MISCELLANEOUS, negative}, {LOCATION#GENERAL, negative}
+
+#529
+Bữa sáng, dịch vụ, nhân viên. Phòng gym không đầy đủ tiện nghi. Phòng ngủ còn bẩn một vài chỗ.
+{FACILITIES#QUALITY, negative}, {ROOMS#CLEANLINESS, negative}
+
+#530
+Nhân viên dễ thương, nhiệt tình, vị trí gần biển, tiện lợi đi lại , chị chủ nhiệt tình. Phòng ốc sạch sẽ, tiện nghi Cách âm Ko tốt, có kiến li ti, bị đốt
+{SERVICE#GENERAL, positive}, {LOCATION#GENERAL, positive}, {ROOMS#CLEANLINESS, neutral}, {ROOMS#COMFORT, neutral}, {ROOMS#DESIGN&FEATURES, negative}
+
+#531
+Khách sạn gần biển, phòng ốc rộng rãi, sạch sẽ, giá cả rất hợp lý. Chị chủ khách sạn và nhân viên lễ tân rất là dễ thương, nhiệt tình mang lại cảm giác thân mật như ở nhà. Sẽ quay lại khách sạn này nếu có dịp vào Đà Nẵng.
+{LOCATION#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {HOTEL#PRICES, positive}, {SERVICE#GENERAL, positive}, {HOTEL#COMFORT, positive}, {HOTEL#GENERAL, positive}
+
+#532
+Tốt. Phòng sạch và gần biển . Giá cả hợp lý. Cô chủ nhà thân thiện .
+{HOTEL#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {LOCATION#GENERAL, positive}, {HOTEL#PRICES, positive}, {SERVICE#GENERAL, positive}
+
+#533
+Phòng ốc sạch sẽ và gọn gàng. Nhân viên thân thiện dễ thương, đáng giá tiền Trong phòng có muỗi :(
+{ROOMS#CLEANLINESS, neutral}, {ROOMS#DESIGN&FEATURES, positive}, {SERVICE#GENERAL, positive}, {HOTEL#PRICES, positive}
+
+#534
+Khách sạn gần biển nhưng giá rất hợp lý
+{LOCATION#GENERAL, positive}, {HOTEL#PRICES, positive}
+
+#535
+Phòng sạch sẽ, nhân viên nhiệt tình Xung quanh ít nhà hàng ăn uống
+{ROOMS#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {HOTEL#MISCELLANEOUS, negative}
+
+#536
+Tiện nghi rất hợp lý với giá tiền. Nhân viên thân thiện, nhiệt tình
+{HOTEL#PRICES, positive}, {SERVICE#GENERAL, positive}
+
+#537
+Ks sạch sẽ, gần biển, đi đâu cũng rất tiện, tất cả mọi người đều rất thân thiện hiếu khách.Đến Đà Nẵng nhất định lại book phòng ở đây
+{HOTEL#CLEANLINESS, positive}, {LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}, {HOTEL#GENERAL, positive}
+
+#538
+Bứa sáng đa dạng, sân thượng đẹp và rất hợp lý nếu bơi vào buổi sáng. Cần giải thích rõ cho khách hàng về điều khoản thanh toán qua thẻ ghi nợ quốc tế.
+{FOOD&DRINKS#STYLE&OPTIONS, positive}, {HOTEL#DESIGN&FEATURES, positive}, {HOTEL#MISCELLANEOUS, positive}
+
+#539
+Khach san sach sẽ và khá mới, phòng có lót sàn gỗ nhìn ấm cúng. Bữa ăn sáng có món Việt phong phú nhưng đối với khách châu âu thì không phù hợp khẩu vị lắm. Top roof có quầy bar và hồ bơi khá thoáng mát và xinh, thư giãn, yên tĩnh và có thể thấy biển và thành phố. Nếu muốn tắm biển, khách phải đi bộ khoảng 5 - 7 phút để ra đến bãi tắm. Nhân viên tất thân thiện và nhiệt tình, phòng được dọn và khăn tắm được thay mỗi ngày Khách sạn hơi xa thành phố và cách bãi tắm khoảng 5-7 phut đi bộ. Tuy nhiên rất yen tĩnh và sạch sẽ
+{HOTEL#CLEANLINESS, positive}, {HOTEL#DESIGN&FEATURES, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#COMFORT, positive}, {FOOD&DRINKS#STYLE&OPTIONS, positive}, {FOOD&DRINKS#QUALITY, neutral}, {FACILITIES#DESIGN&FEATURES, positive}, {FACILITIES#COMFORT, positive}, {FACILITIES#GENERAL, positive}, {LOCATION#GENERAL, negative}, {SERVICE#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, positive}, {HOTEL#COMFORT, positive}
+
+#540
+giường nằm rất tuyệt phục vụ chưa được đúng mực
+{ROOM_AMENITIES#COMFORT, positive}, {SERVICE#GENERAL, negative}
+
+#541
+Thái độ nhân viên k tốt, khách sạn đòi kh trả hơn giá so với booking k có sự giải thik. Địa điểm quá xa trung tâm
+{SERVICE#GENERAL, negative}, {HOTEL#PRICES, negative}, {LOCATION#GENERAL, negative}
+
+#542
+Phòng ngủ yên tĩnh. Thực đơn bữa sáng phong phú. Nhân viên nhiệt tình.. Hơi xa bãi biển
+{ROOMS#COMFORT, positive}, {FOOD&DRINKS#STYLE&OPTIONS, positive}, {SERVICE#GENERAL, positive}, {LOCATION#GENERAL, negative}
+
+#543
+Bữa sáng ngon, nhân viên nhiệt tình, thân thiện, phòng ốc đẹp.
+{FOOD&DRINKS#QUALITY, positive}, {SERVICE#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, positive}
+
+#544
+Phòng sạch sẽ, view đẹp, nhân viên nhiệt tình, bữa sáng mình ko ăn nên ko rõ lắm ... chỉ có bể bơi với bar ở tầng trên cùng nhìn đơn giản và hơi cũ.
+{ROOMS#CLEANLINESS, positive}, {HOTEL#GENERAL, positive}, {SERVICE#GENERAL, positive}, {FACILITIES#DESIGN&FEATURES, negative}
+
+#545
+Bữa sáng đồ ăn chưa được phong phú lắm
+{FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#546
+bữa sáng ngon,nhân viên vui vẻ,tận tình,đặc biết cô bé Ly rất chu đáo và tận tình. đồ ăn sáng hơi it món,phòng tắm quá nhỏ
+{FOOD&DRINKS#QUALITY, positive}, {SERVICE#GENERAL, positive}, {FOOD&DRINKS#STYLE&OPTIONS, negative}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#547
+Gia đình tôi có 4 người lớn vs 1 bé 8 tháng tuổi được chăm sóc rất nhiệt tình . Khách sạn gia đình rất thân thiện , mỗi thành viên trong gia đình là mỗi nhân tố để mang tới kỳ nghỉ thật tuyệt vời tại Đà Nẵng . Dịch vụ thuê xe đi Hội An và các điểm du lịch giá cả hết sức phải chăng . Nếu mọi người tìm kiếm nơi nghỉ lý tưởng với phòng đẹp , mới , nhân viên thân thiện và nhiệt tình thì hãy chọn Charming Đà Nẵng . Em Huy , Quang , Linh , Ngọc Anh và cháu Shin! Mọi thứ đều tuyệt vời !!
+{SERVICE#GENERAL, positive}, {FACILITIES#PRICES, positive}, {ROOMS#DESIGN&FEATURES, positive}, {HOTEL#GENERAL, positive}
+
+#548
+Chỗ nghỉ sạch sẽ, thoáng mát, tiện lợi về mọi mặt, gần bãi biển đẹp nhất. Dịch vụ xe cũng rất tốt, giá cả hợp lí. Chủ khách sạn nhiệt tình, thân thiện.
+{HOTEL#CLEANLINESS, positive}, {HOTEL#COMFORT, positive}, {LOCATION#GENERAL, positive}, {FACILITIES#QUALITY, positive}, {HOTEL#PRICES, positive}, {SERVICE#GENERAL, positive}
+
+#549
+chủ KS vừa là tài xế rất thân thiện và nhiệt tình, nhân viên gần gũi, chổ ở gần biển rất tiện di chuyển. KS tư vấn nhiệt tình khi có yêu cầu (Chủ KS tư vần luôn nha)
+{SERVICE#GENERAL, positive}, {LOCATION#GENERAL, positive}
+
+#550
+Cảm thấy thực sự thoải mái khi ở đó, m đi xuống Quảng an và thuê xe luôn ở khách sạn, về muộn giờ nào cũng đc ý, lần sau mà vô Đà Nẵng chắc chắn m sẽ ghé ở Charming luôn, nhân viên nhiệt tình, khách sạn sạch sẽ
+{HOTEL#COMFORT, positive}, {FACILITIES#DESIGN&FEATURES, positive}, {HOTEL#MISCELLANEOUS, positive}, {HOTEL#GENERAL, positive}, {SERVICE#GENERAL, positive}, {HOTEL#CLEANLINESS, positive}
+
+#551
+vị trí, không gian công tắc điện thiết kế thiếu trực quang điện thoại vị trí không thuận lợi spa, bar là công ty thứ 3 thuê, không phải trực thuộc khách sạn
+{ROOM_AMENITIES#DESIGN&FEATURES, negative}, {FACILITIES#MISCELLANEOUS, negative}
+
+#552
+Đồ nội thất đẹp, tinh xảo và có địa điểm gần biển Nhân viên quá cứng nhắc trong check và check out và cách nói với khác không được tốt. Đây là phòng đặt cho sếp nên sếp về complain không tốt về khách sạn.
+{ROOM_AMENITIES#DESIGN&FEATURES, positive}, {LOCATION#GENERAL, positive}, {SERVICE#GENERAL, negative}, {HOTEL#GENERAL, negative}
+
+#553
+Chỗ ngồi bãi biển đẹp. Ks này tôi đã ở cách đay 2 năm và khi qua lại đùng ngày đó nhưng chưa thấy happy Trong booking là cửa sổ hướng biển thì thực tế là nhìn vào khu dân cư
+{FACILITIES#DESIGN&FEATURES, positive}, {HOTEL#COMFORT, negative}, {ROOMS#GENERAL, negative}
+
+#554
+Nội thất rất được, phong cách phục vụ ổn. Bể bơi đẹp, cách bày trí không gian xung quanh bể rất tiện nghi, sáng tạo, tạo cảm giác thư thái Không gian hơi chật chội. Bể bơi đẹp nhưng chúng tôi nghỉ đúng dịp đang xây sửa nên bị ảnh hưởng rất lớn
+{ROOM_AMENITIES#GENERAL, positive}, {SERVICE#GENERAL, positive}, {FACILITIES#DESIGN&FEATURES, positive}, {FACILITIES#COMFORT, positive}, {HOTEL#DESIGN&FEATURES, negative}, {FACILITIES#MISCELLANEOUS, negative}
+
+#555
+Bữa sáng ngon, nhân viên phục vụ tại ks chu đáo, thân thiện. Phòng tiện nghi, sạch sẽ, nội thất tốt
+{FOOD&DRINKS#QUALITY, positive}, {SERVICE#GENERAL, positive}, {ROOMS#COMFORT, positive}, {ROOMS#CLEANLINESS, positive}, {ROOM_AMENITIES#GENERAL, positive}
+
+#556
+Biển đẹp. Vị trí ks đẹp. Hồ bơi nhỏ xúi. Phòng chật chội.
+{FACILITIES#DESIGN&FEATURES, neutral}, {LOCATION#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, negative}
+
+#557
+Phòng khách sạn có thiêt kế sang trọng, vị trí yên tĩnh, thuận lợi giao thông đi lại và tham quan. Xe máy cho khách thuê đã cũ nát, rooftop bar và spa không hoạt động.
+{ROOMS#DESIGN&FEATURES, positive}, {LOCATION#GENERAL, positive}, {FACILITIES#QUALITY, negative}, {FACILITIES#DESIGN&FEATURES, negative}
+
+#558
+Nhân viên lễ tân rất thân thiện, đặc biệt có một chị rất nhiệt tình và thường xuyên chỉ cho bọn mình chỗ ăn ngon :P mỗi tội quên không hỏi tên chị ý :)) Spa của ksan massage rất tốt, tuy nhiên sấy tóc tạo kiểu thì không được tốt cho lắm :v Phòng hơi nhỏ Gối quá cao nên mình ngủ không được thoải mái lắm Phòng 4 ng nhưng chỉ có 2 áo choàng tắm
+{SERVICE#GENERAL, positive}, {FACILITIES#QUALITY, neutral}, {ROOMS#DESIGN&FEATURES, negative}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {ROOM_AMENITIES#COMFORT, negative}
+
+#559
+Phóng View sông Hàn tuyệt đẹp, nhất là vào buổi tối.
+{ROOMS#GENERAL, positive}
+
+#560
+Cách phục vụ rất tốt. Phòng ở rất sạch sẽ và đẹp. Phòng cách âm chưa tốt lắm.
+{SERVICE#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {ROOMS#DESIGN&FEATURES, neutral}
+
+#561
+Lạ độc đáo,bạn receiption nam khá thân thiện,nhiệt tình!!!Bữa sáng ngon và đầy đủ! Rất gần biển:)) Phòng không có ổ cắm riêng cho từng người mà phải dùng chung,không có đèn để đọc sách ,trời mưa muốn vào restroom khá bất tiện,không khăn tắm:((
+{HOTEL#DESIGN&FEATURES, positive}, {SERVICE#GENERAL, positive}, {FOOD&DRINKS#QUALITY, positive}, {FOOD&DRINKS#STYLE&OPTIONS, positive}, {LOCATION#GENERAL, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {ROOM_AMENITIES#COMFORT, negative}
+
+#562
+Mình nhận phòng xong cảm thấy rất thất vọng vì khi bước vào phòng cảm nhận rõ rệt nhất là mùi ẩm mốc, xuống cấp của phòng, thêm vào đó là điện ko ổn định, phòng ko có đủ tiện nghi so với mức giá mà mình bỏ ra. Mình đến 1 lần và sẽ ko có ý định quay lại đây ở nữa :)
+{ROOMS#CLEANLINESS, negative}, {ROOMS#QUALITY, negative}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {ROOM_AMENITIES#GENERAL, negative}, {ROOMS#PRICES, negative}, {HOTEL#GENERAL, negative}
+
+#563
+Cảnh quan rất đẹp và gần với biển (chỉ 3 phút đi bộ), khách sạn có cung cấp những đồ dùng thiết yếu, thuê xe máy để di chuyển dễ dàng. Mình nghĩ chỗ này rất phù hợp với các bạn trẻ thích chụp hình vì sân vườn rộng rãi, mát mẻ. Nhân viên khách sạn rất nhiệt tình. Mình book phòng 2 ngày nhưng do chút sự cố nên phải thay đổi phòng. Tuy nhiên nhân viên khách sạn đã thông báo sớm cho mình và hỗ trợ rất nhiều thứ nên mình thấy rất chủ động và hài lòng với chuyến đi này. Đặc biệt hostel có 2 bạn thú cưng là Dim Sum và Sushi mang lại cho mình cảm giác rất thân thiện như ở nhà vậy. Cảm ơn PACKO và các bạn nhân viên rất nhiều ! - PACKO nên có bố trí tiện nghi tốt hơn cho nhà vệ sinh (vòi sen, bình nóng lạnh). - Bố trí thêm bàn ghế tại sân vườn.
+{HOTEL#DESIGN&FEATURES, positive}, {LOCATION#GENERAL, positive}, {ROOM_AMENITIES#GENERAL, positive}, {FACILITIES#DESIGN&FEATURES, neutral}, {SERVICE#GENERAL, positive}, {HOTEL#COMFORT, positive}, {HOTEL#MISCELLANEOUS, positive}, {ROOM_AMENITIES#QUALITY, negative}
+
+#564
+Bữa sáng ngon, địa điểm cực kỳ hợp lý, thiết kế mới lạ, gần biển đi bộ 2 phút là tới. Gần cầu rồng. Không gian cực kỳ mở, thoải mái. Giá tiền rẻ so với vị trí gần biển. Nhiều cây và cỏ phía sau nên có nhiều muỗi, khung giường bằng sắt nên sẽ dễ tạo tiếng động khi nằm.
+{FOOD&DRINKS#QUALITY, positive}, {LOCATION#GENERAL, positive}, {HOTEL#DESIGN&FEATURES, positive}, {HOTEL#COMFORT, positive}, {HOTEL#PRICES, positive}, {HOTEL#CLEANLINESS, negative}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#565
+Nhân viên nhiệt tình, vì tiện ích không đc tốt nên khi xin thêm gối hay khăn tắm và chăn đc thì các bạn đáp ứng tốt. Drap giường bẩn, toilet không được sạch, nước chảy rất yếu, hầu như không có nước nóng, wifi yếu, máy lạnh bị chảy nước, phòng 2 người nhưng thiếu khăn tắm. Không có chỗ để treo quần áo kể cả những móc treo tường nhỏ
+{SERVICE#GENERAL, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {ROOM_AMENITIES#CLEANLINESS, negative}, {FACILITIES#QUALITY, negative}
+
+#566
+Không gian rất tuyệt, concept nhà ở khá độc và lạ hơi tiếc vì phòng mình ở container bên dưới, nếu ở tầng trên thì chắc view sẽ tuyệt hơn. Phòng khá sạch sẽ, tuy nhiên hơi ít ổ cắm điện :P không đủ mỗi người 1 ổ cắm. Hostel có em chó đáng yêu kinh khủng =)) vào phòng mình nằm ngủ cả đêm (chắc có điều hòa mát). Toilet/ phòng tắm ở mức chấp nhận được, quan trọng là không có mùi :) Mình không đòi hỏi hoàn hảo vì so với budget như vậy là ổn. Location gần biển đi bộ 2' ra tới nơi quá tiện :x Đồ ăn sáng bình thường. Nói chung với mức giá 140k/ng/ phòng 4 mà điều kiện vật chất, giải trí như ở Packo là ổn rồi :) Toilet sạch hơn 1 chút thì tốt :( Rèm cửa phòng tắm dính hơi nhiều cát T-T ga giường cũng hơi sạn nữa
+{HOTEL#DESIGN&FEATURES, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#GENERAL, neutral}, {ROOMS#CLEANLINESS, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {HOTEL#MISCELLANEOUS, positive}, {ROOM_AMENITIES#CLEANLINESS, negative}, {LOCATION#GENERAL, positive}, {FOOD&DRINKS#QUALITY, neutral}, {HOTEL#PRICES, positive}, {HOTEL#GENERAL, positive}
+
+#567
+Mình hỏi bản đồ thì Nv kêu hết, hỏi thêm rằng bạn có gợi ý gì cho mình khi thăm Đà Năng k thì bạn ấy ngơ ngơ, kiểu thờ ờ. K hướng dẫn gì về bữa sáng hay wifi. Giường dorm thì trở mình là kêu cọt kẹt, cảm giác thở mạnh thôi cũng phát ra tiếng động làm ảnh hưởng người khác. Bữa sáng nghèo nàn và chán nhất mình từng biết, chỉ có bánh mì và 2 loại mứt cùng trứng và phải tự làm trứng trong khi k có sự hướng dẫn nào. Chán! Nhưng thuê xe máy tiện và đi ra biển gần Giường, bữa sáng
+{SERVICE#GENERAL, negative}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {FOOD&DRINKS#STYLE&OPTIONS, negative}, {FOOD&DRINKS#QUALITY, negative}, {FACILITIES#COMFORT, positive}, {LOCATION#GENERAL, positive}
+
+#568
+Các bạn nhân viên rất thân thiện, mình đi gấp vào buổi sáng không kịp ăn thì có bạn nhân viên gói cho mình 2 lát bánh mì, hành động siêu dễ thương thân thiện và mình sẽ quay lại nếu có dịp. Chắc chắn luôn
+{SERVICE#GENERAL, positive}, {HOTEL#GENERAL, positive}
+
+#569
+Ở Packo có bàn bi da, nhóm mình đã chơi thật vui để giết thời gian trước khi ra sân bay ^^ Một điểm nữa là cà phê ở đây rất thơm và ngon. Nơi này chỉ cách biển khoảng 30-40 m, sáng sớm nhóm mình đã đi bộ ra biển xem bình minh và tắm biển, biển sáng rất ấm nhé.
+{FACILITIES#DESIGN&FEATURES, positive}, {FACILITIES#COMFORT, positive}, {FOOD&DRINKS#QUALITY, positive}, {LOCATION#GENERAL, positive}
+
+#570
+Không gian của hostel khá đẹp, phòng sạch sẽ. Giá cả hợp lý, sẽ quay lại và giới thiệu cho ng quen đến đây Mình đặt phòng B3, phòng khá sạch sẽ tuy nhiên cách âm chưa được tốt, vào buổi sáng năng chiếu thẳng vào phòng nên hơi khó chịu (nên có rèm che toàn bộ cửa).
+{HOTEL#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {HOTEL#PRICES, positive}, {HOTEL#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, negative}, {ROOMS#COMFORT, negative}
+
+#571
+Trãi nghiệm mới lạ khi phòng ngủ là container.Có không gian sân vườn thoáng đãng , gần gủi thiên nhiên . Thích hợp với nhóm bạn , có thể mua hải sản về tự nấu nướng . Nhân viên thân thiện Phòng tắm không có chỗ máng quần áo , chỉ có chỗ máng khăn . Khách sạn gần biển mà chưa có khu vực tắm và rữa chân lại trước khi lên phòng . Lavabo bị nghẹt rút nước chậm . Không có tivi trong phòng . Nếu bạn ở chung với khách lịch sự giữ trật tự thì không sao, nhưng ở với những người bất lịch sự thì rất ồn ào khó ngủ
+{ROOMS#DESIGN&FEATURES, positive}, {HOTEL#DESIGN&FEATURES, neutral}, {SERVICE#GENERAL, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {LOCATION#GENERAL, positive}, {HOTEL#MISCELLANEOUS, negative}
+
+#572
+Chỗ nghĩ đẹp, ở vị trí thuận lợi để được thoải mái dạo biển. Nơi này cũng khá tiện lợi cho việc di chuyển ở các điểm du lịch của Đà Nẵng Bữa ăn sáng phục vụ hơi trể.
+{HOTEL#DESIGN&FEATURES, positive}, {LOCATION#GENERAL, positive}, {FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#573
+Chỗ ở thú vị, phòng đẹp, nhân viên thoải mái, nhiệt tình Buổi trưa hơi nóng. Có lẽ các bạn nên lợp thêm 1 lớp mái cọ hoặc mái tranh như dãy cuối thì chắc đỡ hơn
+{HOTEL#COMFORT, positive}, {ROOMS#DESIGN&FEATURES, neutral}, {SERVICE#GENERAL, positive}, {ROOMS#COMFORT, negative}
+
+#574
+Khung cảnh hostel đẹp, độc đáo, khuân viên bãi cỏ và cây xanh mát mẻ Nhân viên nhiệt tình, thân thiện. Yêu nhất bạn "nhân viên" Golden tên Điểm Sấm cực kỳ đáng yêu Ks gần bãi biển và các khu vui chơi giải trí. Rất thuận tiện đi lại Nên thay ga giường thường xuyên hơn cho khách.
+{HOTEL#DESIGN&FEATURES, positive}, {SERVICE#GENERAL, positive}, {LOCATION#GENERAL, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#575
+- thích con c-hó rất thân thiện, sẵn sàng phi vào phòng ngủ của khách :) em í rất đáng yêu - nhân viên thân thiện, vô tư, thoải mái. toàn các bạn trẻ nên Packo luôn tràn ngập năng lượng - anh chủ kute, dễ thương - phòng ngủ sạch sẽ - nhà tắm chung sạch, không mùi hôi. - cần bổ sung thêm một vài trò chơi giải trí (trời bão ở Packo thì quả thật hơi buồn) - thêm khu dịch vụ khác (bar nhỏ...) - ăn sáng có thể thêm khẩu phần (có thể đưa thêm vào giá thành phòng nghỉ cũng không phải quá cao)
+{HOTEL#MISCELLANEOUS, positive}, {SERVICE#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {ROOM_AMENITIES#CLEANLINESS, positive}, {FACILITIES#DESIGN&FEATURES, negative}, {FOOD&DRINKS#STYLE&OPTIONS, negative}
+
+#576
+Phòng ấm cúng, nhân viên thân thiện Nệm không được êm lắm
+{ROOMS#COMFORT, positive}, {SERVICE#GENERAL, positive}, {ROOM_AMENITIES#QUALITY, negative}
+
+#577
+Không gian sinh hoạt chung rộng K đầy đủ tiện nghi. Móc treo đồ, dép k có.tv hay tủ lạnh cũng k
+{HOTEL#DESIGN&FEATURES, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#578
+Nguyên liệu bữa sáng được chuẩn bị chu đáo để khách tự vào bếp. Không gian đẹp, thân thiện.
+{FOOD&DRINKS#STYLE&OPTIONS, positive}, {HOTEL#DESIGN&FEATURES, positive}, {SERVICE#GENERAL, positive}
+
+#579
+Có 2 chú chó dễ thương Không có nhà vệ sinh trong phòng, phòng ko rộng như trong ảnh. Giá phòng đắt.
+{HOTEL#MISCELLANEOUS, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {ROOMS#DESIGN&FEATURES, negative}, {ROOMS#PRICES, negative}
+
+#580
+Rất gần với biển, nằm ở trung tâm nên tiện đường di chuyển. Điều hòa ồn ào quá rất khó ngủ.
+{LOCATION#GENERAL, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {ROOMS#COMFORT, negative}
+
+#581
+Bữa sáng đa dạng, không gian thoải mái, kết bạn mới rất vui Không có điều gì
+{FOOD&DRINKS#STYLE&OPTIONS, positive}, {HOTEL#DESIGN&FEATURES, positive}, {HOTEL#MISCELLANEOUS, positive}
+
+#582
+Nhân viên thân thiện, nhiệt tình, dễ thương. Con chó nhìn kute. Sạch sẽ, gọn gàng và có phong cách.
+{SERVICE#GENERAL, positive}, {HOTEL#MISCELLANEOUS, positive}, {HOTEL#CLEANLINESS, positive}, {HOTEL#DESIGN&FEATURES, positive}
+
+#583
+Rất gần bãi biển Mỹ Khê. Phòng sạch, nhân viên cực thân thiện và có 1 chú chó rất xinh :) Hơi nhiều muỗi vào mùa mưa Phòng hơi ít ổ cắm điện
+{LOCATION#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {HOTEL#MISCELLANEOUS, positive}, {HOTEL#CLEANLINESS, negative}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#584
+- Phong cách hoài cổ và trang trí phòng đẹp - Sạch sẽ - Quanh khách sạn có nhiều công trình đang xây nên hầu như không thấy view biển và rất ồn
+{HOTEL#DESIGN&FEATURES, positive}, {ROOMS#DESIGN&FEATURES, positive}, {ROOMS#CLEANLINESS, positive}, {HOTEL#MISCELLANEOUS, negative}, {HOTEL#GENERAL, negative}, {HOTEL#COMFORT, negative}
+
+#585
+Bữa sáng ngon. Nhân viên thân thiện. Thoải mái
+{FOOD&DRINKS#QUALITY, positive}, {SERVICE#GENERAL, positive}, {HOTEL#COMFORT, positive}
+
+#586
+Bữa sáng rất ngon Phòng thiếu ánh sáng trắng khi cần trang điểm.
+{FOOD&DRINKS#QUALITY, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#587
+Tôi thích ko gian, sự bày trí và cung cách phục vụ nhẹ nhàng nhanh nhẹ của nhân viên Chu, nếu có điều kiện tôi sẽ chở lại Chu
+{HOTEL#DESIGN&FEATURES, positive}, {SERVICE#GENERAL, positive}, {HOTEL#GENERAL, positive}
+
+#588
+Lễ tân thì tạm ổn. Nhân vien bảo vệ thì rất nhiệt tình dễ thương!!! Thích nhất các anh các chú bảo vệ, xếp xe cho khách và hướng dẫn khách đi chơi rất cụ thể <3 Phòng đúng như trên hình, hướng rất đẹp Mọi thứ đều tạm ổn :)
+{SERVICE#GENERAL, neutral}, {ROOMS#GENERAL, positive}, {HOTEL#GENERAL, neutral}
+
+#589
+Điểm cộng: Phòng sạch sẽ, nhân viên và bảo vệ thân thiện. Mình đã đặt phòng deluxe double hướng biển, tuy nhiên đến nơi nhân viên lại báo ở phòng 2 giường 1 ngày r hsau mới chuyển lên đúng phòng mình đã chọn. Bữa ăn sáng của khách sạn chỉ duy nhất 1 món 1 ngày thì phải, mình xuống ăn chỉ đưa phiếu r nhân viên bê ra 1 bát mì quảng, hết. Hsau mình đã ko chọn ăn sáng ở ks nữa. Nhân viên dọn phòng hàng ngày ko được sạch. Tuy nhiên mặt bằng chung với giá đó cùng khu vực có rất nhiều khách sạn phòng đẹp hơn.
+{ROOMS#CLEANLINESS, neutral}, {SERVICE#GENERAL, neutral}, {ROOMS#GENERAL, neutral}, {FOOD&DRINKS#STYLE&OPTIONS, negative}, {HOTEL#PRICES, negative}
+
+#590
+- Dọn phòng sạch sẽ mỗi ngày. - Khách sạn ở ngay mặt đường lớn, đi lại dễ dàng -Nhân viên phục vụ: 1. Đặt phòng trên booking: phòng 2 giường đơn. Xác nhận với khách sạn qua email: phòng 2 giường đơn. Đến nhận phòng: phòng giường đôi??? Khi mình hỏi lễ tân thì em nói đông quá hết phòng, mình không chấp nhận lý do này vì đã đặt phòng trước 2 tuần, xác nhận lại bằng email đàng hoàng thì nhân viên mới đổi phòng 2 giường đơn. Như vậy có đúng là hết phòng hay không? 2. Có em nhân viên lễ tân nói chuyện không được thân thiện cho lắm. 3. Khi trả phòng, nhân viên lên kiểm tra phòng thì mình vẫn còn ở trong phòng dọn dẹp nốt đồ đạc và đang cắm sạc điện thoại. Nhân viên xộc vào kiểm tra, kiểm tra,... không nói không rằng rút phựt dây sạc, quẳng điện thoại của mình lên bàn.
+{ROOMS#CLEANLINESS, positive}, {SERVICE#GENERAL, negative}, {LOCATION#GENERAL, positive}
+
+#591
+Chỗ ở tốt, tương đối sạch sẽ và cách không xa bãi biển. Khách sạn này nằm gần A La Carte Hotel, bạn có thể tản bộ đến đó và lên tầng 23 uống cafe với view nhìn Đà Nẵng từ trên cao rất đẹp. Phòng ở hơi nhỏ. Ngoài ra thì không nên nhờ nhân viên tư vấn địa điểm ăn uống gần khách sạn, vì họ sẽ tư vấn không khách quan.
+{HOTEL#GENERAL, positive}, {HOTEL#CLEANLINESS, positive}, {LOCATION#GENERAL, positive}, {HOTEL#MISCELLANEOUS, positive}, {ROOMS#DESIGN&FEATURES, negative}, {SERVICE#GENERAL, negative}
+
+#592
+Chất lượng khách sạn tương ứng với giá tiền. Nếu chỉ cần một chỗ ngủ qua đêm để di chuyển xuống Hội An thì hoàn toàn thích hợp. Chỉ mất 5 phút đi bộ là có thể ra đến bãi biển. Nhân viên thân thiện, nhiệt tình. Còn trong trường hợp muốn đi ăn vặt thì nên book phòng bên kia sông sẽ tiện hơn. Không có gì.
+{HOTEL#PRICES, neutral}, {HOTEL#GENERAL, neutral}, {LOCATION#GENERAL, neutral}, {SERVICE#GENERAL, positive}
+
+#593
+sạch sẽ; gần biển; lễ tân lễ phép, nói năng nhỏ nhẹ. Ko có cốc nước để đánh răng; có 1 tuýp ko nhãn mác nên chả biết là sữa tắm, dầu gội hay là nước rửa tay; tủ quần áo ko có gương; tủ lạnh hơi có mùi hôi; phòng đặt ko đúng yêu cầu.
+{HOTEL#CLEANLINESS, positive}, {LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}, {ROOM_AMENITIES#CLEANLINESS, negative}, {ROOMS#GENERAL, negative}
+
+#594
+Phòng sạch sẽ, nội thất mới, giá cả hợp lý Có phòng tập thể với 3 giường đôi lớn, thích hợp với các nhóm bạn hoặc gia đình đông người Phòng 2 người hơi nhỏ
+{ROOMS#CLEANLINESS, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, positive}, {HOTEL#PRICES, positive}, {ROOMS#DESIGN&FEATURES, neutral}
+
+#595
+Nhân viên nhiệt tình, thân thiện. Mấy bạn lễ tân xinh xắn và chú bảo vệ rất dễ thương :) Giá cả tốt. Vị trí ổn, đi bộ 5p là ra đến biển, gần các quán ăn. Phòng sạch, ngày nào cũng có nhân viên đến dọn. Nhà tắm sạch sẽ, nước mạnh. Bữa sáng bình thường, không phải ngon lắm nhưng vẫn chấp nhận được.
+{SERVICE#GENERAL, positive}, {HOTEL#PRICES, positive}, {LOCATION#GENERAL, positive}, {ROOMS#CLEANLINESS, positive}, {ROOM_AMENITIES#CLEANLINESS, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, positive}, {FOOD&DRINKS#QUALITY, neutral}
+
+#596
+vị trí thuận tiện đi lại, gần biển. bảo vệ và nhân viên thân thiện nhiệt tình, có hỗ trợ dịch vụ cho thuê xe .
+{LOCATION#GENERAL, positive}, {SERVICE#GENERAL, positive}, {FACILITIES#CLEANLINESS, positive}
+
+#597
+Gần biển Không thích kiểu phục vụ ăn sáng.Ăn sáng ko đc thoải mái.Lần sau có đi sẻ ko nghỉ ở đây nữa.
+{LOCATION#GENERAL, positive}, {FOOD&DRINKS#STYLE&OPTIONS, negative}, {FOOD&DRINKS#MISCELLANEOUS, negative}, {HOTEL#GENERAL, negative}
+
+#598
+Phục vụ chu đáo Phòng tắm k có bồn tắm
+{SERVICE#GENERAL, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, negative}
+
+#599
+Phòng, nhà vệ sinh sạch sẽ. Nhân viên nhiệt tình. Phòng nhỏ, hơi bí.
+{ROOMS#CLEANLINESS, positive}, {ROOM_AMENITIES#CLEANLINESS, positive}, {SERVICE#GENERAL, positive}, {ROOMS#DESIGN&FEATURES, negative}, {ROOMS#COMFORT, negative}
+
+#600
+Phòng sạch, nội thất mới Có phòng lớn cho nhóm đông người
+{ROOMS#CLEANLINESS, positive}, {ROOM_AMENITIES#DESIGN&FEATURES, positive}, {ROOMS#DESIGN&FEATURES, positive}
