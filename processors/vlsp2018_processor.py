@@ -12,28 +12,34 @@ class VLSP2018Loader:
     def load(train_csv_path, val_csv_path, test_csv_path):
         dataset_paths = {'train': train_csv_path, 'val': val_csv_path, 'test': test_csv_path}
         raw_datasets = load_dataset('csv', data_files={ k: v for k, v in dataset_paths.items() if v })
-        return raw_datasets.map(VLSP2018Loader.aspect_categories_to_onehot, num_proc=4)
-    
+        return raw_datasets
+          
+          
     @staticmethod
-    def aspect_categories_to_onehot(review):
-        polarity_one_hot = {
-            0: [1, 0, 0, 0], # None
-            1: [0, 1, 0, 0], # Positive
-            2: [0, 0, 1, 0], # Negative
-            3: [0, 0, 0, 1], # Neutral
-        }
-        aspect_categories = list(review)[1:]
-        for aspect_category in aspect_categories:
-            review[aspect_category] = polarity_one_hot[review[aspect_category]]
-        return review
-    
-    @staticmethod
-    def preprocess(raw_datasets, preprocessor, tokenizer, max_length):
-        def tokenize_fn(review):
+    def preprocess_and_tokenize_reviews(datasets, preprocessor, tokenizer, max_length):
+        def transform_each_review(review):
             review['Review'] = preprocessor.process_text(review['Review'])
             return tokenizer(review['Review'], max_length=max_length, padding='max_length', truncation=True)
-        return raw_datasets.map(tokenize_fn, num_proc=4)
-                
+        return datasets.map(transform_each_review, num_proc=4).remove_columns('Review')
+    
+    
+    @staticmethod
+    def flatten_onehot_aspect_categories(datasets):
+        label_columns = [col for col in datasets['train'].column_names if col not in ['Review', 'input_ids', 'token_type_ids', 'attention_mask']]
+        def transform_each_review(review): # Convert each aspect category to one-hot encoding, merge them into a single list
+            polarity_onehot = {
+                0: [1, 0, 0, 0], # None
+                1: [0, 1, 0, 0], # Positive
+                2: [0, 0, 1, 0], # Negative
+                3: [0, 0, 0, 1], # Neutral
+            }
+            review['Flat1HotAspectCate'] = sum([
+                polarity_onehot[review[aspect_category]] 
+                for aspect_category in label_columns
+            ], []) # Need to be flattened to match the model's output shape
+            return review 
+        return datasets.map(transform_each_review, num_proc=4).select_columns(['Flat1HotAspectCate', 'input_ids', 'token_type_ids', 'attention_mask'])
+
 
 class VLSP2018Parser:
     def __init__(self, train_txt_path, val_txt_path=None, test_txt_path=None):
