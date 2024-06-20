@@ -177,7 +177,7 @@ class VietnameseToneNormalizer:
     
 
 class VietnameseTextPreprocessor:
-    def __init__(self, vncorenlp_dir='.', extra_acronyms=None):
+    def __init__(self, vncorenlp_dir='./VnCoreNLP', extra_acronyms=None):
         self.vncorenlp_dir, self.extra_acronyms = vncorenlp_dir, extra_acronyms
         self._load_vncorenlp()    
         self._build_acronyms()
@@ -291,7 +291,7 @@ if __name__ == '__main__':
         'nhắn tin': ['nt', 'ib'], 'trả lời': ['tl', 'trl', 'rep'], 
         'feedback': ['fback', 'fedback'], 'sử dụng': ['sd'], 'xài': ['sài'], 
     }
-    preprocessor = VietnameseTextPreprocessor(vncorenlp_dir='.', extra_acronyms=extra_acronyms)
+    preprocessor = VietnameseTextPreprocessor(vncorenlp_dir='./VnCoreNLP', extra_acronyms=extra_acronyms)
     sample_text = 'Giá cũng ok cho gđ, mà nv hơi thiếu chuyên nghiệp. Nhưng chung quy lại là cũng được'
     preprocessed_text = preprocessor.process_text(sample_text)
     print(preprocessed_text)
