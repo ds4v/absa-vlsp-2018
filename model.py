@@ -1,3 +1,7 @@
+import numpy as np
+from matplotlib import pyplot as plt
+from processors.vlsp2018_processor import PolarityMapping
+
 from transformers import TFAutoModel
 from tensorflow.keras.models import Model
 from tensorflow.keras.layers import Input, Dense, Dropout, concatenate
@@ -26,7 +30,7 @@ def vlsp2018_multitask_model(pretrained_huggingface_name, max_length, aspect_cat
     ]
     
     if not multi_branch: 
-        outputs = concatenate(outputs, name='flat1hot_aspect_cate')
+        outputs = concatenate(outputs, name='FlattenOneHotLabels')
         loss = 'binary_crossentropy'
     else: loss = 'sparse_categorical_crossentropy'
     
@@ -44,3 +48,17 @@ def plot_training_history(history, figsize=(15, 5)):
     plt.title('Loss', fontsize=15)
     plt.legend(loc='best')
     plt.show()
+    
+    
+def acsa_predict(model, text_data, batch_size=1, multi_branch=False):
+    y_pred = model.predict(text_data, batch_size=batch_size, verbose=1)
+    if not multi_branch: 
+        y_pred = y_pred.reshape(len(y_pred), -1, 4)
+        return np.argmax(y_pred, axis=-1)
+    return np.argmax(y_pred, axis=-1).T
+
+
+def print_acsa_pred(aspect_category_names, y_pred):
+    polarities = map(lambda x: PolarityMapping.INDEX_TO_POLARITY[x], y_pred)
+    for aspect_category, polarity in zip(aspect_category_names, polarities): 
+        if polarity: print(f'=> {aspect_category},{polarity}')
