@@ -1,18 +1,18 @@
 import re
 import csv
-import numpy as np
-import pandas as pd
 from tqdm import tqdm
 from datasets import load_dataset
 
+
+class PolarityMapping:
+    INDEX_TO_POLARITY = { 0: None, 1: 'positive', 2: 'negative', 3: 'neutral' }
+    # INDEX_TO_ONEHOT = { i: [1 if i == j else 0 for j in INDEX_TO_POLARITY] for i in INDEX_TO_POLARITY } 
+    # POLARITY_TO_INDEX = { polarity: index for index, polarity in INDEX_TO_POLARITY.items() }
+    INDEX_TO_ONEHOT = { 0: [1, 0, 0, 0], 1: [0, 1, 0, 0], 2: [0, 0, 1, 0], 3: [0, 0, 0, 1] }
+    POLARITY_TO_INDEX = { None: 0, 'positive': 1, 'negative': 2, 'neutral': 3 }
+
     
 class VLSP2018Loader:
-    POLARITY_MAPPING = {
-        0: (None, [1, 0, 0, 0]), 
-        1: ('positive', [0, 1, 0, 0]), 
-        2: ('negative', [0, 0, 1, 0]), 
-        3: ('neutral', [0, 0, 0, 1])
-    }
     
     @staticmethod
     def load(train_csv_path, val_csv_path, test_csv_path):
@@ -37,19 +37,18 @@ class VLSP2018Loader:
         print('[INFO] Transforming "Aspect#Categoy,Polarity" labels to flattened one-hot encoding...')
         label_columns = [col for col in datasets['train'].column_names if col not in ['Review', 'input_ids', 'token_type_ids', 'attention_mask']]
         def transform_each_review(review): # Convert each Aspect#Categoy,Polarity to one-hot encoding and merge them into 1D list
-            review['FlattenOneHotLabel'] = sum([
-                VLSP2018Loader.POLARITY_MAPPING[review[aspect_category]][1] # Get one-hot encoding
+            review['FlattenOneHotLabels'] = sum([
+                PolarityMapping.INDEX_TO_ONEHOT[review[aspect_category]] # Get one-hot encoding
                 for aspect_category in label_columns
             ], []) # Need to be flattened to match the model's output shape
             return review 
-        return datasets.map(transform_each_review, num_proc=4).select_columns(['FlattenOneHotLabel', 'input_ids', 'token_type_ids', 'attention_mask'])
+        return datasets.map(transform_each_review, num_proc=4).select_columns(['FlattenOneHotLabels', 'input_ids', 'token_type_ids', 'attention_mask'])
 
 
 class VLSP2018Parser:
     def __init__(self, train_txt_path, val_txt_path=None, test_txt_path=None):
         self.dataset_paths = { 'train': train_txt_path, 'val': val_txt_path, 'test': test_txt_path }
         self.reviews = { 'train': [], 'val': [], 'test': [] }
-        self.polarity_mapping = {'positive': 1, 'negative': 2, 'neutral': 3}
         self.aspect_categories = set()
         
         for dataset_type, txt_path in self.dataset_paths.items():
@@ -74,7 +73,7 @@ class VLSP2018Parser:
                     for aspect, category, polarity in sentiment_info:
                         aspect_category = f'{aspect.strip()}#{category.strip()}'
                         self.aspect_categories.add(aspect_category)
-                        review_data[aspect_category] = self.polarity_mapping[polarity.strip()]
+                        review_data[aspect_category] = PolarityMapping.POLARITY_TO_INDEX[polarity.strip()]
                     
                     self.reviews[dataset_type].append((lines[1].strip(), review_data))
         self.aspect_categories = sorted(self.aspect_categories)
