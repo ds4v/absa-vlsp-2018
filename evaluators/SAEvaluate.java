@@ -1,303 +1,163 @@
-package plagiarismdetection;
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.io.IOException;
+
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
-import java.util.Scanner;
+import java.util.Map;
+
 
 public class SAEvaluate {
 
-	public class SA {
-		String id = "", text = "", tag = "";
-		List<String> aspects = new ArrayList<String>();
-		List<String> values = new ArrayList<String>();
-	}
+    static class SA {
+        String id = "", text = "", tag = "";
+        List<String> aspects = new ArrayList<>();
+        List<String> values = new ArrayList<>();
+    }
 
-	public List<SA> loadSA(String filename) {
-		List<String> inputString = getInputFromFile(filename);
-		List<SA> sa = new ArrayList<SA>();
-		SA senti = null;
-		int i = 0;
+    public List<SA> loadSA(String filename) throws IOException {
+        List<SA> saList = new ArrayList<>();
+        SA sa = null;
 
-		while (i < inputString.size()) {
-			String line = inputString.get(i);
-			line = line.replace("#", "#");
-			line = line.trim();
+        for (String line : Files.readAllLines(Paths.get(filename))) {
+            line = line.replace("#", "#").trim();
 
-			if (line.matches(".?#\\d+")) {
-				if (senti != null) sa.add(senti);
-				senti = new SA();
-				senti.id = line;
-			} else {
-				if (line.matches("\\{([A-Za-z]+)(.*)([a-z]+)\\}")) {
-					senti.tag = line;
-					String[] tokens = line.split(",");
+            if (line.matches(".?#\\d+")) {
+                if (sa != null) saList.add(sa);
+                sa = new SA();
+                sa.id = line;
+            } else if (line.matches("\\{([A-Za-z]+)(.*)([a-z]+)\\}")) {
+                sa.tag = line;
+                String[] tokens = line.replaceAll("[{}]", "").split(",");
+                for (int i = 0; i < tokens.length; i += 2) {
+                    sa.aspects.add(tokens[i].trim());
+                    sa.values.add(tokens[i + 1].trim());
+                }
+            } else if (!line.isEmpty() && line.length() > 10) sa.text = line;
+        }
+        saList.add(sa);
+        return saList;
+    }
 
-					for (int t = 0; t < tokens.length; t = t + 2) {
-						tokens[t] = tokens[t].replace("{", "");
-						tokens[t] = tokens[t].replace("}", "");
-						tokens[t] = tokens[t].trim();
-						senti.aspects.add(tokens[t]);
-					}
+    public void evaluate(String goldFile, String answerFile) throws IOException {
+        List<String> allAspects = new ArrayList<>();
+        List<SA> goldSA = loadSA(goldFile), ansSA = loadSA(answerFile);
+        Map<String, Integer> goldAspectCount = new HashMap<>();
+        Map<String, Integer> ansAllAspectCount = new HashMap<>();
+        Map<String, Integer> ansAspectCount = new HashMap<>();
+        Map<String, Integer> ansValueCount = new HashMap<>();
 
-					for (int t = 1; t < tokens.length; t = t + 2) {
-						tokens[t] = tokens[t].replace("{", "");
-						tokens[t] = tokens[t].replace("}", "");
-						tokens[t] = tokens[t].trim();
-						senti.values.add(tokens[t]);
-					}
+        for (SA sa : goldSA) {
+            for (String aspect : sa.aspects) {
+                if (!allAspects.contains(aspect)) {
+                    allAspects.add(aspect);
+                    goldAspectCount.put(aspect, 0);
+                    ansAllAspectCount.put(aspect, 0);
+                    ansAspectCount.put(aspect, 0);
+                    ansValueCount.put(aspect, 0);
+                }
+                goldAspectCount.put(aspect, goldAspectCount.get(aspect) + 1);
+            }
+        }
 
-				} else if (!line.equals("") && line.length() > 10) {
-					System.out.println(line);
-					senti.text = line;
-				}
-			}
-			i++;
-		}
-		sa.add(senti);
-		return sa;
-	}
+        for (SA sa : ansSA)
+            for (String aspect : sa.aspects) 
+                if (allAspects.contains(aspect)) ansAllAspectCount.put(aspect, ansAllAspectCount.get(aspect) + 1);
+                else System.out.println("!!! Warning " + aspect);
 
-	private boolean checkDuplicateAsp(String asp, List<String> aspList) {
-		int count = 0;
-		for (int i = 0; i < aspList.size(); i++)
-			if (aspList.get(i).equals(asp)) count++;
-		return count > 1;
-	}
+        for (int i = 0; i < goldSA.size(); i++) {
+            SA g = goldSA.get(i), a = ansSA.get(i);
 
-	public void evaluate(String gold, String answer) {
-		List<String> allAspects = new ArrayList<String>();
-		List<Integer> goldAspCount = new ArrayList<Integer>();
+            if (!g.id.equals(a.id)) System.out.println("Row mismatch:" + g.id + " <-> " + a.id);
+            else if (!g.text.equals(a.text)) System.out.println("Text mismatch:" + a.id + "\n[" + g.text + "]\n<-> \n[" + a.text + "]");
+            else {
+                for (int j = 0; j < g.aspects.size(); j++) {
+                    String gaspect = g.aspects.get(j);
+                    int id = a.aspects.indexOf(gaspect);
 
-		List<Integer> ansAllAspCount = new ArrayList<Integer>();
-		List<Integer> ansAspCount = new ArrayList<Integer>();
-		List<Integer> ansValueCount = new ArrayList<Integer>();
+                    if (id != -1) {
+                        ansAspectCount.put(gaspect, ansAspectCount.get(gaspect) + 1);
+                        if (a.aspects.indexOf(gaspect) == id && g.values.get(j).equals(a.values.get(id)))
+                            ansValueCount.put(gaspect, ansValueCount.get(gaspect) + 1);
+                    }
+                }
+            }
+        }
 
-		List<SA> goldSA = loadSA(gold);
-		List<SA> ansSA = loadSA(answer);
+        System.out.println("Evaluation Result >> File:" + answerFile + "<> [" + goldFile + "]");
+        printEvaluation("Gold count", goldAspectCount, allAspects);
+        printEvaluation("ANSWER count", ansAllAspectCount, allAspects);
+        System.out.println();
 
-		for (int i = 0; i < goldSA.size(); i++) {
-			List<String> asp = goldSA.get(i).aspects;
-			for (int j = 0; j < asp.size(); j++)
-				if (!allAspects.contains(asp.get(j))) {
-					allAspects.add(asp.get(j));
-					System.out.println(asp.get(j));
-					System.out.println(goldSA.get(i).text);
-				}
-		}
-		System.out.println(allAspects);
+        printEvaluation("Correct ANSWER: aspect", ansAspectCount, allAspects);
+        printMetric("Precision: aspect", ansAspectCount, ansAllAspectCount, allAspects);
+        printMetric("Recall: aspect", ansAspectCount, goldAspectCount, allAspects);
+        printF1("F1 score: aspect", ansAspectCount, goldAspectCount, ansAllAspectCount, allAspects);
 
-		for (int i = 0; i < allAspects.size(); i++) {
-			goldAspCount.add(0);
-			ansAspCount.add(0);
-			ansValueCount.add(0);
-			ansAllAspCount.add(0);
-		}
+        int totalGold = goldAspectCount.values().stream().mapToInt(Integer::intValue).sum();
+        int totalAns = ansAllAspectCount.values().stream().mapToInt(Integer::intValue).sum();
+        int totalCorrectAns = ansAspectCount.values().stream().mapToInt(Integer::intValue).sum();
+        printOverall("Over All ANSWER: aspect:----", totalCorrectAns, totalAns, totalGold);
 
-		for (int i = 0; i < goldSA.size(); i++) {
-			List<String> asp = goldSA.get(i).aspects;
-			for (int j = 0; j < asp.size(); j++) {
-				int id = allAspects.indexOf(asp.get(j));
-				if (id != -1) goldAspCount.set(id, goldAspCount.get(id) + 1);
-				else System.out.println("!!! ERROR " + goldSA.get(i).id);
-			}
-		}
+        printEvaluation("Correct ANSWER: aspect,value", ansValueCount, allAspects);
+        printMetric("Precision: aspect, value", ansValueCount, ansAllAspectCount, allAspects);
+        printMetric("Recall: aspect, value", ansValueCount, goldAspectCount, allAspects);
+        printF1("F1 score: aspect, value", ansValueCount, goldAspectCount, ansAllAspectCount, allAspects);
 
-		for (int i = 0; i < ansSA.size(); i++) {
-			List<String> asp = ansSA.get(i).aspects;
-			for (int j = 0; j < asp.size(); j++) {
-				int id = allAspects.indexOf(asp.get(j));
-				if (id != -1) ansAllAspCount.set(id, ansAllAspCount.get(id) + 1);
-				else System.out.println("!!! Warning " + asp.get(j));
-			}
-		}
+        int totalValue = ansValueCount.values().stream().mapToInt(Integer::intValue).sum();
+        printOverall("Over All ANSWER: aspect, value:----", totalValue, totalAns, totalGold);
 
-		for (int i = 0; i < goldSA.size(); i++) {
-			SA g = goldSA.get(i);
-			SA a = ansSA.get(i);
+        System.out.println();
+        for (int i = 0; i < allAspects.size(); i++)
+            System.out.println("asp#" + (i + 1) + ": " + allAspects.get(i));
+    }
 
-			if (!g.id.equals(a.id)) System.out.println("Lỗi gióng hàng:" + g.id + " <-> " + a.id);
-			else {
-				if (g.text.compareTo(a.text) != 0) System.out.println("Lỗi văn bản:" + a.id + "\n[" + g.text + "]\n<-> \n[" + a.text + "]" );
-				List<String> gasp = g.aspects;
-				List<String> aasp = a.aspects;
-				List<String> gval = g.values;
-				List<String> aval = a.values;
+    private void printEvaluation(String label, Map<String, Integer> data, List<String> allAspects) {
+        System.out.printf("%30s", label);
+        for (String aspect : allAspects) System.out.printf("\t%d", data.get(aspect));
+        System.out.println();
+    }
 
-				for (int t = 0; t < gasp.size(); t++) {
-					int id = aasp.indexOf(gasp.get(t));
-					if (id != -1) {
-						String aspect = gasp.get(t);
-						int gid = allAspects.indexOf(aspect);
-						ansAspCount.set(gid, ansAspCount.get(gid) + 1);
+    private void printMetric(String label, Map<String, Integer> correct, Map<String, Integer> total, List<String> allAspects) {
+        System.out.printf("%30s", label);
+        for (String aspect : allAspects) {
+            double p = total.get(aspect) > 0 ? 1.0 * correct.get(aspect) / total.get(aspect) : 0;
+            System.out.printf("\t%.4f", p);
+        }
+        System.out.println();
+    }
 
-						if (!checkDuplicateAsp(aspect, aasp))
-							if (gval.get(t).equals(aval.get(id))) ansValueCount.set(gid, ansValueCount.get(gid) + 1);
-						else System.out.println(a.text);
-					}
-				}
-			}
-		}
+    private void printF1(String label, Map<String, Integer> correct, Map<String, Integer> gold, Map<String, Integer> total, List<String> allAspects) {
+        System.out.printf("%30s", label);
+        for (String aspect : allAspects) {
+            double p = total.get(aspect) > 0 ? 1.0 * correct.get(aspect) / total.get(aspect) : 0;
+            double r = gold.get(aspect) > 0 ? 1.0 * correct.get(aspect) / gold.get(aspect) : 0;
+            double f = p + r > 0 ? 2.0 * (p * r) / (p + r) : 0;
+            System.out.printf("\t%.4f", f);
+        }
+        System.out.println();
+    }
 
-		System.out.println("Evaluation Result >> File:" + answer + "<> [" + gold + "]");
-		System.out.printf("%30s", " ");
-		for (int i = 0; i < allAspects.size(); i++) System.out.printf("\t%s", "asp#" + (i + 1));
-		System.out.println();
+    private void printOverall(String label, int totalCorrect, int totalPredicted, int totalGold) {
+        double p = totalPredicted > 0 ? 1.0 * totalCorrect / totalPredicted : 0;
+        double r = totalGold > 0 ? 1.0 * totalCorrect / totalGold : 0;
+        double f1 = p + r > 0 ? 2 * p * r / (p + r) : 0;
 
-		System.out.printf("%30s", "Gold count");
-		for (int i = 0; i < allAspects.size(); i++) System.out.printf("\t%d", goldAspCount.get(i));
-		System.out.println();
+        System.out.println();
+        System.out.printf("%30s", label);
+        System.out.printf("\t%.4f", p);
+        System.out.printf("\t%.4f", r);
+        System.out.printf("\t%.4f", f1);
+        System.out.println();
+        System.out.println();
+    }
 
-		System.out.printf("%30s", "ANSWER count");
-		for (int i = 0; i < allAspects.size(); i++) System.out.printf("\t%d", ansAllAspCount.get(i));
-		System.out.println();
-		System.out.println();
-
-		System.out.printf("%30s", "Correct ANSWER: aspect");
-		for (int i = 0; i < allAspects.size(); i++) System.out.printf("\t%d", ansAspCount.get(i));
-		System.out.println();
-
-		System.out.printf("%30s", "Precision: aspect");
-		for (int i = 0; i < allAspects.size(); i++) {
-			double p = 0;
-			if (ansAllAspCount.get(i) > 0) p = 1.0 * ansAspCount.get(i) / ansAllAspCount.get(i);
-			System.out.printf("\t%.4f", p);
-		}
-		System.out.println();
-
-		System.out.printf("%30s", "Recall: aspect");
-		for (int i = 0; i < allAspects.size(); i++) {
-			double r = 0;
-			if (goldAspCount.get(i) > 0) r = 1.0 * ansAspCount.get(i) / goldAspCount.get(i);
-			System.out.printf("\t%.4f", r);
-		}
-		System.out.println();
-
-		System.out.printf("%30s", "F1 score: aspect");
-		for (int i = 0; i < allAspects.size(); i++) {
-			double p = 0, r = 0, f = 0;
-			if (ansAllAspCount.get(i) > 0) p = 1.0 * ansAspCount.get(i) / ansAllAspCount.get(i);
-			if (ansAllAspCount.get(i) > 0) r = 1.0 * ansAspCount.get(i) / goldAspCount.get(i);
-			if (p + r > 0) f = 2.0 * (p * r) / (p + r);
-			System.out.printf("\t%.4f", f);
-		}
-
-		int tgold = 0;
-		for (int i = 0; i < goldAspCount.size(); i++)
-			tgold = tgold + goldAspCount.get(i);
-
-		int tans = 0;
-		for (int i = 0; i < ansAllAspCount.size(); i++)
-			tans = tans + ansAllAspCount.get(i);
-
-		int tcans = 0;
-		for (int i = 0; i < ansAspCount.size(); i++)
-			tcans = tcans + ansAspCount.get(i);
-
-		int tvalue = 0;
-		for (int i = 0; i < ansValueCount.size(); i++)
-			tvalue = tvalue + ansValueCount.get(i);
-
-		{
-			double p = 1.0 * tcans / tans;
-			double r = 1.0 * tcans / tgold;
-			double f1 = 2 * p * r / (p + r);
-
-			System.out.println();
-			System.out.printf("%30s", "Over All ANSWER: aspect:----");
-			System.out.printf("\t%.4f", p);
-			System.out.printf("\t%.4f", r);
-			System.out.printf("\t%.4f", f1);
-			System.out.println();
-			System.out.println();
-		}
-
-		System.out.printf("%30s", "Correct ANSWER: aspect,value");
-		for (int i = 0; i < allAspects.size(); i++)
-			System.out.printf("\t%d", ansValueCount.get(i));
-		System.out.println();
-
-		System.out.printf("%30s", "Precision: aspect, value");
-		for (int i = 0; i < allAspects.size(); i++) {
-			double p = 0;
-			if (ansAllAspCount.get(i) > 0)
-				p = 1.0 * ansValueCount.get(i) / ansAllAspCount.get(i);
-			System.out.printf("\t%.4f", p);
-		}
-		System.out.println();
-
-		System.out.printf("%30s", "Recall: aspect, value");
-		for (int i = 0; i < allAspects.size(); i++) {
-			double r = 0;
-			if (ansAllAspCount.get(i) > 0)
-				r = 1.0 * ansValueCount.get(i) / goldAspCount.get(i);
-			System.out.printf("\t%.4f", r);
-		}
-		System.out.println();
-
-		System.out.printf("%30s", "F1 score: aspect, value");
-		for (int i = 0; i < allAspects.size(); i++) {
-			double p = 0, r = 0, f = 0;
-			if (ansAllAspCount.get(i) > 0) p = 1.0 * ansValueCount.get(i) / ansAllAspCount.get(i);
-			if (goldAspCount.get(i) > 0) r = 1.0 * ansValueCount.get(i) / goldAspCount.get(i);
-			if (p + r > 0) f = 2.0 * (p * r) / (p + r);
-			System.out.printf("\t%.4f", f);
-		}
-		System.out.println();
-
-		{
-			double p = 1.0 * tvalue / tans;
-			double r = 1.0 * tvalue / tgold;
-			double f1 = 2 * p * r / (p + r);
-
-			System.out.println();
-			System.out.printf("%30s", "Over All ANSWER: aspect, value:----");
-			System.out.printf("\t%.4f", p);
-			System.out.printf("\t%.4f", r);
-			System.out.printf("\t%.4f", f1);
-			System.out.println();
-			System.out.println();
-		}
-		System.out.println();
-		for (int i = 0; i < allAspects.size(); i++)
-			System.out.println("asp#" + (i + 1) + ": " + allAspects.get(i));
-
-	}
-
-	public void evaluateFolder(String gold, String answer) {
-		File goldFolder = new File(gold);
-
-		File ansFolder = new File(answer);
-		String[] goldfiles = goldFolder.list();
-		String[] ansfiles = ansFolder.list();
-
-		for (int i = 0; i < ansfiles.length; i++) {
-			String af = ansfiles[i].toLowerCase();
-			if (af.contains("hotel")) evaluate(gold + "/" + goldfiles[0], answer + "/" + ansfiles[i]);
-			else if (af.contains("restaurant")) evaluate(gold + "/" + goldfiles[1], answer + "/" + ansfiles[i]);
-		}
-	}
-
-	private List<String> getInputFromFile(String input) {
-		List<String> lines = new ArrayList<String>();
-		try {
-			Scanner reader = new Scanner(new FileReader(input));
-			while (reader.hasNext()) {
-				String line = reader.nextLine();
-				// if(line.compareTo("")!=0)
-				lines.add(line);
-			}
-			reader.close();
-		} catch (FileNotFoundException e) { e.printStackTrace(); }
-		return lines;
-	}
-
-	public static void main(String[] args) {
-		SAEvaluate ltc = new SAEvaluate();
-		String path = "C:\\Users\\Administrator\\Downloads\\";
-		String answer3 = path + "MonoBERT_en_5.txt"; // Gold dataset
-		String gold1 = "C:\\Users\\Administrator\\Downloads\\VLSP Formated SemEval\\En_Test.txt";
-		ltc.evaluate(gold1, answer3);
-	}
+    public static void main(String[] args) throws IOException {
+        SAEvaluate evaluator = new SAEvaluate();
+        // String trueFilePath = "D:\\absa-vlsp-2018\\datasets\\vlsp2018_hotel\\3-VLSP2018-SA-Hotel-test.txt";
+        // String predFilePath = "D:\\absa-vlsp-2018\\experiments\\predictions\\ACSA-v1-hotel.txt";
+        evaluator.evaluate(args[0], args[1]);
+    }
 }
