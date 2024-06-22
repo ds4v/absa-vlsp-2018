@@ -91,6 +91,17 @@ class VLSP2018Parser:
                 for review_text, review_data in tqdm(self.reviews[dataset]):
                     row = [review_text] + [review_data.get(aspect_category, 0) for aspect_category in self.aspect_categories]
                     writer.writerow(row)
+    
+    @staticmethod
+    def vlsp_save_as(save_path, raw_texts, encoded_review_labels, aspect_category_names):
+        with open(save_path, 'w', encoding='utf-8') as file:
+            for index, encoded_label in tqdm(enumerate(encoded_review_labels)):
+                polarities = map(lambda x: PolarityMapping.INDEX_TO_POLARITY[x], encoded_label)
+                acsa = ', '.join(
+                    f'{{{aspect_category}, {polarity}}}' 
+                    for aspect_category, polarity in zip(aspect_category_names, polarities) if polarity
+                )
+                file.write(f"#{index + 1}\n{raw_texts[index]}\n{acsa}\n\n")
                     
 
 if __name__ == '__main__':
