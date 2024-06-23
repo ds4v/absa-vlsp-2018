@@ -21,13 +21,13 @@ class VLSP2018SklearnEvaluator:
 
         self.aspect_cate_polar_report = classification_report(aspect_cate_polar_test, aspect_cate_polar_pred, output_dict=True, zero_division=1.0)
         self.aspect_cate_report = classification_report(aspect_cate_test, aspect_cate_pred, output_dict=True, zero_division=1.0)
-        self.polarity_report = classification_report(y_pred.flatten(), y_pred.flatten(), target_names=PolarityMapping.POLARITY_TO_INDEX, output_dict=True)
+        self.polarity_report = classification_report(y_test.flatten(), y_pred.flatten(), target_names=PolarityMapping.POLARITY_TO_INDEX, output_dict=True)
         self._merge_all_reports()
         self._build_macro_avg_df()
         
     
     def report(self, report_type='all'):
-        if report_type.lower() == 'all': self.display_all_reports()
+        if report_type.lower() == 'all': self._display_all_reports()
         elif report_type.lower() == 'aspect#category,polarity': return pd.DataFrame(self.aspect_cate_polar_report).T
         elif report_type.lower() == 'aspect#category': return pd.DataFrame(self.aspect_cate_report).T
         elif report_type.lower() == 'polarity': return pd.DataFrame(self.polarity_report).T

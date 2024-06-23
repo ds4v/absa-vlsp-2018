@@ -29,7 +29,7 @@ class VLSP2018Loader:
             return tokenizer(processed_review, max_length=max_length, padding='max_length', truncation=True)
         
         if type(text_data) == str: return transform_each_review(text_data)
-        return text_data.map(lambda review: transform_each_review(review['Review']), num_proc=4).remove_columns('Review')
+        return text_data.map(lambda review: transform_each_review(review['Review']), num_proc=8).remove_columns('Review')
     
     
     @staticmethod
@@ -42,7 +42,7 @@ class VLSP2018Loader:
                 for aspect_category in label_columns
             ], []) # Need to be flattened to match the model's output shape
             return review 
-        return datasets.map(transform_each_review, num_proc=4).select_columns(['FlattenOneHotLabels', 'input_ids', 'token_type_ids', 'attention_mask'])
+        return datasets.map(transform_each_review, num_proc=8).select_columns(['FlattenOneHotLabels', 'input_ids', 'token_type_ids', 'attention_mask'])
 
 
 class VLSP2018Parser:
