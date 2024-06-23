@@ -257,7 +257,7 @@ class VietnameseTextPreprocessor:
         words = []
         for word in text.split():
             words.append(self.acronyms.get(word, word))
-        return VietnameseTextCleaner.remove_unnecessary_characters(' '.join(words)) # Just for safe in case users defined uncleaned acronyms.
+        return ' '.join(words)
     
     
     def word_segment(self, text):
@@ -270,11 +270,12 @@ class VietnameseTextPreprocessor:
         
 
     def process_text(self, text, lower=True):
-        text = VietnameseTextCleaner.process_text(text, lower=lower)
-        text = VietnameseToneNormalizer.normalize_unicode(text)
-        text = VietnameseToneNormalizer.normalize_sentence_typing(text, vinai_normalization=True)
-        text = self.normalize_acronyms(text)
-        return self.word_segment(text)
+        for func in [self.normalize_acronyms, self.word_segment]: # Just for safe in case users defined uncleaned acronyms.
+            text = VietnameseToneNormalizer.normalize_unicode(text.lower() if lower else text)
+            text = VietnameseToneNormalizer.normalize_sentence_typing(text, vinai_normalization=True)
+            text = VietnameseTextCleaner.process_text(text)
+            text = func(text)
+        return text
     
     
 if __name__ == '__main__':
@@ -292,6 +293,6 @@ if __name__ == '__main__':
         'feedback': ['fback', 'fedback'], 'sử dụng': ['sd'], 'xài': ['sài'], 
     }
     preprocessor = VietnameseTextPreprocessor(vncorenlp_dir='./VnCoreNLP', extra_acronyms=extra_acronyms)
-    sample_text = 'Giá cũng ok cho gđ, mà nv hơi thiếu chuyên nghiệp. Nhưng chung quy lại là cũng được'
+    sample_text = 'Ga giường không sạch, nhân viên quên dọn phòng một ngày.'
     preprocessed_text = preprocessor.process_text(sample_text)
     print(preprocessed_text)
