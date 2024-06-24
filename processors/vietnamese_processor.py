@@ -110,14 +110,14 @@ class VietnameseToneNormalizer:
     
     
     @staticmethod
-    def normalize_sentence_typing(text, vinai_normalization=True):
+    def normalize_sentence_typing(text, vinai_normalization=False):
         # https://github.com/VinAIResearch/BARTpho/blob/main/VietnameseToneNormalization.md
         if vinai_normalization: # Just simply replace the wrong tone with the correct one defined by VinAI
             for wrong, correct in VietnameseToneNormalizer.VINAI_NORMALIZED_TONE.items():
                 text = text.replace(wrong, correct)
             return text.strip()
         
-        # (Slower) Or you can use this algorithm developed by Behitek to normalize Vietnamese typing in a sentence 
+        # Or you can use this algorithm developed by Behitek to normalize Vietnamese typing in a sentence 
         words = text.strip().split()
         for index, word in enumerate(words):
             cw = re.sub(r'(^\p{P}*)([p{L}.]*\p{L}+)(\p{P}*$)', r'\1/\2/\3', word).split('/')
@@ -269,10 +269,11 @@ class VietnameseTextPreprocessor:
         return text
         
 
-    def process_text(self, text, lower=True):
+    def process_text(self, text, lower=True, normalize_typing=False):
+        if lower: text = text.lower()
         for func in [self.normalize_acronyms, self.word_segment]: # Just for safe in case users defined uncleaned acronyms.
-            text = VietnameseToneNormalizer.normalize_unicode(text.lower() if lower else text)
-            text = VietnameseToneNormalizer.normalize_sentence_typing(text, vinai_normalization=True)
+            text = VietnameseToneNormalizer.normalize_unicode(text)
+            if normalize_typing: text = VietnameseToneNormalizer.normalize_sentence_typing(text)
             text = VietnameseTextCleaner.process_text(text)
             text = func(text)
         return text
