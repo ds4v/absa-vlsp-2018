@@ -1,9 +1,9 @@
 # https://github.com/behitek/text-classification-tutorial/blob/master/text_classification_tutorial.ipynb
 import os
-import re
 import emoji
 import urllib
 import requests
+import regex as re
 from vncorenlp import VnCoreNLP
 from io import StringIO
 
@@ -127,9 +127,9 @@ class VietnameseToneNormalizer:
     
      
     @staticmethod
-    def normalize_word_typing(self, word):
+    def normalize_word_typing(word):
         if not VietnameseToneNormalizer.is_valid_vietnamese_word(word): return word
-        chars, vowel_indexes = word, []
+        chars, vowel_indexes = list(word), []
         qu_or_gi, tonal_mark = False, 0
         
         for index, char in enumerate(chars):
@@ -167,7 +167,7 @@ class VietnameseToneNormalizer:
     
     
     @staticmethod
-    def is_valid_vietnamese_word(self, word):
+    def is_valid_vietnamese_word(word):
         vowel_indexes = -1 
         for index, char in enumerate(word):
             if char not in VietnameseToneNormalizer.VOWELS_TO_IDS: continue
@@ -269,7 +269,7 @@ class VietnameseTextPreprocessor:
         return text
         
 
-    def process_text(self, text, lower=True, normalize_typing=False):
+    def process_text(self, text, lower=False, normalize_typing=False):
         if lower: text = text.lower()
         for func in [self.normalize_acronyms, self.word_segment]: # Just for safe in case users defined uncleaned acronyms.
             text = VietnameseToneNormalizer.normalize_unicode(text)
@@ -280,9 +280,11 @@ class VietnameseTextPreprocessor:
     
     
 if __name__ == '__main__':
+    # You should be carefull when using single word replacement for acronyms, because it can cause misinterpretation. 
+    # For example, 'giá': ['price', 'gia'] can replace the word 'gia' in 'gia đình', making it become 'giá đình'.
     extra_acronyms = { 
         'khách sạn': ['ks', 'khach san'], 'nhà hàng': ['nhahang', 'nhà hàg'],
-        'nhân viên': ['nv', 'nhân vien'], 'phòng': ['phong'], 'giá': ['price', 'gia'],
+        'nhân viên': ['nv', 'nhân vien'], 'phòng': ['phong'],
 
         'cửa hàng': ['store', 'sop', 'shopE', 'shop'], 
         'sản phẩm': ['sp', 'product'], 'hàng': ['hàg'],
@@ -294,6 +296,6 @@ if __name__ == '__main__':
         'feedback': ['fback', 'fedback'], 'sử dụng': ['sd'], 'xài': ['sài'], 
     }
     preprocessor = VietnameseTextPreprocessor(vncorenlp_dir='./VnCoreNLP', extra_acronyms=extra_acronyms)
-    sample_text = 'Ga giường không sạch, nhân viên quên dọn phòng một ngày.'
+    sample_text = 'Ga giường không sạch, nhân viên quên dọn phòng một ngày. Chất lựơng "ko" đc thỏai mái 😔'
     preprocessed_text = preprocessor.process_text(sample_text)
     print(preprocessed_text)
