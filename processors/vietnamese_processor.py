@@ -37,8 +37,7 @@ class VietnameseTextCleaner: # https://ihateregex.io
         return re.sub(r'\s+', ' ', text).strip() # Remove extra whitespace
     
     @staticmethod
-    def process_text(text, lower=True):
-        if lower: text = text.lower()
+    def process_text(text):
         text = VietnameseTextCleaner.remove_html(text)
         text = VietnameseTextCleaner.remove_emoji(text)
         text = VietnameseTextCleaner.remove_url(text)
@@ -177,8 +176,11 @@ class VietnameseToneNormalizer:
     
 
 class VietnameseTextPreprocessor:
-    def __init__(self, vncorenlp_dir='./VnCoreNLP', extra_acronyms=None):
-        self.vncorenlp_dir, self.extra_acronyms = vncorenlp_dir, extra_acronyms
+    def __init__(self, vncorenlp_dir='./VnCoreNLP', extra_acronyms=None, normalize_typing=False, lower=False):
+        self.vncorenlp_dir = vncorenlp_dir
+        self.extra_acronyms = extra_acronyms
+        self.normalize_typing = normalize_typing
+        self.lower = lower
         self._load_vncorenlp()    
         self._build_acronyms()
         
@@ -255,12 +257,14 @@ class VietnameseTextPreprocessor:
     
     def normalize_acronyms(self, text):
         words = []
+        if self.lower: text = text.lower()
         for word in text.split():
             words.append(self.acronyms.get(word, word))
         return ' '.join(words)
     
     
     def word_segment(self, text):
+        if self.lower: text = text.lower()
         if self.word_segmenter: 
             words = self.word_segmenter.tokenize(text)
             return ' '.join(sum(words, [])) # Flatten the list of words
@@ -269,11 +273,11 @@ class VietnameseTextPreprocessor:
         return text
         
 
-    def process_text(self, text, lower=False, normalize_typing=False):
-        if lower: text = text.lower()
+    def process_text(self, text):
+        if self.lower: text = text.lower()
         for func in [self.normalize_acronyms, self.word_segment]: # Just for safe in case users defined uncleaned acronyms.
             text = VietnameseToneNormalizer.normalize_unicode(text)
-            if normalize_typing: text = VietnameseToneNormalizer.normalize_sentence_typing(text)
+            if self.normalize_typing: text = VietnameseToneNormalizer.normalize_sentence_typing(text)
             text = VietnameseTextCleaner.process_text(text)
             text = func(text)
         return text
@@ -295,7 +299,7 @@ if __name__ == '__main__':
         'nhắn tin': ['nt', 'ib'], 'trả lời': ['tl', 'trl', 'rep'], 
         'feedback': ['fback', 'fedback'], 'sử dụng': ['sd'], 'xài': ['sài'], 
     }
-    preprocessor = VietnameseTextPreprocessor(vncorenlp_dir='./VnCoreNLP', extra_acronyms=extra_acronyms)
+    preprocessor = VietnameseTextPreprocessor(vncorenlp_dir='./VnCoreNLP', extra_acronyms=extra_acronyms, normalize_typing=True, lower=True)
     sample_text = 'Ga giường không sạch, nhân viên quên dọn phòng một ngày. Chất lựơng "ko" đc thỏai mái 😔'
     preprocessed_text = preprocessor.process_text(sample_text)
     print(preprocessed_text)
