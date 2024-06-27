@@ -1,10 +1,8 @@
-import numpy as np
-from matplotlib import pyplot as plt
-from processors.vlsp2018_processor import PolarityMapping
-
 from transformers import TFAutoModel
 from tensorflow.keras import Model
 from tensorflow.keras.layers import Dense, Dropout, Concatenate
+from processors.vlsp2018_processor import PolarityMapping
+from helper import argmax_label_matrix
 
 
 class VLSP2018MultiTask(Model):
@@ -42,24 +40,10 @@ class VLSP2018MultiTask(Model):
     
     def acsa_predict(self, text_data, batch_size=1):
         y_pred = self.predict(text_data, batch_size=batch_size, verbose=1)
-        if not self.multi_branch: 
-            y_pred = y_pred.reshape(len(y_pred), -1, 4)
-            return np.argmax(y_pred, axis=-1)
-        return np.argmax(y_pred, axis=-1).T
+        return argmax_label_matrix(y_pred, self.multi_branch)
 
 
     def print_acsa_pred(self, y_pred):
         polarities = map(lambda x: PolarityMapping.INDEX_TO_POLARITY[x], y_pred)
         for aspect_category, polarity in zip(self.aspect_category_names, polarities): 
             if polarity: print(f'=> {aspect_category},{polarity}')
-    
-
-def plot_training_history(history, figsize=(15, 5)):
-    plt.figure(figsize=figsize)
-    plt.plot(history['loss'], linestyle='solid', marker='o', color='crimson', label='Train')
-    plt.plot(history['val_loss'], linestyle='solid', marker='o', color='dodgerblue', label='Validation')
-    plt.xlabel('Epochs', fontsize = 14)
-    plt.ylabel('Loss',fontsize=14)
-    plt.title('Loss', fontsize=15)
-    plt.legend(loc='best')
-    plt.show()
