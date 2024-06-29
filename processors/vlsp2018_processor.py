@@ -22,27 +22,31 @@ class VLSP2018Loader:
           
           
     @staticmethod
-    def preprocess_and_tokenize(text_data, preprocessor, tokenizer, max_length):
+    def preprocess_and_tokenize(text_data, preprocessor, tokenizer, batch_size, max_length):
         print('[INFO] Preprocessing and tokenizing text data...')
-        def transform_each_review(review):
-            processed_review = preprocessor.process_text(review)
-            return tokenizer(processed_review, max_length=max_length, padding='max_length', truncation=True)
+        def transform_each_batch(batch):
+            preprocessed_batch = preprocessor.process_batch(batch)
+            return tokenizer(preprocessed_batch, max_length=max_length, padding='max_length', truncation=True)
         
-        if type(text_data) == str: return transform_each_review(text_data)
-        return text_data.map(lambda review: transform_each_review(review['Review']), num_proc=8).remove_columns('Review')
+        if type(text_data) == str: return transform_each_batch([text_data])
+        return text_data.map(
+            lambda reviews: transform_each_batch(reviews['Review']), 
+            batched=True, batch_size=batch_size
+        ).remove_columns('Review')
     
     
     @staticmethod
     def labels_to_flatten_onehot(datasets):
         print('[INFO] Transforming "Aspect#Categoy,Polarity" labels to flattened one-hot encoding...')
-        label_columns = [col for col in datasets['train'].column_names if col not in ['Review', 'input_ids', 'token_type_ids', 'attention_mask']]
+        model_input_names = ['input_ids', 'token_type_ids', 'attention_mask']
+        label_columns = [col for col in datasets['train'].column_names if col not in ['Review', *model_input_names]]
         def transform_each_review(review): # Convert each Aspect#Categoy,Polarity to one-hot encoding and merge them into 1D list
             review['FlattenOneHotLabels'] = sum([
                 PolarityMapping.INDEX_TO_ONEHOT[review[aspect_category]] # Get one-hot encoding
                 for aspect_category in label_columns
             ], []) # Need to be flattened to match the model's output shape
             return review 
-        return datasets.map(transform_each_review, num_proc=8).select_columns(['FlattenOneHotLabels', 'input_ids', 'token_type_ids', 'attention_mask'])
+        return datasets.map(transform_each_review, num_proc=8).select_columns(['FlattenOneHotLabels', *model_input_names])
 
 
 class VLSP2018Parser:

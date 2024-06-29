@@ -4,8 +4,10 @@ import emoji
 import urllib
 import requests
 import regex as re
-from vncorenlp import VnCoreNLP
+
 from io import StringIO
+from vncorenlp import VnCoreNLP
+from transformers import pipeline
 
 
 class VietnameseTextCleaner: # https://ihateregex.io
@@ -32,8 +34,12 @@ class VietnameseTextCleaner: # https://ihateregex.io
         return re.sub(r'^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$', '', text)
     
     @staticmethod
+    def remove_hashtags(text):
+        return re.sub(r'#\w+', '', text)
+    
+    @staticmethod
     def remove_unnecessary_characters(text):
-        text = re.sub(fr"[^\s\w{VietnameseTextCleaner.VN_CHARS}]", '', text)
+        text = re.sub(fr"[^\sa-zA-Z0-9{VietnameseTextCleaner.VN_CHARS}]", ' ', text)
         return re.sub(r'\s+', ' ', text).strip() # Remove extra whitespace
     
     @staticmethod
@@ -43,6 +49,7 @@ class VietnameseTextCleaner: # https://ihateregex.io
         text = VietnameseTextCleaner.remove_url(text)
         text = VietnameseTextCleaner.remove_email(text)
         text = VietnameseTextCleaner.remove_phone_number(text)
+        text = VietnameseTextCleaner.remove_hashtags(text)
         return VietnameseTextCleaner.remove_unnecessary_characters(text)
 
 
@@ -176,20 +183,19 @@ class VietnameseToneNormalizer:
     
 
 class VietnameseTextPreprocessor:
-    def __init__(self, vncorenlp_dir='./VnCoreNLP', extra_acronyms=None, normalize_typing=False, lower=False):
+    def __init__(self, vncorenlp_dir='./VnCoreNLP', extra_teencodes=None, max_correction_length=512):
         self.vncorenlp_dir = vncorenlp_dir
-        self.extra_acronyms = extra_acronyms
-        self.normalize_typing = normalize_typing
-        self.lower = lower
-        self._load_vncorenlp()    
-        self._build_acronyms()
+        self.extra_teencodes = extra_teencodes
+        self._load_vncorenlp()
+        self._build_teencodes()
         
+        self.max_correction_length = max_correction_length
+        self.corrector = pipeline(
+            'text2text-generation', model='bmd1905/vietnamese-correction-v2', 
+            torch_dtype='bfloat16', device_map='auto', num_workers=os.cpu_count()
+        )
+        print('bmd1905/vietnamese-correction-v2 is loaded successfully.')
         
-    def __del__(self):
-        if self.word_segmenter: 
-            print('Closing VnCoreNLP word segmenter...')
-            self.word_segmenter.close()
-    
     
     def _load_vncorenlp(self):
         self.word_segmenter = None
@@ -218,31 +224,33 @@ class VietnameseTextPreprocessor:
             return False
                 
         
-    def _build_acronyms(self):
-        self.acronyms = {
-            'ok': ['ô kêi', 'okie', 'o kê', 'okey', 'ôkê', 'oki', 'oke', 'okay', 'okê'], 
+    def _build_teencodes(self):
+        self.teencodes = {
+            'ok': ['okie', 'okey', 'ôkê', 'oki', 'oke', 'okay', 'okê'], 
             'không': ['kg', 'not', 'k', 'kh', 'kô', 'hok', 'ko', 'khong'], 'không phải': ['kp'], 
-            'cảm ơn': ['tks', 'thks', 'thanks', 'ths', 'thank'], 
+            'cảm ơn': ['tks', 'thks', 'thanks', 'ths', 'thank'], 'hồi đó': ['hùi đó'], 'muốn': ['mún'],
             
             'rất tốt': ['perfect', '❤️', '😍'], 'dễ thương': ['cute'], 'yêu': ['iu'], 'thích': ['thik'], 
             'tốt': [
-                'gud', 'wel done', 'good', 'gút', 'tot', 'nice',
-                'he he', 'hehe', 'hihi', 'haha', 'hjhj', 'thick', '^_^', ':)', 
+                'gud', 'good', 'gút', 'tot', 'nice',
+                'hehe', 'hihi', 'haha', 'hjhj', 'thick', '^_^', ':)', '=)'
                 '👍', '🎉', '😀', '😂', '🤗', '😙', '🙂'
             ], 
-            'bình thường': ['bt', 'bthg', 'binh thuong'],
+            'bình thường': ['bt', 'bthg'], 'hàg': ['hàng'], 
             'không tốt':  ['lol', 'cc', 'huhu', ':(', '😔', '😓'],
             'tệ': ['sad', 'por', 'poor', 'bad'], 'giả mạo': ['fake'], 
             
             'quá': ['wa', 'wá', 'qá'], 'được': ['đx', 'dk', 'dc', 'đk', 'đc'], 
             'với': ['vs'], 'gì': ['j'], 'rồi': ['r'], 'mình': ['m', 'mik'], 
-            'thời gian': ['time'], 'bao giờ': ['bjo', 'bay h', 'bây h'], 
+            'thời gian': ['time'], 'giờ': ['h'], 
         }
-        if self.extra_acronyms: 
-            for key, values in self.extra_acronyms.items():
-                self.acronyms.setdefault(key, []).extend(values)
+        if self.extra_teencodes: 
+            for key, values in self.extra_teencodes.items():
+                if any(len(value.split()) > 1 for value in values):
+                    raise ValueError('The values for each key in extra_teencodes must be single words.')
+                self.teencodes.setdefault(key, []).extend(values)
                 
-        self.acronyms = {word: key for key, values in self.acronyms.items() for word in values}
+        self.teencodes = {word: key for key, values in self.teencodes.items() for word in values}
         teencode_url = 'https://gist.githubusercontent.com/behitek/7d9441c10b3c2739499fc5a4d9ea06fb/raw/df939245b3e841b62af115be4dcb3516dadc9fc5/teencode.txt'
         response = requests.get(teencode_url)
         
@@ -250,56 +258,78 @@ class VietnameseTextPreprocessor:
             text_data = StringIO(response.text)
             for pair in text_data:
                 teencode, true_text = pair.split('\t')
-                self.acronyms[teencode.strip()] = true_text.strip()
-            self.acronyms = {k: self.acronyms[k] for k in sorted(self.acronyms)}
+                self.teencodes[teencode.strip()] = true_text.strip()
+            self.teencodes = {k: self.teencodes[k] for k in sorted(self.teencodes)}
         else: print('Failed to fetch teencode.txt from', teencode_url)
 
     
-    def normalize_acronyms(self, text):
+    def normalize_teencodes(self, text):
         words = []
-        if self.lower: text = text.lower()
         for word in text.split():
-            words.append(self.acronyms.get(word, word))
+            words.append(self.teencodes.get(word, word))
         return ' '.join(words)
     
     
+    def correct_vietnamese_errors(self, texts):
+        # https://huggingface.co/bmd1905/vietnamese-correction-v2
+        predictions = self.corrector(texts, max_length=self.max_correction_length, truncation=True)
+        return [prediction['generated_text'] for prediction in predictions]
+        
+    
     def word_segment(self, text):
-        if self.lower: text = text.lower()
         if self.word_segmenter: 
             words = self.word_segmenter.tokenize(text)
             return ' '.join(sum(words, [])) # Flatten the list of words
-        
         print('There is no VnCoreNLP word segmenter loaded. Please check the VnCoreNLP jar file.')
         return text
         
-
-    def process_text(self, text):
-        if self.lower: text = text.lower()
-        for func in [self.normalize_acronyms, self.word_segment]: # Just for safe in case users defined uncleaned acronyms.
+    
+    def process_text(self, text, normalize_tone=True, segment=True):
+        text = text.lower()
+        if normalize_tone:
             text = VietnameseToneNormalizer.normalize_unicode(text)
-            if self.normalize_typing: text = VietnameseToneNormalizer.normalize_sentence_typing(text)
-            text = VietnameseTextCleaner.process_text(text)
-            text = func(text)
-        return text
+            text = VietnameseToneNormalizer.normalize_sentence_typing(text)
+        text = VietnameseTextCleaner.process_text(text)
+        text = self.normalize_teencodes(text)
+        return self.word_segment(text) if segment else text
+    
+    
+    def process_batch(self, texts, correct_errors=True):
+        if correct_errors:
+            texts = [self.process_text(text, normalize_tone=True, segment=False) for text in texts]
+            texts = self.correct_vietnamese_errors(texts)
+            return [self.process_text(text, normalize_tone=False, segment=True) for text in texts]
+        return [self.process_text(text, normalize_tone=True, segment=True) for text in texts]
+    
+    
+    def close_vncorenlp(self):
+        if self.word_segmenter: 
+            print('Closing VnCoreNLP word segmenter...')
+            self.word_segmenter.close()
     
     
 if __name__ == '__main__':
-    # You should be carefull when using single word replacement for acronyms, because it can cause misinterpretation. 
+    # You should be careful when using single word replacement for teencodes, because it can cause misinterpretation. 
     # For example, 'giá': ['price', 'gia'] can replace the word 'gia' in 'gia đình', making it become 'giá đình'.
-    extra_acronyms = { 
-        'khách sạn': ['ks', 'khach san'], 'nhà hàng': ['nhahang', 'nhà hàg'],
-        'nhân viên': ['nv', 'nhân vien'], 'phòng': ['phong'],
-
+    extra_teencodes = { 
+        'khách sạn': ['ks'], 'nhà hàng': ['nhahang'], 'nhân viên': ['nv'],
         'cửa hàng': ['store', 'sop', 'shopE', 'shop'], 
         'sản phẩm': ['sp', 'product'], 'hàng': ['hàg'],
         'giao hàng': ['ship', 'delivery', 'síp'], 'đặt hàng': ['order'], 
-        'chất lượng': ['quality', 'chất lg'], 'chuẩn chính hãng': ['authentic', 'aut', 'auth'], 'hạn sử dụng': ['date', 'hsd'],
-
+        'chuẩn chính hãng': ['authentic', 'aut', 'auth'], 'hạn sử dụng': ['date', 'hsd'],
         'điện thoại': ['dt'],  'facebook': ['fb', 'face'],  
         'nhắn tin': ['nt', 'ib'], 'trả lời': ['tl', 'trl', 'rep'], 
         'feedback': ['fback', 'fedback'], 'sử dụng': ['sd'], 'xài': ['sài'], 
     }
-    preprocessor = VietnameseTextPreprocessor(vncorenlp_dir='./VnCoreNLP', extra_acronyms=extra_acronyms, normalize_typing=True, lower=True)
-    sample_text = 'Ga giường không sạch, nhân viên quên dọn phòng một ngày. Chất lựơng "ko" đc thỏai mái 😔'
-    preprocessed_text = preprocessor.process_text(sample_text)
-    print(preprocessed_text)
+    
+    preprocessor = VietnameseTextPreprocessor(vncorenlp_dir='./VnCoreNLP', extra_teencodes=extra_teencodes, max_correction_length=512)
+    sample_texts = [
+        'Ga giường không sạch, nhân viên quên dọn phòng một ngày. Chất lựơng "ko" đc thỏai mái 😔',
+        'Cám ơn Chudu24 rất nhiềuGia đình tôi có 1 kỳ nghỉ vui vẻ.Resort Bình Minh nằm ở vị trí rất đẹp, theo đúng tiêu chuẩn, còn về ăn sáng thì wa dở, chỉ có 2,3 món để chọn',
+        'Giá cả hợp líĂn uống thoả thíchGiữ xe miễn phíKhông gian bờ kè thoáng mát Có phòng máy lạnhMỗi tội lúc quán đông thì đợi hơi lâu',
+        'May lần trước ăn mì k hà, hôm nay ăn thử bún bắp bò. Có chả tôm viên ăn lạ lạ. Tôm thì k nhiều, nhưng vẫn có tôm thật ở nhân bên trong. ',
+        'Ngồi ăn Cơm nhà *tiền thân là quán Bão* Phần vậy là 59k nha. Trưa từ 10h-14h, chiều từ 16h-19h. À,có sữa hạt sen ngon lắmm. #food #foodpic #foodporn #foodholic #yummy #deliciuous'
+    ]
+    preprocessed_texts = preprocessor.process_batch(sample_texts, correct_errors=True)
+    preprocessor.close_vncorenlp()
+    print(preprocessed_texts)
