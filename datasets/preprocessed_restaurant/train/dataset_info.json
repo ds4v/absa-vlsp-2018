@@ -1,0 +1,123 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "csv",
+  "dataset_size": 2297976,
+  "description": "",
+  "download_checksums": {
+    "/content/absa-vlsp-2018/experiments/../datasets/vlsp2018_restaurant/1-VLSP2018-SA-Restaurant-train.csv": {
+      "num_bytes": 1027843,
+      "checksum": null
+    },
+    "/content/absa-vlsp-2018/experiments/../datasets/vlsp2018_restaurant/2-VLSP2018-SA-Restaurant-dev.csv": {
+      "num_bytes": 416426,
+      "checksum": null
+    },
+    "/content/absa-vlsp-2018/experiments/../datasets/vlsp2018_restaurant/3-VLSP2018-SA-Restaurant-test.csv": {
+      "num_bytes": 505832,
+      "checksum": null
+    }
+  },
+  "download_size": 1950101,
+  "features": {
+    "AMBIENCE#GENERAL": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "DRINKS#PRICES": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "DRINKS#QUALITY": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "DRINKS#STYLE&OPTIONS": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "FOOD#PRICES": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "FOOD#QUALITY": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "FOOD#STYLE&OPTIONS": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "LOCATION#GENERAL": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "RESTAURANT#GENERAL": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "RESTAURANT#MISCELLANEOUS": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "RESTAURANT#PRICES": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "SERVICE#GENERAL": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "input_ids": {
+      "feature": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "token_type_ids": {
+      "feature": {
+        "dtype": "int8",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "attention_mask": {
+      "feature": {
+        "dtype": "int8",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 4248077,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 1244841,
+      "num_examples": 2961,
+      "dataset_name": "csv"
+    },
+    "val": {
+      "name": "val",
+      "num_bytes": 511049,
+      "num_examples": 1290,
+      "dataset_name": "csv"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 542086,
+      "num_examples": 500,
+      "dataset_name": "csv"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

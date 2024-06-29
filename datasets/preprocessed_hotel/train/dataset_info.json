@@ -1,0 +1,211 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "csv",
+  "dataset_size": 3057622,
+  "description": "",
+  "download_checksums": {
+    "/content/absa-vlsp-2018/experiments/../datasets/vlsp2018_hotel/1-VLSP2018-SA-Hotel-train.csv": {
+      "num_bytes": 1242027,
+      "checksum": null
+    },
+    "/content/absa-vlsp-2018/experiments/../datasets/vlsp2018_hotel/2-VLSP2018-SA-Hotel-dev.csv": {
+      "num_bytes": 489632,
+      "checksum": null
+    },
+    "/content/absa-vlsp-2018/experiments/../datasets/vlsp2018_hotel/3-VLSP2018-SA-Hotel-test.csv": {
+      "num_bytes": 177845,
+      "checksum": null
+    }
+  },
+  "download_size": 1909504,
+  "features": {
+    "FACILITIES#CLEANLINESS": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "FACILITIES#COMFORT": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "FACILITIES#DESIGN&FEATURES": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "FACILITIES#GENERAL": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "FACILITIES#MISCELLANEOUS": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "FACILITIES#PRICES": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "FACILITIES#QUALITY": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "FOOD&DRINKS#MISCELLANEOUS": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "FOOD&DRINKS#PRICES": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "FOOD&DRINKS#QUALITY": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "FOOD&DRINKS#STYLE&OPTIONS": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "HOTEL#CLEANLINESS": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "HOTEL#COMFORT": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "HOTEL#DESIGN&FEATURES": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "HOTEL#GENERAL": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "HOTEL#MISCELLANEOUS": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "HOTEL#PRICES": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "HOTEL#QUALITY": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "LOCATION#GENERAL": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "ROOMS#CLEANLINESS": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "ROOMS#COMFORT": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "ROOMS#DESIGN&FEATURES": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "ROOMS#GENERAL": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "ROOMS#MISCELLANEOUS": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "ROOMS#PRICES": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "ROOMS#QUALITY": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "ROOM_AMENITIES#CLEANLINESS": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "ROOM_AMENITIES#COMFORT": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "ROOM_AMENITIES#DESIGN&FEATURES": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "ROOM_AMENITIES#GENERAL": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "ROOM_AMENITIES#MISCELLANEOUS": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "ROOM_AMENITIES#PRICES": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "ROOM_AMENITIES#QUALITY": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "SERVICE#GENERAL": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "input_ids": {
+      "feature": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "token_type_ids": {
+      "feature": {
+        "dtype": "int8",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "attention_mask": {
+      "feature": {
+        "dtype": "int8",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 4967126,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 1857098,
+      "num_examples": 3000,
+      "dataset_name": "csv"
+    },
+    "val": {
+      "name": "val",
+      "num_bytes": 900136,
+      "num_examples": 2000,
+      "dataset_name": "csv"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 300388,
+      "num_examples": 600,
+      "dataset_name": "csv"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
