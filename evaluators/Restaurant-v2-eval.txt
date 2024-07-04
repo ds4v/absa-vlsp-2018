@@ -1,0 +1,32 @@
+Row mismatch:?#1 <-> #1
+Evaluation Result >> File:D:/absa-vlsp-2018/evaluators/../experiments/predictions/Restaurant-v2.txt<> [D:/absa-vlsp-2018/evaluators/../datasets/vlsp2018_restaurant/3-VLSP2018-SA-Restaurant-test.txt]
+                    Gold count	223	71	76	46	179	130	403	331	457	255	73	175
+                  ANSWER count	349	71	100	57	211	61	421	375	470	271	62	168
+
+        Correct ANSWER: aspect	197	47	56	27	171	57	383	317	449	238	24	148
+             Precision: aspect	0.5645	0.6620	0.5600	0.4737	0.8104	0.9344	0.9097	0.8453	0.9553	0.8782	0.3871	0.8810
+                Recall: aspect	0.8834	0.6620	0.7368	0.5870	0.9553	0.4385	0.9504	0.9577	0.9825	0.9333	0.3288	0.8457
+              F1 score: aspect	0.6888	0.6620	0.6364	0.5243	0.8769	0.5969	0.9296	0.8980	0.9687	0.9049	0.3556	0.8630
+
+  Over All ANSWER: aspect:----	0.8081	0.8739	0.8397
+
+  Correct ANSWER: aspect,value	186	35	36	24	135	40	323	255	414	200	20	129
+      Precision: aspect, value	0.5330	0.4930	0.3600	0.4211	0.6398	0.6557	0.7672	0.6800	0.8809	0.7380	0.3226	0.7679
+         Recall: aspect, value	0.8341	0.4930	0.4737	0.5217	0.7542	0.3077	0.8015	0.7704	0.9059	0.7843	0.2740	0.7371
+       F1 score: aspect, value	0.6503	0.4930	0.4091	0.4660	0.6923	0.4188	0.7840	0.7224	0.8932	0.7605	0.2963	0.7522
+
+Over All ANSWER: aspect, value:----	0.6869	0.7429	0.7138
+
+
+asp#1: RESTAURANT#GENERAL
+asp#2: DRINKS#QUALITY
+asp#3: DRINKS#PRICES
+asp#4: DRINKS#STYLE&OPTIONS
+asp#5: LOCATION#GENERAL
+asp#6: RESTAURANT#MISCELLANEOUS
+asp#7: FOOD#STYLE&OPTIONS
+asp#8: FOOD#PRICES
+asp#9: FOOD#QUALITY
+asp#10: AMBIENCE#GENERAL
+asp#11: RESTAURANT#PRICES
+asp#12: SERVICE#GENERAL
